@@ -1,5 +1,7 @@
 "use strict";
 
+const bookTag = ['dome', 'summer'];
+
 function init() {
     prepareData();
 
@@ -31,11 +33,15 @@ function addStatistics() {
     ol.appendChild(byTypeOl);
 
     li = document.createElement('li');
-    li.textContent = 'Phrasal verbs (pv): ' + words.filter(w => w.t == 'pv').length;
+    li.textContent = 'Nouns (n): ' + words.filter(w => w.t == 'n').length;
     byTypeOl.appendChild(li);
 
     li = document.createElement('li');
-    li.textContent = 'Idioms (i): ' + words.filter(w => w.t == 'i').length;
+    li.textContent = 'Verbs (v): ' + words.filter(w => w.t == 'v').length;
+    byTypeOl.appendChild(li);
+
+    li = document.createElement('li');
+    li.textContent = 'Phrasal verbs (pv): ' + words.filter(w => w.t == 'pv').length;
     byTypeOl.appendChild(li);
 
     li = document.createElement('li');
@@ -43,12 +49,37 @@ function addStatistics() {
     byTypeOl.appendChild(li);
 
     li = document.createElement('li');
+    li.textContent = 'Adverbs (av): ' + words.filter(w => w.t == 'av').length;
+    byTypeOl.appendChild(li);
+
+    li = document.createElement('li');
+    li.textContent = 'Idioms (i): ' + words.filter(w => w.t == 'i').length;
+    byTypeOl.appendChild(li);
+
+    li = document.createElement('li');
+    li.textContent = 'Undefined type: ' + words.filter(w => !w.t).length;
+    byTypeOl.appendChild(li);
+
+    li = document.createElement('li');
     li.textContent = 'Words without sentences: ' + words.filter(w => w.sentences.length == 0).length;
     ol.appendChild(li);
 
-    li = document.createElement('li');
-    li.textContent = 'Words - dome: ' + words.filter(w => w.tag && w.tag.includes('dome')).length;
-    ol.appendChild(li);
+    books(ol);
 
     container.appendChild(ol);
+}
+
+function books(parent) {
+
+    let bookLi = document.createElement('li');
+    bookLi.textContent = 'Books';
+    parent.appendChild(bookLi);
+
+    let ol = document.createElement('ol');
+    bookTag.forEach(bt => {
+        let li = document.createElement('li');
+        li.textContent = bt + ' ' + words.filter(w => w.tag && w.tag.includes(bt)).length;
+        ol.appendChild(li);
+    });
+    parent.appendChild(ol);
 }

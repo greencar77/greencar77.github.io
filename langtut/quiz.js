@@ -8,13 +8,18 @@ let questionCount;
 let answeredCount = 0;
 let passedCount = 0, failedCount = 0;
 
+let answeredMode = false;
+let debugMode = false;
+
 function init() {
     quizContext = {};
     prepareData();
+    hideElement('btnDebugOff');
     nextQuestion();
 }
 
 function nextQuestion() {
+    answeredMode = false;
     showElement('showAnswerSection');
     hideElement('answerSection');
     hideElement('answerDetails');
@@ -59,21 +64,31 @@ function filter(wordMap) {
 }
 
 function showAnswer() {
+    answeredMode = true;
     hideElement('showAnswerSection');
     showElement('answerSection');
     showElement('passedFailedSection');
-    showElement('answerDetails');
+    if (debugMode) {
+        showElement('answerDetails');
+    }
 
     answeredCount++;
     refreshStats();
+    fillAdditionalInfo();
+}
 
+function fillAdditionalInfo() {
     let e = document.getElementById('answer');
     e.textContent = question.v;
+
     e = document.getElementById('answerId');
     e.textContent = question.id;
 
-    let qw = document.getElementById('questionWord');
-    qw.innerHTML = wordLine(questionWord);
+    e = document.getElementById('questionWord');
+    e.innerHTML = wordLine(questionWord);
+
+    e = document.getElementById('comment');
+    e.innerHTML = question.com;
 }
 
 function markPassed() {
@@ -94,5 +109,21 @@ function refreshStats() {
         ansCount.textContent = '(Passed ' + passedCount + ' from ' + answeredCount
          + ' (' + Math.floor(passedCount * 100 / answeredCount) +  '%' + ')'
          + ')';
+    }
+}
+
+function toggleDebug(debug) {
+    if (debug) {
+        hideElement('btnDebugOn');
+        showElement('btnDebugOff');
+        debugMode = true;
+        if (answeredMode) {
+            showElement('answerDetails');
+        }
+    } else {
+        showElement('btnDebugOn');
+        hideElement('btnDebugOff');
+        hideElement('answerDetails');
+        debugMode = false;
     }
 }
