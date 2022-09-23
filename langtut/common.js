@@ -17,6 +17,9 @@ function prepareData() {
     }
 
     for (const sentence of sentenceMap.values()) {
+        if (sentence.tag) {
+            sentence.tag = sentence.tag.split(',');
+        }
         for (const [key, value] of Object.entries(sentence)) {
             if (!key.startsWith('v-')) {
                 continue;
@@ -26,6 +29,40 @@ function prepareData() {
             word.sentences.push(sentence);
         }
     }
+    checkIntegrity(words, sentences);
+}
+
+function checkIntegrity(words, sentences) {
+    checkIds(words);
+    checkIds(sentences);
+    checkWordsFromBookSentence(words);
+}
+
+function checkIds(something) {
+    let usedIds = [];
+    something.forEach(x => {
+        if (usedIds.includes(x.id)) {
+            console.log('Duplicate id: ' + x.id);
+            console.log(x);
+        }
+        usedIds.push(x.id);
+    });
+}
+
+function checkWordsFromBookSentence(words) {
+    words.forEach(w => {
+        if (w.sentences) {
+            w.sentences.forEach(s => {
+                if (s.tag) {
+                    s.tag.forEach(t => {
+                        if (bookTag.includes(t) && w.tag && w.tag.includes(t)) {
+                            console.log('Word ' + w.id + ' ' + w.v + ' is missing tag ' + t);
+                        }
+                    });
+                }
+            });
+        }
+    });
 }
 
 function wordLine(word) {
@@ -38,6 +75,7 @@ function wordLine(word) {
             + ' (translation=' + word.trans + ')'
             + ' <a href="https://www.onelook.com/?w=' + word.v + '">[OL]</a>'
             + ' <a href="https://letonika.lv/groups/default.aspx?q=' + word.v + '&r=10331062&g=2">[LET]</a>'
+            + ' <a href="https://sentence.yourdictionary.com/' + word.v + '">[Web4]</a>'
             ;
 }
 
