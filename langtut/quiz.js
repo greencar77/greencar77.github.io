@@ -15,17 +15,22 @@ function init() {
     quizContext = {};
     prepareData();
 
+    quizContext.remainingWords = getWords();
+
+    hideElement('btnDebugOff');
+    nextQuestion();
+}
+
+function getWords() {
     let selectionId = window.location.hash.substring(1);
     if (selectionId) {
         quizContext.selection = selections.filter(v => v.id == selectionId)[0];
     } else {
         quizContext.selection = selections.filter(v => v.id == 'all')[0];
     }
-    quizContext.remainingWords = filter(wordMap, quizContext.selection.query);
-
-    hideElement('btnDebugOff');
-    nextQuestion();
+    return filterWords(wordMap, quizContext.selection.query);
 }
+
 
 function nextQuestion() {
     answeredMode = false;
@@ -41,11 +46,14 @@ function showQuestion() {
     let e = document.getElementById('question');
     let questionString = question["v-" + questionWord.id];
     questionString = questionString.replaceAll(/%%/g, '%?%');
+    questionString = questionString.replaceAll(/%(\**?)%/g, '<span class="hidden">' + '(' + questionWord.trans + ')' + '</span>');
     questionString = questionString.replaceAll(/%(.*?)%/g, '<span class="hidden">$1</span>');
     e.innerHTML = questionString;
 
     const qCount = document.getElementById('questionCount');
     qCount.textContent = questionCount;
+
+    document.getElementById('otherWords').textContent = '';
 }
 
 function popQuestion() {
@@ -64,12 +72,6 @@ function popQuestion() {
     let randomSentenceIndex = Math.floor(Math.random() * randomWord.sentences.length);
     let randomSentence = randomWord.sentences[randomSentenceIndex];
     question = randomSentence;
-}
-
-function filter(wordMap, fun) {
-    let result = Array.from(wordMap.values()).filter(fun);
-    console.log('Selected ' + result.length + ' words');
-    return result;
 }
 
 function showAnswer() {
@@ -98,6 +100,25 @@ function fillAdditionalInfo() {
 
     e = document.getElementById('comment');
     e.innerHTML = question.com;
+
+    showOtherWords();
+}
+
+function showOtherWords() {
+    const otherWordSentences = Object.keys(question)
+        .filter(s => s.startsWith('v-'))
+        .map(v => v.substring(2))
+        .filter(n => n != questionWord.id);
+    if (otherWordSentences.length > 0) {
+        let div = document.getElementById('otherWords');
+        let ol = document.createElement('ol');
+        for (const sentenceWordId of otherWordSentences) {
+            let li = document.createElement('li');
+            li.innerHTML = wordLine(wordMap.get(sentenceWordId));
+            ol.appendChild(li);
+        }
+        div.appendChild(ol);
+    }
 }
 
 function markPassed() {

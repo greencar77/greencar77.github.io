@@ -1,5 +1,143 @@
 let sentencesFinal = [
 {
+  "id": "2005626",
+  "v": "Trouble began when her first Chancellor, Kwasi Kwarteng, spooked the financial markets with his mini-budget on 23 September.",
+  "v-2005726": "Trouble began when her first Chancellor, Kwasi Kwarteng, %sabiedēja% the financial markets with his mini-budget on 23 September.",
+  "com": "BBC 2022",
+},
+{
+  "id": "2009617",
+  "v": "The hurricane ravaged southern Florida.",
+  "v-2009526": "The hurricane %plosīja% southern Florida.",
+},
+{
+  "id": "2053118",
+  "v": "Peacocks strut through the grounds.",
+  "v-2053918": "Peacocks strut through the grounds.",
+},
+{
+  "id": "2043443",
+  "v": "Authoritarian, paralyzing, circular, occasionally elliptical stock phrases, also jocularly referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.",
+  "v-2043045": "Authoritarian, paralyzing, circular, occasionally elliptical %klišejas, šablona frāzes%, also jocularly referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.",
+  "v-2043835": "Authoritarian, paralyzing, circular, occasionally elliptical stock phrases, also %caur jokiem% referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.",
+  "v-2009526": "Authoritarian, paralyzing, circular, occasionally elliptical stock phrases, also jocularly referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to %plosītu% the earth.",
+  "tag": "cave",
+  "com": "p54",
+},
+{
+  "id": "2042928",
+  "v": "And what shall we do until that happens, what shall we do if the Center stops buying altogether, how are we going to live and on what, are we just going to wait until the mulberries ripen and Found manages to catch the odd decrepit rabbit?",
+  "v-2043323": "And what shall we do until that happens, what shall we do if the Center stops buying altogether, how are we going to live and on what, are we just going to wait until the mulberries ripen and Found manages to catch the odd %vecais sačākstējušais% rabbit?",
+  "tag": "cave",
+  "com": "p53",
+},
+{
+  "id": "2013920",
+  "v": "He got up on his long legs, frantically wagging his tail, as if he were wielding a whip, and, for the first time since he had come seeking asylum, Found barked.",
+  "v-2013304": "He got up on his long legs, %nervozi, saraustīti% wagging his tail, as if he were wielding a whip, and, for the first time since he had come seeking asylum, Found barked.",
+  "tag": "cave",
+},
+{
+  "id": "2003512",
+  "v": "Do you need the toilet right now or can you hang on for a while?",
+  "v-2980329": "Do you need the toilet right now or can you %ciesties, turēt% for a while?",
+},
+{
+  "id": "2092544",
+  "v": "They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.",
+  "v-2092653": "They would probably be most %uztraukti% to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.",
+  "v-2093557": "They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the %sakas% rests.",
+  "tag": "cave",
+  "com": "p1",
+},
+{
+  "id": "2085005",
+  "v": "Charles went on a campaign to subdue the Saxons.",
+  "v-2085936": "Charles went on a campaign to %apspiest% the Saxons.",
+},
+{
+  "id": "2010857",
+  "v": "He promised to expedite economic reforms.",
+  "v-2010750": "He promised to %paātrināt% economic reforms.",
+},
+{
+  "id": "2099023",
+  "v": "The Dean at left, a lean yellowish man whose fixed smile nevertheless has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to appreciate, the type who delays need of any response from me by relating my side of the story for me, to me.",
+  "v-2003046": "The Dean at left, a lean yellowish man whose fixed smile %*% has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to appreciate, the type who delays need of any response from me by relating my side of the story for me, to me.",
+  "v-2099226": "The Dean at left, a lean yellowish man whose fixed smile nevertheless has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to %novērtēt pozitīvi%, the type who delays need of any response from me by relating my side of the story for me, to me.",
+  "com": "Infinite Jest, p12/796",
+},
+{
+  "id": "2089548",
+  "v": "With no ideas, but confident in his abilities, the author decides he must open himself up to the artist’s personality by suppressing his own and giving 'free rein to my Id'.",
+  "v-2889536": "With no ideas, but confident in his abilities, the author decides he must %atklāt sevi% himself %up% to the artist’s personality by suppressing his own and giving 'free rein to my Id'.",
+  "com": "https://www.theguardian.com/books/2022/oct/07/the-best-recent-science-fiction-and-fantasy-reviews-roundup",
+},
+{
+  "id": "2053340",
+  "v": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the lumps.",
+  "v-2053204": "He %samīcīja% a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to %mīcīt% it again to get rid of the lumps.",
+  "v-2053605": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had %šķieda, nežēloja% on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the lumps.",
+  "v-2060251": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the %apdedzināšanas krāsns%, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the lumps.",
+  "v-2053547": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a %paviršs% job of it that Marta, behind his back, had to knead it again to get rid of the lumps.",
+  "v-2060615": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the %krikumiem%.",
+  "tag": "cave",
+  "com": "p32",
+},
+{
+  "id": "2023919",
+  "v": "It's probably somewhere inside me, he thought, then he ran the tap, washed his hands and went out.",
+  "v-2023139": "It's probably somewhere inside me, he thought, then he %palaida ūdeni no krāna%, washed his hands and went out.",
+  "tag": "cave",
+  "com": "p22",
+},
+{
+  "id": "2933814",
+  "v": "He appears to have conducted an expedition to Ireland in 1327, and on his return led a foray into England.",
+  "v-2978440": "He appears to have conducted an expedition to Ireland in 1327, and on his return led a %sirojums% into England.",
+  "tag": "web4",
+},
+{
+  "id": "2993119",
+  "v": "The others ran down the platform and then waited impatiently for me to catch them up, with all the luggage.",
+  "v-2003249": "The others %sasniedza, aizskrēja līdz? pv% the platform and then waited impatiently for me to catch them up, with all the luggage.",
+  "v-2876544": "The others ran down the platform and then waited impatiently for me to %piedzīt, pieskriet% them %%, with all the luggage.",
+},
+{
+  "id": "2909218",
+  "v": "To my surprise, her smile was no longer one of lofty disdain.",
+  "v-2978544": "To my surprise, her smile was no longer one of lofty %nicinājums%.",
+  "com": "https://sentence.yourdictionary.com/disdain",
+},
+{
+  "id": "2997628",
+  "v": "Analogous changes are observed in the residual magnetization which remains after the wire has been subjected to fields of different strength.",
+  "v-2827520": "Analogous changes are observed in the %atlikušajā% magnetization which remains after the wire has been subjected to fields of different strength.",
+  "com": "https://sentence.yourdictionary.com/residual",
+},
+{
+  "id": "2980808",
+  "v": "Each could hang on for years. But this month provided a glimpse of their eventual demise.",
+  "v-2980329": "Each could %cieši turēties% for years. But this month provided a glimpse of their eventual demise.",
+  "v-2980916": "Each could hang on for years. But this month provided a glimpse of their eventual %miršanu, aiziešanu nebūtībā%.",
+  "com": "https://www.project-syndicate.org/commentary/russia-iran-perils-of-regime-collapse-by-robert-d-kaplan-2022-09",
+},
+{
+  "id": "2936009",
+  "v": "I'm sure it will all turn out well in the end.",
+  "v-2936735": "I'm sure it will all %izrādīsies, būs% well in the end.",
+},
+{
+  "id": "2936859",
+  "v": "Obviously, I’m disappointed at the way things have turned out.",
+  "v-2936735": "Obviously, I’m disappointed at the way things have %izrādīsies, būs%.",
+},
+{
+  "id": "2933214",
+  "v": "He looked at her aghast.",
+  "v-2933107": "He looked at her %šausmu pārņemts%.",
+},
+{
   "id": "2921853",
   "v": "The fans watched in/with dismay as their team lost 42–11.",
   "v-2921620": "The fans watched in/with %vilšanās izmisums% as their team lost 42–11.",
@@ -7,7 +145,7 @@ let sentencesFinal = [
 {
   "id": "2996744",
   "v": "But an engineer is rarely a mathematical physicist and he does not have to be; he simply has to savvy the skinny of a thing well enough you know shat it can do in practical applications - know the working parameters.",
-  "v-2996057": "But an engineer is rarely a mathematical physicist and he does not have to be; he simply has to %zināt pašu minimumu% the skinny of a thing well enough you know shat it can do in practical applications - know the working parameters.",
+  "v-2996057": "But an engineer is rarely a mathematical physicist and he does not have to be; he simply has to %zināt pašu minimumu% the skinny of a thing well enough you know that it can do in practical applications - know the working parameters.",
   "tag": "summer",
   "com": "p92",
 },
@@ -44,15 +182,17 @@ let sentencesFinal = [
   "id": "2972340",
   "v": "I was wondering how much money I had made and was congratulating myself on having plunged in common stocks rather than playing it 'safe'.",
   "tag": "summer.",
-  "v-2792654": "I was wondering how much money I had made and was congratulating myself on having %ielēcis% in common stocks rather than playing it 'safe'.",
+  "v-2792654": "I was wondering how much money I had made and was congratulating myself on having %ielēcis, ieniris% in common stocks rather than playing it 'safe'.",
   "v-2973202": "I was wondering how much money I had made and was congratulating myself on having plunged in common stocks rather than %darboties bez riska%.",
   "tag": "summer",
   "com": "p80",
 },
 {
   "id": "2972705",
-  "v": "If you find things a bit tiring at first, you're entitled to four more days' recuperation an reorientation here without additional charge under the custodial contract.",
+  "v": "If you find things a bit tiring at first, you're entitled to four more days' recuperation and reorientation here without additional charge under the custodial contract.",
+  "v-2999535": "If you find things a bit tiring at first, you're %piešķirts% to four more days' recuperation and reorientation here without additional charge under the custodial contract.",
   "v-2972929": "If you find things a bit tiring at first, you're entitled to four more days' %atjaunošanās, atlabšana% and reorientation here without additional charge under the custodial contract.",
+  "v-2999807": "If you find things a bit tiring at first, you're entitled to four more days' recuperation and reorientation here without additional charge under the %(vecāku) uzraudzības% contract.",
   "tag": "summer",
   "com": "p80",
 },
@@ -107,7 +247,7 @@ let sentencesFinal = [
 {
   "id": "2959525",
   "v": "You may stumble on some retro styles that look cool and trendy now.",
-  "v-2959235": "You may %uzskriet virsū% on some retro styles that look cool and trendy now.",
+  "v-2959235": "You may %uzgrūsties virsū% on some retro styles that look cool and trendy now.",
 },
 {
   "id": "2945824",
@@ -118,7 +258,7 @@ let sentencesFinal = [
 {
   "id": "2942309",
   "v": "She's trying to find a publisher who will take a chance on her book.",
-  "v-2942227": "She's trying to find a publisher who will %dos iespēju% on her book.",
+  "v-2942227": "She's trying to find a publisher who will %riskēs, dos iespēju% on her book.",
   "com": "https://www.merriam-webster.com/dictionary/take%20a%20chance",
 },
 {
@@ -145,13 +285,14 @@ let sentencesFinal = [
   "id": "2998720",
   "v": "'Bag? Cat?' I said wonderingly. 'My friend, I think you’ve come down with an acute figure of speech.'",
   "tag": "summer",
-  "v-2999139": "'Bag? Cat?' I said wonderingly. 'My friend, I think you’ve %spēcīgi uzkritis, bladāc!% with an acute figure of speech.'",
+  "v-2999139": "'Bag? Cat?' I said wonderingly. 'My friend, I think you’ve %nācis klajā?% with an acute figure of speech.'",
   "com": "The Door unto Summer Ch1",
 },
 {
   "id": "2953032",
   "v": "I don't think you can fight a crowd that's bent on cruelty. And no - she wasn't sorry. She took pity, but she wasn't sorry.",
   "v-2953308": "I don't think you can fight a crowd that's bent on cruelty. And no - she wasn't sorry. She %juta līdzi%, but she wasn't sorry.",
+  "v-2997711": "I don't think you can fight a crowd that's %apņēmības pilns% cruelty. And no - she wasn't sorry. She took pity, but she wasn't sorry.",
   "tag": "dome",
   "com": "p775",
 },
@@ -190,13 +331,14 @@ let sentencesFinal = [
 {
   "id": "2978410",
   "v": "It was an important finding, but it turns out there are better ways to approximate pi by means of an infinite sum, as Newton himself soon discovered after this initial foray into these kinds of infinite sums, now called power series.",
-  "v-2978440": "It was an important finding, but it turns out there are better ways to approximate pi by means of an infinite sum, as Newton himself soon discovered after this initial %iebrukums, ielaušanās% into these kinds of infinite sums, now called power series.",
+  "v-2978440": "It was an important finding, but it turns out there are better ways to approximate pi by means of an infinite sum, as Newton himself soon discovered after this initial %reids% into these kinds of infinite sums, now called power series.",
   "com": "https://www.quantamagazine.org/how-isaac-newton-discovered-the-binomial-power-series-20220831/",
 },
 {
   "id": "2832319",
   "v": "Borges’ last insight regarding the Library is cloaked in a footnote adorning the conclusion of the last sentence.",
   "v-2832358": "Borges’ last insight regarding the Library is %aizslēpts% in a footnote adorning the conclusion of the last sentence.",
+  "v-2909852": "Borges’ last insight regarding the Library is cloaked in a footnote %pievieojot dekoru% the conclusion of the last sentence.",
   "com": "ch3 p45 Bloch Babel",
 },
 {
@@ -283,7 +425,7 @@ let sentencesFinal = [
   "id": "2879429",
   "v": "So, you want to beckon to your lover in a more subtle way than strutting around in a teddy.",
   "v-2879057": "So, you want to %dot mājienu% to your lover in a more subtle way than strutting around in a teddy.",
-  "v-2879745": "So, you want to beckon to your lover in a more subtle way than %staigāt apkārt kā pāvs% in a teddy.",
+  "v-2879745": "So, you want to beckon to your lover in a more subtle way than %stīvi staigāt apkārt kā pāvs%.",
   "com": "https://sentence.yourdictionary.com/beckon",
 },
 {
@@ -321,7 +463,7 @@ let sentencesFinal = [
 {
   "id": "2823152",
   "v": "His eyes were empty. 'And I'm pissed.'",
-  "v-2823037": "His eyes were empty. 'And I'm %pielillājies%.'",
+  "v-2823037": "His eyes were empty. 'And I'm %pietempies, piesūcies%.'",
   "com": "486.lpp",
 },
 {
@@ -342,6 +484,7 @@ let sentencesFinal = [
 {
   "id": "2826615",
   "v": "And as the forward escape hatch was also destroyed, the LR5's only hope of gaining access to the submarine now is through the aft hatch.",
+  "v-2008233": "And as the forward escape hatch was also destroyed, the LR5's only hope of gaining access to the submarine now is through the %aizmugures% hatch.",
   "v-2826529": "And as the forward escape %lūka% was also destroyed, the LR5's only hope of gaining access to the submarine now is through the aft %lūka%.",
 },
 {
@@ -357,7 +500,7 @@ let sentencesFinal = [
 {
   "id": "2820605",
   "v": "Marchers had to dodge missiles thrown by loyalists.",
-  "v-2820258": "Marchers had to %izvairīties līkloču% missiles thrown by loyalists.",
+  "v-2820258": "Marchers had to %izvairīties ložņājot% missiles thrown by loyalists.",
 },
 {
   "id": "2876737",

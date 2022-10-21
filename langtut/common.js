@@ -6,20 +6,20 @@ let sentenceMap;
 function prepareData() {
     words = words.concat(wordsFinal);
     sentences = sentences.concat(sentencesFinal);
+    sentences = sentences.concat(sentencesYourDictionary);
     wordMap = new Map(words.map(v => [v.id, v]));
     sentenceMap = new Map(sentences.map(v => [v.id, v]));
 
-    for (const word of wordMap.values()) {
-        word.sentences = new Array();
-        if (word.tag) {
-            word.tag = word.tag.split(',');
-        }
-    }
+    transformWordTags(wordMap);
+    transformSentenceTags(sentenceMap);
+    extractSentenceWords(sentenceMap);
+    updateWordsFromBookSentence(words);
 
+    checkIntegrity(words, sentences);
+}
+
+function extractSentenceWords(sentenceMap) {
     for (const sentence of sentenceMap.values()) {
-        if (sentence.tag) {
-            sentence.tag = sentence.tag.split(',');
-        }
         for (const [key, value] of Object.entries(sentence)) {
             if (!key.startsWith('v-')) {
                 continue;
@@ -29,7 +29,23 @@ function prepareData() {
             word.sentences.push(sentence);
         }
     }
-    checkIntegrity(words, sentences);
+}
+
+function transformWordTags(wordMap) {
+    for (const word of wordMap.values()) {
+        word.sentences = new Array();
+        if (word.tag) {
+            word.tag = word.tag.split(',');
+        }
+    }
+}
+
+function transformSentenceTags(sentenceMap) {
+    for (const sentence of sentenceMap.values()) {
+        if (sentence.tag) {
+            sentence.tag = sentence.tag.split(',');
+        }
+    }
 }
 
 function checkIntegrity(words, sentences) {
@@ -54,9 +70,28 @@ function checkWordsFromBookSentence(words) {
         if (w.sentences) {
             w.sentences.forEach(s => {
                 if (s.tag) {
-                    s.tag.forEach(t => {
-                        if (bookTag.includes(t) && w.tag && w.tag.includes(t)) {
-                            console.log('Word ' + w.id + ' ' + w.v + ' is missing tag ' + t);
+                    s.tag.forEach(sentenceTag => {
+                        if ((bookTag.includes(sentenceTag) || sentenceTag == 's_yd') && (w.tag && !w.tag.includes(sentenceTag) || !w.tag)) {
+                            console.log('Word ' + w.id + ' ' + w.v + ' is missing tag ' + sentenceTag);
+                        }
+                    });
+                }
+            });
+        }
+    });
+}
+
+function updateWordsFromBookSentence(words) {
+    words.forEach(w => {
+        if (w.sentences) {
+            w.sentences.forEach(s => {
+                if (s.tag) {
+                    s.tag.forEach(sentenceTag => {
+                        if ((bookTag.includes(sentenceTag) || sentenceTag == 's_yd') && (w.tag && !w.tag.includes(sentenceTag) || !w.tag)) {
+                            if (!w.tag) {
+                                w.tag = new Array();
+                            }
+                            w.tag.push(sentenceTag);
                         }
                     });
                 }
@@ -87,4 +122,10 @@ function showElement(e) {
 function hideElement(e) {
     const elem = document.getElementById(e);
     elem.setAttribute('style', 'display: none;');
+}
+
+function filterWords(wordMap, fun) {
+    let result = Array.from(wordMap.values()).filter(fun);
+    console.log('Selected ' + result.length + ' words');
+    return result;
 }

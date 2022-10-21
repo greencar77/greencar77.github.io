@@ -1,6 +1,6 @@
 "use strict";
 
-const bookTag = ['dome', 'summer'];
+const bookTag = ['dome', 'summer', 'cave'];
 
 const selections = [
     {
@@ -11,11 +11,19 @@ const selections = [
         }
     },
     {
-        "id": "pv",
+        "id": "t_pv",
         "title": "Phrasal verbs",
         "query": function(word) {
             return word.sentences.length > 0
                 && word.t && word.t == 'pv';
+        }
+    },
+    {
+        "id": "t_i",
+        "title": "Idioms",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.t && word.t == 'i';
         }
     },
     {
@@ -32,6 +40,70 @@ const selections = [
         "query": function(word) {
             return word.sentences.length > 0
                 && word.tag && word.tag.includes('summer');
+        }
+    },
+    {
+        "id": "cave",
+        "title": "Book \"The Cave\"",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.tag && word.tag.includes('cave');
+        }
+    },
+    {
+        "id": "plus",
+        "title": "0+ words",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && (!word.p || word.p == '0' || word.p == '+1');
+        }
+    },
+    {
+        "id": "minus",
+        "title": "-1 words",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.p == '-1';
+        }
+    },
+    {
+        "id": "s_yd",
+        "title": "yourdictionary",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.tag && word.tag.includes('s_yd');
+        }
+    },
+    {
+        "id": "need_sentence",
+        "title": "+1 with 0 or 1 sentence",
+        "query": function(word) {
+            return word.sentences.length <= 1
+                && word.p == '+1';
+        }
+    },
+];
+
+const wordFilters = [
+    {
+        "id": "all",
+        "title": "All",
+        "query": function(word) {
+            return true;
+        }
+    },
+    {
+        "id": "missing_sentences",
+        "title": "Missing sentences",
+        "query": function(word) {
+            return !word.sentences || word.sentences.length == 0;
+        }
+    },
+    {
+        "id": "missing_type",
+        "title": "Missing type",
+        "query": function(word) {
+            return !word.t;
         }
     },
 ];
