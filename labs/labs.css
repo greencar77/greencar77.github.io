@@ -1,0 +1,122 @@
+body {
+    font-family: arial;
+}
+
+table {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: transparent;
+	table-layout: fixed;
+}
+
+table.family {
+    margin-top: 1px;
+    border-radius: 4px;
+    border-collapse: separate;
+    background-color: #bde9ba;
+    /*background-color: #D1FDCE;*/
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	table-layout: fixed;
+	font-size: 14px;
+}
+
+td {
+	border-width: 1px;
+	padding: 4px;
+	border-style: inset;
+	border-color: gray;
+	background-color: transparent;
+	-moz-border-radius: 0px 0px 0px 0px;
+	vertical-align: top;
+	word-wrap: break-word;
+}
+
+.fieldNameClass {
+    font-weight: bold;
+}
+
+.remarkTitle {
+    font-weight: bold;
+}
+
+.rowKey {
+    font-weight: bold;
+}
+
+.columnKey {
+    font-weight: bold;
+    horizontal-align: center;
+}
+
+.filledCell {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.disabledCell {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.inactiveItem {
+    color: lightgray;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.sourceList {
+    margin-top: 0;
+}
+
+.disabledColumn {
+    background-color: lightgray;
+}
+
+:target {
+    border: 1px dotted black;
+    background-color: lightyellow;
+}
+
+a.cleanLink {
+    text-decoration: none;
+}
+
+.remarkTable a
+{
+    display: block;
+    text-decoration: none;
+}
+
+.cellClickComment {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.positiveMark {
+    color: green;
+}
+
+.negativeMark {
+    color: red;
+}
+
+.progressMark {
+    color: brown;
+}
+
+.section2 {
+    margin-left: 20px;
+}
+
+ol, ul {
+    margin-top: 2px;
+}
