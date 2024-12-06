@@ -38,6 +38,7 @@ class IndexApp {
             + '</td>'
             + '<td>'
             + '<a href="practice/' + entry.path + '/practice.txt">practice.txt</a>'
+            + ' ' + '(<a href="practice/' + entry.path + '">all files</a>)'
             + '</td>'
             + '<td>'
             + '<a href="https://github.com/greencar77/labs/tree/master/base/' + entry.basePath + '">base zip</a>'
