@@ -30,16 +30,20 @@ class IndexApp {
 
     createItem = function(entry) {
         return '<td>'
-            + entry.id
-            + '</td>'
-            + '<td>'
+//            + entry.id
+//            + '</td>'
+//            +
+//            '<td>'
             + entry.name
             + '</td>'
             + '<td>'
-            + '<a href="https://github.com/greencar77/labs/tree/master/practice/' + entry.path + '/practice.txt">practice.txt</a>'
+            + '<a href="practice/' + entry.path + '/practice.txt">practice.txt</a>'
             + '</td>'
             + '<td>'
-            + '<a href="https://github.com/greencar77/labs/tree/master/practice/' + entry.path + '/solution">solution</a>'
+            + '<a href="https://github.com/greencar77/labs/tree/master/base/' + entry.basePath + '">base zip</a>'
+            + '</td>'
+            + '<td>'
+            + '<a href="practice/' + entry.path + '/solution">solution</a>'
             + '</td>'
             ;
     }

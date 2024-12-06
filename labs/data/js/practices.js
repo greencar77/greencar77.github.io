@@ -3,6 +3,7 @@ let labs_practices = {
                          {
                            "id": "javalang_map",
                            "name": "Java Map",
+                           "basePath": "java/javalang/javalang.zip",
                            "path": "javalang/map"
                          },
                          {
@@ -12,4 +13,5 @@ let labs_practices = {
                          }
                        ]
                      }
+
 ;
