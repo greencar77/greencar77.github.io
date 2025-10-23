@@ -2,23 +2,38 @@
     "values": [
         {
             "path": "javaapi/_simple/restassured.txt",
-            "type": "simple"
+            "type": "simple",
+            "lang": [
+                "lv"
+            ]
         },
         {
             "path": "javalang/map",
-            "type": "standalone"
+            "type": "standalone",
+            "lang": [
+                "en"
+            ]
         },
         {
             "path": "javalang/streams",
-            "type": "standalone"
+            "type": "standalone",
+            "lang": [
+                "en"
+            ]
         },
         {
             "path": "jdk_features/java16",
-            "type": "standalone"
+            "type": "standalone",
+            "lang": [
+                "en"
+            ]
         },
         {
             "path": "jwt",
-            "type": "standalone"
+            "type": "standalone",
+            "lang": [
+                "en"
+            ]
         }
     ]
 }

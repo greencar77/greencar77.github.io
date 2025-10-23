@@ -58,29 +58,53 @@ class IndexApp {
     }
 
     createItem = function(entry) {
-        let link;
-        if (entry.type == 'simple') {
-            link = entry.path;
+        let langLv;
+        let langEn;
+        if (entry.lang.includes('lv')) {
+            langLv = true;
         }
-        if (entry.type == 'standalone') {
-            link = entry.path + '/practice.txt';
+        if (entry.lang.includes('en')) {
+            langEn = true;
         }
-        link = 'https://github.com/greencar77/labs/blob/master/ch/' + link;
+
 
         return '<td>'
             + entry.path
+            + '</td>'
+            + '<td>'
+            + (langLv? '<a href="' + this.getLocalizedLink(entry, 'lv') + '">[lv]</a>' : '')
+            + '</td>'
+            + '<td>'
+            + (langEn? '<a href="' + this.getLocalizedLink(entry, 'en') + '">[en]</a>' : '')
             + '</td>'
 //            + '<td>'
 //            + '<a href="practice/' + entry.path + '/practice.txt">practice.txt</a>'
 //            + ' ' + '(<a href="practice/' + entry.path + '">all files</a>)'
 //            + '</td>'
-            + '<td>'
-            + '<a href="' + link + '">def</a>'
-            + '</td>'
+//            + '<td>'
+//            + '<a href="' + link + '">def</a>'
+//            + '</td>'
 //            + '<td>'
 //            + '<a href="https://github.com/greencar77/labs/tree/master/base/' + entry.basePath + '">base zip</a>'
 //            + '</td>'
             ;
+    }
+
+    getLocalizedLink(entry, lang) {
+        let link;
+        if (entry.type == 'simple') {
+            link = entry.path;
+        }
+        if (entry.type == 'standalone') {
+            if (lang == 'lv') {
+                link = entry.path + '/practice.txt';
+            }
+            else {
+                link = entry.path + '/practice_en.txt';
+            }
+        }
+        link = 'https://github.com/greencar77/labs/blob/master/ch/' + link;
+        return link;
     }
 
     createTitle(id, text) {
