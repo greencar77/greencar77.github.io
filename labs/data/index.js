@@ -1,45 +1,49 @@
 let base = {
     "values": [
         {
-            "path": "javaapi/_simple/restassured",
+            "path": "java/javaapi/_simple/restassured",
             "type": "simple",
             "lang": [
                 "lv"
             ],
             "tags": [
+                "java",
                 "javaapi",
                 "lang_lv"
             ]
         },
         {
-            "path": "javalang/map",
+            "path": "java/javalang/map",
             "type": "standalone",
             "lang": [
                 "en"
             ],
             "tags": [
+                "java",
                 "javalang",
                 "lang_en"
             ]
         },
         {
-            "path": "javalang/streams",
+            "path": "java/javalang/streams",
             "type": "standalone",
             "lang": [
                 "en"
             ],
             "tags": [
+                "java",
                 "javalang",
                 "lang_en"
             ]
         },
         {
-            "path": "jdk_features/java16",
+            "path": "java/jdk_features/java16",
             "type": "standalone",
             "lang": [
                 "en"
             ],
             "tags": [
+                "java",
                 "jdk_features",
                 "lang_en"
             ]
