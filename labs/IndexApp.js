@@ -24,6 +24,11 @@ class IndexApp {
             },
             "tagGroups": [
                 {
+                    "id": "g2",
+                    "byValues": [ "java", "python" ],
+                    "title": "Programming language",
+                },
+                {
                     "title": "Language",
                     "byPrefix": "lang_",
                 },
@@ -34,8 +39,6 @@ class IndexApp {
 
     constructor() {
         this.data = new DataContainer(base);
-//        this.show();
-
         this.appData = this.data.data;
         this.filterApp = new FilterCore(this.appData, this.filterConfig);
         this.filterApp.init();
