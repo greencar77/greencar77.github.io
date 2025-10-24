@@ -97,7 +97,7 @@ class IndexApp {
     getLocalizedLink(entry, lang) {
         let link;
         if (entry.type == 'simple') {
-            link = entry.path;
+            link = entry.path + (lang == 'en'? '_en' : '') + '.txt';
         }
         if (entry.type == 'standalone') {
             if (lang == 'lv') {

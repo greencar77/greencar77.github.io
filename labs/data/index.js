@@ -1,7 +1,7 @@
 let base = {
     "values": [
         {
-            "path": "javaapi/_simple/restassured.txt",
+            "path": "javaapi/_simple/restassured",
             "type": "simple",
             "lang": [
                 "lv"
@@ -51,6 +51,18 @@ let base = {
                 "en"
             ],
             "tags": [
+                "lang_en"
+            ]
+        },
+        {
+            "path": "python/think_python/_simple/ex_12_3_metathesis",
+            "type": "simple",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "python",
+                "think_python",
                 "lang_en"
             ]
         }
