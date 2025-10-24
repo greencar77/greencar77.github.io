@@ -23,6 +23,10 @@ class IndexApp {
                 return 0;
             },
             "tagGroups": [
+                {
+                    "title": "Language",
+                    "byPrefix": "lang_",
+                },
             ],
             "containerFn": () => this.createContainerTable,
         };

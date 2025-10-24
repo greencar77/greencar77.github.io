@@ -5,6 +5,10 @@ let base = {
             "type": "simple",
             "lang": [
                 "lv"
+            ],
+            "tags": [
+                "javaapi",
+                "lang_lv"
             ]
         },
         {
@@ -12,6 +16,10 @@ let base = {
             "type": "standalone",
             "lang": [
                 "en"
+            ],
+            "tags": [
+                "javalang",
+                "lang_en"
             ]
         },
         {
@@ -19,6 +27,10 @@ let base = {
             "type": "standalone",
             "lang": [
                 "en"
+            ],
+            "tags": [
+                "javalang",
+                "lang_en"
             ]
         },
         {
@@ -26,6 +38,10 @@ let base = {
             "type": "standalone",
             "lang": [
                 "en"
+            ],
+            "tags": [
+                "jdk_features",
+                "lang_en"
             ]
         },
         {
@@ -33,6 +49,9 @@ let base = {
             "type": "standalone",
             "lang": [
                 "en"
+            ],
+            "tags": [
+                "lang_en"
             ]
         }
     ]
