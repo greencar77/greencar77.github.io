@@ -69,6 +69,17 @@ let base = {
                 "think_python",
                 "lang_en"
             ]
+        },
+        {
+            "path": "python/_simple/mysql",
+            "type": "simple",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "python",
+                "lang_en"
+            ]
         }
     ]
 };
