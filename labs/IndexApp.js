@@ -100,14 +100,14 @@ class IndexApp {
     getLocalizedLink(entry, lang) {
         let link;
         if (entry.type == 'simple') {
-            link = entry.path + (lang == 'en'? '_en' : '') + '.txt';
+            link = entry.path + (lang == 'en'? '_en' : '') + '.md';
         }
         if (entry.type == 'standalone') {
             if (lang == 'lv') {
-                link = entry.path + '/practice.txt';
+                link = entry.path + '/practice.md';
             }
             else {
-                link = entry.path + '/practice_en.txt';
+                link = entry.path + '/practice_en.md';
             }
         }
         link = 'https://github.com/greencar77/labs/blob/master/ch/' + link;
