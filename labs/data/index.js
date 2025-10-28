@@ -49,6 +49,18 @@ let base = {
             ]
         },
         {
+            "path": "java/swagger/swagger_plugin",
+            "type": "standalone",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "swagger",
+                "lang_en"
+            ]
+        },
+        {
             "path": "jwt",
             "type": "standalone",
             "lang": [
