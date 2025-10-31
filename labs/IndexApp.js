@@ -76,6 +76,9 @@ class IndexApp {
 
 
         return '<td>'
+            + entry.id
+            + '</td>'
+            + '<td>'
             + entry.path
             + '</td>'
             + '<td>'

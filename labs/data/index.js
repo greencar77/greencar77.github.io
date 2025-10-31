@@ -1,8 +1,9 @@
 let base = {
     "values": [
         {
-            "path": "java/javaapi/_simple/restassured",
             "type": "simple",
+            "id": "M55OE6",
+            "path": "java/javaapi/_simple/restassured",
             "lang": [
                 "lv"
             ],
@@ -13,8 +14,9 @@ let base = {
             ]
         },
         {
+            "type": "standalone",
+            "id": "1UL79Q",
             "path": "java/javalang/map",
-            "type": "standalone",
             "lang": [
                 "en"
             ],
@@ -25,8 +27,9 @@ let base = {
             ]
         },
         {
+            "type": "standalone",
+            "id": "LROBVV",
             "path": "java/javalang/streams",
-            "type": "standalone",
             "lang": [
                 "en"
             ],
@@ -37,8 +40,9 @@ let base = {
             ]
         },
         {
-            "path": "java/jdk_features/java16",
             "type": "standalone",
+            "id": "8JXY4S",
+            "path": "java/jdk_features/java16",
             "lang": [
                 "en"
             ],
@@ -49,8 +53,9 @@ let base = {
             ]
         },
         {
-            "path": "java/swagger/swagger_plugin",
             "type": "standalone",
+            "id": "8DRNII",
+            "path": "java/swagger/swagger_plugin",
             "lang": [
                 "en"
             ],
@@ -61,8 +66,9 @@ let base = {
             ]
         },
         {
-            "path": "jwt",
             "type": "standalone",
+            "id": "E0L7XZ",
+            "path": "jwt",
             "lang": [
                 "en"
             ],
@@ -71,8 +77,9 @@ let base = {
             ]
         },
         {
-            "path": "python/think_python/_simple/ex_12_3_metathesis",
             "type": "simple",
+            "id": "X3PU6D",
+            "path": "python/think_python/_simple/ex_12_3_metathesis",
             "lang": [
                 "en"
             ],
@@ -83,8 +90,9 @@ let base = {
             ]
         },
         {
-            "path": "python/_simple/mysql",
             "type": "simple",
+            "id": "LQ7BLR",
+            "path": "python/_simple/mysql",
             "lang": [
                 "en"
             ],
