@@ -120,3 +120,9 @@ a.cleanLink {
 ol, ul {
     margin-top: 2px;
 }
+
+.title {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
