@@ -1,4 +1,4 @@
-let base = {
+let global_index = {
     "values": [
         {
             "type": "simple",

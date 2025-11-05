@@ -38,7 +38,7 @@ class IndexApp {
 
 
     constructor() {
-        this.data = new DataContainer(base);
+        this.data = new DataContainer(global_index);
         this.appData = this.data.data;
         this.filterApp = new FilterCore(this.appData, this.filterConfig);
         this.filterApp.init();
@@ -58,13 +58,13 @@ class IndexApp {
         main.appendChild(table);
     }
 
-    entryCreator(entry) {
+    entryCreator(entry, skippingTags) {
         let result = document.createElement('tr');
-        result.innerHTML = this.createItem(entry);
+        result.innerHTML = this.createItem(entry, skippingTags);
         return result;
     }
 
-    createItem = function(entry) {
+    createItem(entry, skippingTags) {
         let langLv;
         let langEn;
         if (entry.lang.includes('lv')) {
@@ -74,12 +74,15 @@ class IndexApp {
             langEn = true;
         }
 
-
+        let showableTags = entry.tags.filter(t => !skippingTags.includes(t));
         return '<td>'
             + entry.id
             + '</td>'
             + '<td>'
             + entry.path
+            + '</td>'
+            + '<td>'
+            + showableTags.join(", ")
             + '</td>'
             + '<td>'
             + (langLv? '<a href="' + this.getLocalizedLink(entry, 'lv') + '">[lv]</a>' : '')
