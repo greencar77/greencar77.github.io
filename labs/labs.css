@@ -126,3 +126,7 @@ ol, ul {
     display: block;
     font-weight: bold;
 }
+
+.instr {
+    text-align: right;
+}
