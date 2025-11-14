@@ -79,7 +79,7 @@ class IndexApp {
             + entry.id
             + '</td>'
             + '<td>'
-            + entry.path
+            + (entry.title? entry.title : entry.path)
             + '</td>'
             + '<td>'
             + showableTags.join(", ")

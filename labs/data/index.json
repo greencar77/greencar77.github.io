@@ -11,7 +11,8 @@
                 "java",
                 "javaapi",
                 "lang_lv"
-            ]
+            ],
+            "title": null
         },
         {
             "type": "standalone",
@@ -24,7 +25,8 @@
                 "java",
                 "javalang",
                 "lang_en"
-            ]
+            ],
+            "title": null
         },
         {
             "type": "standalone",
@@ -37,7 +39,8 @@
                 "java",
                 "javalang",
                 "lang_en"
-            ]
+            ],
+            "title": null
         },
         {
             "type": "standalone",
@@ -49,8 +52,10 @@
             "tags": [
                 "java",
                 "jaxb",
-                "lang_en"
-            ]
+                "lang_en",
+                "maven_plugin"
+            ],
+            "title": "jaxb2-maven-plugin"
         },
         {
             "type": "standalone",
@@ -63,7 +68,8 @@
                 "java",
                 "jdk_features",
                 "lang_en"
-            ]
+            ],
+            "title": null
         },
         {
             "type": "standalone",
@@ -75,8 +81,10 @@
             "tags": [
                 "java",
                 "swagger",
-                "lang_en"
-            ]
+                "lang_en",
+                "maven_plugin"
+            ],
+            "title": null
         },
         {
             "type": "standalone",
@@ -87,7 +95,8 @@
             ],
             "tags": [
                 "lang_en"
-            ]
+            ],
+            "title": null
         },
         {
             "type": "simple",
@@ -100,7 +109,8 @@
                 "python",
                 "think_python",
                 "lang_en"
-            ]
+            ],
+            "title": null
         },
         {
             "type": "simple",
@@ -112,7 +122,8 @@
             "tags": [
                 "python",
                 "lang_en"
-            ]
+            ],
+            "title": null
         },
         {
             "type": "simple",
@@ -124,7 +135,8 @@
             "tags": [
                 "python",
                 "lang_en"
-            ]
+            ],
+            "title": null
         }
     ]
 }
