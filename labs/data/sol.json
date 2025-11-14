@@ -8,6 +8,13 @@
             }
         },
         {
+            "path": "java/jaxb3xdemo",
+            "data": {
+                "completed": "2025-11-14",
+                "labId": "7DQSC6"
+            }
+        },
+        {
             "path": "java/jdk_features/java16",
             "data": {
                 "completed": "2024-12-06",
