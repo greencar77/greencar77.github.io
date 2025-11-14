@@ -41,6 +41,19 @@
         },
         {
             "type": "standalone",
+            "id": "7DQSC6",
+            "path": "java/jaxb/jaxb2-maven-plugin",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "jaxb",
+                "lang_en"
+            ]
+        },
+        {
+            "type": "standalone",
             "id": "8JXY4S",
             "path": "java/jdk_features/java16",
             "lang": [
