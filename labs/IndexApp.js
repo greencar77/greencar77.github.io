@@ -75,6 +75,11 @@ class IndexApp {
         }
 
         let showableTags = entry.tags.filter(t => !skippingTags.includes(t));
+        let linkLv = (langLv? '<a href="' + this.getLocalizedLink(entry, 'lv') + '">[lv]</a>' : '');
+        let linkEn = (langEn? '<a href="' + this.getLocalizedLink(entry, 'en') + '">[en]</a>' : '');
+        if (entry.type == 'special') {
+            linkEn = '<a href="' + entry.url + '">[en]</a>';
+        }
         return '<td>'
             + entry.id
             + '</td>'
@@ -85,10 +90,10 @@ class IndexApp {
             + showableTags.join(", ")
             + '</td>'
             + '<td>'
-            + (langLv? '<a href="' + this.getLocalizedLink(entry, 'lv') + '">[lv]</a>' : '')
+            + linkLv
             + '</td>'
             + '<td>'
-            + (langEn? '<a href="' + this.getLocalizedLink(entry, 'en') + '">[en]</a>' : '')
+            + linkEn
             + '</td>'
 //            + '<td>'
 //            + '<a href="practice/' + entry.path + '/practice.txt">practice.txt</a>'

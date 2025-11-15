@@ -22,6 +22,13 @@ let global_sol = {
             }
         },
         {
+            "path": "python/aoc/2024/day01",
+            "data": {
+                "completed": "2025-11-15",
+                "labId": "HITYTE"
+            }
+        },
+        {
             "path": "python/numpy_create",
             "data": {
                 "completed": "2025-11-04",

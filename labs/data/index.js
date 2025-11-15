@@ -137,6 +137,34 @@ let global_index = {
                 "lang_en"
             ],
             "title": null
+        },
+        {
+            "type": "special",
+            "id": "HITYTE",
+            "url": "https://adventofcode.com/2024/day/1",
+            "lang": "en",
+            "tags": [
+                "python",
+                "java",
+                "js",
+                "aoc",
+                "aoc_2024"
+            ],
+            "title": "Advent of Code - 2024 - Day 1"
+        },
+        {
+            "type": "special",
+            "id": "GT6G23",
+            "url": "https://adventofcode.com/2024/day/2",
+            "lang": "en",
+            "tags": [
+                "python",
+                "java",
+                "js",
+                "aoc",
+                "aoc_2024"
+            ],
+            "title": "Advent of Code - 2024 - Day 2"
         }
     ]
 };
