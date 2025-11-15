@@ -29,6 +29,13 @@
             }
         },
         {
+            "path": "python/aoc/2024/day02",
+            "data": {
+                "completed": "2025-11-15",
+                "labId": "GT6G23"
+            }
+        },
+        {
             "path": "python/numpy_create",
             "data": {
                 "completed": "2025-11-04",
