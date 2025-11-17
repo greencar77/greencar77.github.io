@@ -12,7 +12,7 @@ let global_index = {
                 "javaapi",
                 "lang_lv"
             ],
-            "title": null
+            "title": "restassured"
         },
         {
             "type": "standalone",
@@ -110,7 +110,7 @@ let global_index = {
                 "think_python",
                 "lang_en"
             ],
-            "title": null
+            "title": "ex_12_3_metathesis"
         },
         {
             "type": "simple",
@@ -123,7 +123,7 @@ let global_index = {
                 "python",
                 "lang_en"
             ],
-            "title": null
+            "title": "mysql"
         },
         {
             "type": "simple",
@@ -136,7 +136,7 @@ let global_index = {
                 "python",
                 "lang_en"
             ],
-            "title": null
+            "title": "numpy_create"
         },
         {
             "type": "special",
