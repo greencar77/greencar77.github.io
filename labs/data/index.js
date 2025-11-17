@@ -59,6 +59,21 @@ let global_index = {
         },
         {
             "type": "standalone",
+            "id": "C235GQ",
+            "path": "java/jaxb/maven-jaxb23-plugin",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "jaxb",
+                "lang_en",
+                "maven_plugin"
+            ],
+            "title": "maven-jaxb23-plugin"
+        },
+        {
+            "type": "standalone",
             "id": "8JXY4S",
             "path": "java/jdk_features/java16",
             "lang": [

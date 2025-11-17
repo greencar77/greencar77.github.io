@@ -8,7 +8,14 @@ let global_sol = {
             }
         },
         {
-            "path": "java/jaxb3xdemo",
+            "path": "java/jaxb2demo",
+            "data": {
+                "completed": "2025-11-17",
+                "labId": "C235GQ"
+            }
+        },
+        {
+            "path": "java/jaxb3demo",
             "data": {
                 "completed": "2025-11-14",
                 "labId": "7DQSC6"
