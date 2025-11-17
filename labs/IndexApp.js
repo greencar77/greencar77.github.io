@@ -81,10 +81,7 @@ class IndexApp {
             linkEn = '<a href="' + entry.url + '">[en]</a>';
         }
         return '<td>'
-            + entry.id
-            + '</td>'
-            + '<td>'
-            + (entry.title? entry.title : entry.path)
+            + (entry.title? entry.title : entry.path) + ' (' + entry.id + ')'
             + '</td>'
             + '<td>'
             + showableTags.join(", ")
