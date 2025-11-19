@@ -26,7 +26,7 @@ let global_index = {
                 "javalang",
                 "lang_en"
             ],
-            "title": "map"
+            "title": "java.util.Map"
         },
         {
             "type": "standalone",

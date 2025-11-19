@@ -29,6 +29,13 @@ let global_sol = {
             }
         },
         {
+            "path": "java/map",
+            "data": {
+                "completed": "2024-12-06",
+                "labId": "1UL79Q"
+            }
+        },
+        {
             "path": "python/aoc/2024/day01",
             "data": {
                 "completed": "2025-11-15",
