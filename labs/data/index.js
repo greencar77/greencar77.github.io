@@ -73,6 +73,21 @@ let global_index = {
             "title": "maven-jaxb23-plugin"
         },
         {
+            "type": "simple",
+            "id": "VV48J0",
+            "path": "java/jdk_features/java14/_simple/instanceof",
+            "lang": [
+                "lv"
+            ],
+            "tags": [
+                "java",
+                "jdk_features",
+                "java14",
+                "lang_lv"
+            ],
+            "title": "instanceof"
+        },
+        {
             "type": "standalone",
             "id": "8JXY4S",
             "path": "java/jdk_features/java16",
