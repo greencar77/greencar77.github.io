@@ -77,15 +77,15 @@ let global_index = {
             "id": "VV48J0",
             "path": "java/jdk_features/java14/_simple/instanceof",
             "lang": [
-                "lv"
+                "en"
             ],
             "tags": [
                 "java",
                 "jdk_features",
                 "java14",
-                "lang_lv"
+                "lang_en"
             ],
-            "title": "instanceof"
+            "title": "\"instanceof\" pattern matching"
         },
         {
             "type": "standalone",
