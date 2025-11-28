@@ -144,6 +144,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "WJ39KX",
+            "path": "python/_simple/matplotlib",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "python",
+                "lang_en"
+            ],
+            "title": "matplotlib"
+        },
+        {
+            "type": "simple",
             "id": "LQ7BLR",
             "path": "python/_simple/mysql",
             "lang": [
@@ -166,7 +179,7 @@ let global_index = {
                 "python",
                 "lang_en"
             ],
-            "title": "numpy_create"
+            "title": "numpy"
         },
         {
             "type": "special",
