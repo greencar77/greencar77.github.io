@@ -50,6 +50,13 @@ let global_sol = {
             }
         },
         {
+            "path": "python/matplotlib",
+            "data": {
+                "completed": "2025-11-23",
+                "labId": "WJ39KX"
+            }
+        },
+        {
             "path": "python/numpy_create",
             "data": {
                 "completed": "2025-11-04",
