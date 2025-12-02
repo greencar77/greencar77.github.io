@@ -3,8 +3,8 @@ let global_sol = {
         {
             "path": "java/javaapi/log4j",
             "data": {
-                "completed": "2025-11-17",
-                "labId": "C235GQ"
+                "completed": "2020-11-10",
+                "labId": "DLT57N"
             }
         },
         {
