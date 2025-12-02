@@ -4,7 +4,12 @@ class IndexApp {
 	
     filterConfig = {
             "tagPropName": "tags",
-            "filters": null,
+            "filters":  [
+                {
+                   "id": "f1",
+                   "random": true,
+                },
+            ],
             "ignorableTags": null,
             "entryCreator": (entry, skippingTags) => this.entryCreator(entry, skippingTags),
             "appName": "app",
@@ -81,7 +86,7 @@ class IndexApp {
             linkEn = '<a href="' + entry.url + '">[en]</a>';
         }
         return '<td>'
-            + (entry.title? entry.title : entry.path) + ' (' + entry.id + ')'
+            + '<span class="titleclass">' + (entry.title? entry.title : entry.path) + '</span>' + ' ' + '<span class="idclass">(' + entry.id + ')</span>'
             + '</td>'
             + '<td>'
             + showableTags.join(", ")
