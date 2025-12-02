@@ -117,6 +117,19 @@
             "title": "swagger_plugin"
         },
         {
+            "type": "simple",
+            "id": "DLT57N",
+            "path": "java/_simple/log4j",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en"
+            ],
+            "title": "Log4J"
+        },
+        {
             "type": "standalone",
             "id": "E0L7XZ",
             "path": "jwt",

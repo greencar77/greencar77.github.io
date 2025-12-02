@@ -1,6 +1,13 @@
 {
     "values": [
         {
+            "path": "java/javaapi/log4j",
+            "data": {
+                "completed": "2025-11-17",
+                "labId": "C235GQ"
+            }
+        },
+        {
             "path": "java/javaapi/restassureddemo",
             "data": {
                 "completed": "2025-10-22",
