@@ -2,11 +2,11 @@
 
 class DataContainer {
     constructor(base) {
-        this.data = global_index.values;
+        this.tasks = new Map(global_index.values.map(e => [e.id, e]));;
+        this.solutions = new Map(global_sol.values.map(e => [e.data.labId, e]));
 
-        let mySolved = global_sol.values.map(this.getId);
-        this.data.forEach(x => {
-            if (mySolved.includes(x.id)) {
+        this.tasks.forEach(x => {
+            if (this.solutions.has(x.id)) {
                 x.tags.push("solved_x");
             }
         })

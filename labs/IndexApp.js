@@ -44,7 +44,7 @@ class IndexApp {
 
     constructor() {
         this.data = new DataContainer(global_index);
-        this.appData = this.data.data;
+        this.appData = Array.from(this.data.tasks.values());
         this.filterApp = new FilterCore(this.appData, this.filterConfig);
         this.filterApp.init();
     }
@@ -78,7 +78,6 @@ class IndexApp {
         if (entry.lang.includes('en')) {
             langEn = true;
         }
-
         let showableTags = entry.tags.filter(t => !skippingTags.includes(t));
         let linkLv = (langLv? '<a href="' + this.getLocalizedLink(entry, 'lv') + '">[lv]</a>' : '');
         let linkEn = (langEn? '<a href="' + this.getLocalizedLink(entry, 'en') + '">[en]</a>' : '');
