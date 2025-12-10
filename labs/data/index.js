@@ -125,7 +125,8 @@ let global_index = {
             ],
             "tags": [
                 "java",
-                "lang_en"
+                "lang_en",
+                "javaapi"
             ],
             "title": "Log4J"
         },
