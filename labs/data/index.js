@@ -221,6 +221,20 @@ let global_index = {
                 "aoc_2024"
             ],
             "title": "Advent of Code - 2024 - Day 2"
+        },
+        {
+            "type": "special",
+            "id": "YC1XB5",
+            "url": "https://adventofcode.com/2024/day/3",
+            "lang": "en",
+            "tags": [
+                "python",
+                "java",
+                "js",
+                "aoc",
+                "aoc_2024"
+            ],
+            "title": "Advent of Code - 2024 - Day 3"
         }
     ]
 };
