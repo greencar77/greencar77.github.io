@@ -57,6 +57,13 @@ let global_sol = {
             }
         },
         {
+            "path": "python/aoc/2024/day03",
+            "data": {
+                "completed": "2025-11-15",
+                "labId": "GT6G23"
+            }
+        },
+        {
             "path": "python/matplotlib",
             "data": {
                 "completed": "2025-11-23",
