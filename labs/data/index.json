@@ -2,6 +2,21 @@
     "values": [
         {
             "type": "simple",
+            "id": "ST59CX",
+            "path": "java/javaapi/_simple/gson",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "javaapi",
+                "lang_en",
+                "javaapi"
+            ],
+            "title": "Gson"
+        },
+        {
+            "type": "simple",
             "id": "M55OE6",
             "path": "java/javaapi/_simple/restassured",
             "lang": [
