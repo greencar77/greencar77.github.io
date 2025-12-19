@@ -222,7 +222,7 @@ let global_index = {
                 "aoc",
                 "aoc_2024"
             ],
-            "title": "Advent of Code - 2024 - Day 1"
+            "title": "Advent of Code - 2024/Day1"
         },
         {
             "type": "special",
@@ -236,7 +236,7 @@ let global_index = {
                 "aoc",
                 "aoc_2024"
             ],
-            "title": "Advent of Code - 2024 - Day 2"
+            "title": "Advent of Code - 2024/Day2"
         },
         {
             "type": "special",
@@ -250,7 +250,21 @@ let global_index = {
                 "aoc",
                 "aoc_2024"
             ],
-            "title": "Advent of Code - 2024 - Day 3"
+            "title": "Advent of Code - 2024/Day3"
+        },
+        {
+            "type": "special",
+            "id": "MUN0SW",
+            "url": "https://adventofcode.com/2025/day/1",
+            "lang": "en",
+            "tags": [
+                "python",
+                "java",
+                "js",
+                "aoc",
+                "aoc_2025"
+            ],
+            "title": "Advent of Code - 2025/Day1"
         }
     ]
 };
