@@ -64,6 +64,13 @@
             }
         },
         {
+            "path": "python/aoc/2025/day01",
+            "data": {
+                "completed": "2025-11-15",
+                "labId": "MUN0SW"
+            }
+        },
+        {
             "path": "python/matplotlib",
             "data": {
                 "completed": "2025-11-23",
