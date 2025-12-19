@@ -66,7 +66,7 @@ let global_sol = {
         {
             "path": "python/aoc/2025/day01",
             "data": {
-                "completed": "2025-11-15",
+                "completed": "2025-12-19",
                 "labId": "MUN0SW"
             }
         },
