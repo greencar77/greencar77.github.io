@@ -146,6 +146,19 @@ let global_index = {
             "title": "Log4J"
         },
         {
+            "type": "simple",
+            "id": "QK290P",
+            "path": "js/_simple/winjs",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "js",
+                "lang_en"
+            ],
+            "title": "Windows Script Host - JavaScript"
+        },
+        {
             "type": "standalone",
             "id": "E0L7XZ",
             "path": "jwt",
