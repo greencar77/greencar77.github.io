@@ -43,6 +43,13 @@ let global_sol = {
             }
         },
         {
+            "path": "js/winjs",
+            "data": {
+                "completed": "2026-01-30",
+                "labId": "QK290P"
+            }
+        },
+        {
             "path": "python/aoc/2024/day01",
             "data": {
                 "completed": "2025-11-15",
