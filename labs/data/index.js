@@ -89,6 +89,21 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "6KUYRS",
+            "path": "java/jdk_features/java09/_simple/reactivestreams",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "jdk_features",
+                "java09",
+                "lang_en"
+            ],
+            "title": "Java Reactive Streams API"
+        },
+        {
+            "type": "simple",
             "id": "VV48J0",
             "path": "java/jdk_features/java14/_simple/instanceof",
             "lang": [
