@@ -29,6 +29,13 @@
             }
         },
         {
+            "path": "java/jdk_features/java09/reactivedemo",
+            "data": {
+                "completed": "2026-02-15",
+                "labId": "6KUYRS"
+            }
+        },
+        {
             "path": "java/jdk_features/java16",
             "data": {
                 "completed": "2024-12-06",
