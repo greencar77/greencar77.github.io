@@ -293,6 +293,20 @@
                 "aoc_2025"
             ],
             "title": "Advent of Code - 2025/Day1"
+        },
+        {
+            "type": "special",
+            "id": "KGU4RY",
+            "url": "https://adventofcode.com/2025/day/2",
+            "lang": "en",
+            "tags": [
+                "python",
+                "java",
+                "js",
+                "aoc",
+                "aoc_2025"
+            ],
+            "title": "Advent of Code - 2025/Day2"
         }
     ]
 }
