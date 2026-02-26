@@ -133,6 +133,21 @@
         },
         {
             "type": "standalone",
+            "id": "AM0Q4G",
+            "path": "java/maven_plugin/jaxb2inherit",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "maven_plugin",
+                "lang_en",
+                "maven_plugin"
+            ],
+            "title": "maven-jaxb23-plugin and interface"
+        },
+        {
+            "type": "standalone",
             "id": "8DRNII",
             "path": "java/swagger/swagger_plugin",
             "lang": [

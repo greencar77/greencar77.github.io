@@ -22,6 +22,13 @@ let global_sol = {
             }
         },
         {
+            "path": "java/jaxb2inherit",
+            "data": {
+                "completed": "2026-02-26",
+                "labId": "AM0Q4G"
+            }
+        },
+        {
             "path": "java/jaxb3demo",
             "data": {
                 "completed": "2025-11-14",
