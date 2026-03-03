@@ -219,11 +219,11 @@ let global_index = {
             "id": "HZE4YC",
             "path": "python/_simple/jira_query",
             "lang": [
-                "lv"
+                "en"
             ],
             "tags": [
                 "python",
-                "lang_lv"
+                "lang_en"
             ],
             "title": "Jira API"
         },
