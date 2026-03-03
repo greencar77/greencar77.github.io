@@ -99,6 +99,13 @@ let global_sol = {
             }
         },
         {
+            "path": "python/jira_query",
+            "data": {
+                "completed": "2026-03-03",
+                "labId": "HZE4YC"
+            }
+        },
+        {
             "path": "python/matplotlib",
             "data": {
                 "completed": "2025-11-23",

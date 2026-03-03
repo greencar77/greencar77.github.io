@@ -216,6 +216,19 @@
         },
         {
             "type": "simple",
+            "id": "HZE4YC",
+            "path": "python/_simple/jira_query",
+            "lang": [
+                "lv"
+            ],
+            "tags": [
+                "python",
+                "lang_lv"
+            ],
+            "title": "Jira API"
+        },
+        {
+            "type": "simple",
             "id": "WJ39KX",
             "path": "python/_simple/matplotlib",
             "lang": [
