@@ -272,9 +272,6 @@ let global_index = {
             "url": "https://adventofcode.com/2024/day/1",
             "lang": "en",
             "tags": [
-                "python",
-                "java",
-                "js",
                 "aoc",
                 "aoc_2024"
             ],
@@ -286,9 +283,6 @@ let global_index = {
             "url": "https://adventofcode.com/2024/day/2",
             "lang": "en",
             "tags": [
-                "python",
-                "java",
-                "js",
                 "aoc",
                 "aoc_2024"
             ],
@@ -300,9 +294,6 @@ let global_index = {
             "url": "https://adventofcode.com/2024/day/3",
             "lang": "en",
             "tags": [
-                "python",
-                "java",
-                "js",
                 "aoc",
                 "aoc_2024"
             ],
@@ -314,9 +305,6 @@ let global_index = {
             "url": "https://adventofcode.com/2025/day/1",
             "lang": "en",
             "tags": [
-                "python",
-                "java",
-                "js",
                 "aoc",
                 "aoc_2025"
             ],
@@ -328,9 +316,6 @@ let global_index = {
             "url": "https://adventofcode.com/2025/day/2",
             "lang": "en",
             "tags": [
-                "python",
-                "java",
-                "js",
                 "aoc",
                 "aoc_2025"
             ],
