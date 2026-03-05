@@ -8,6 +8,8 @@ class DataContainer {
         this.tasks.forEach(x => {
             if (this.solutions.has(x.id)) {
                 x.tags.push("solved_x");
+            } else {
+                x.tags.push("solved_x-");
             }
         })
     }
