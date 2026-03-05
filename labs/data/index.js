@@ -142,7 +142,8 @@ let global_index = {
                 "java",
                 "maven_plugin",
                 "lang_en",
-                "maven_plugin"
+                "maven_plugin",
+                "jaxb"
             ],
             "title": "maven-jaxb23-plugin and interface"
         },
