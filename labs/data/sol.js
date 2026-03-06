@@ -57,6 +57,13 @@ let global_sol = {
             }
         },
         {
+            "path": "java/spring/springconf",
+            "data": {
+                "completed": "2020-10-16",
+                "labId": "K204NK"
+            }
+        },
+        {
             "path": "js/winjs",
             "data": {
                 "completed": "2026-01-30",

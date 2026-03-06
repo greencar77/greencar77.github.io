@@ -148,6 +148,21 @@ let global_index = {
             "title": "maven-jaxb23-plugin and interface"
         },
         {
+            "type": "simple",
+            "id": "K204NK",
+            "path": "java/spring/_simple/simple",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "spring",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring @Configuration"
+        },
+        {
             "type": "standalone",
             "id": "8DRNII",
             "path": "java/swagger/swagger_plugin",
