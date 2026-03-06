@@ -10,8 +10,7 @@ let global_index = {
             "tags": [
                 "java",
                 "javaapi",
-                "lang_en",
-                "javaapi"
+                "lang_en"
             ],
             "title": "Gson"
         },
@@ -96,8 +95,8 @@ let global_index = {
             ],
             "tags": [
                 "java",
-                "jdk_features",
                 "java09",
+                "jdk_features",
                 "lang_en"
             ],
             "title": "Java Reactive Streams API"
@@ -111,8 +110,8 @@ let global_index = {
             ],
             "tags": [
                 "java",
-                "jdk_features",
                 "java14",
+                "jdk_features",
                 "lang_en"
             ],
             "title": "\"instanceof\" pattern matching"
@@ -140,10 +139,9 @@ let global_index = {
             ],
             "tags": [
                 "java",
-                "maven_plugin",
+                "jaxb",
                 "lang_en",
-                "maven_plugin",
-                "jaxb"
+                "maven_plugin"
             ],
             "title": "maven-jaxb23-plugin and interface"
         },
@@ -156,7 +154,6 @@ let global_index = {
             ],
             "tags": [
                 "java",
-                "spring",
                 "lang_en",
                 "spring"
             ],
@@ -171,9 +168,9 @@ let global_index = {
             ],
             "tags": [
                 "java",
-                "swagger",
                 "lang_en",
-                "maven_plugin"
+                "maven_plugin",
+                "swagger"
             ],
             "title": "swagger_plugin"
         },
@@ -186,8 +183,8 @@ let global_index = {
             ],
             "tags": [
                 "java",
-                "lang_en",
-                "javaapi"
+                "javaapi",
+                "lang_en"
             ],
             "title": "Log4J"
         },
@@ -224,9 +221,9 @@ let global_index = {
                 "en"
             ],
             "tags": [
+                "lang_en",
                 "python",
-                "think_python",
-                "lang_en"
+                "think_python"
             ],
             "title": "ex_12_3_metathesis"
         },
@@ -238,8 +235,8 @@ let global_index = {
                 "en"
             ],
             "tags": [
-                "python",
-                "lang_en"
+                "lang_en",
+                "python"
             ],
             "title": "Jira API"
         },
@@ -251,8 +248,8 @@ let global_index = {
                 "en"
             ],
             "tags": [
-                "python",
-                "lang_en"
+                "lang_en",
+                "python"
             ],
             "title": "matplotlib"
         },
@@ -264,8 +261,8 @@ let global_index = {
                 "en"
             ],
             "tags": [
-                "python",
-                "lang_en"
+                "lang_en",
+                "python"
             ],
             "title": "mysql"
         },
@@ -277,8 +274,8 @@ let global_index = {
                 "en"
             ],
             "tags": [
-                "python",
-                "lang_en"
+                "lang_en",
+                "python"
             ],
             "title": "numpy"
         },
