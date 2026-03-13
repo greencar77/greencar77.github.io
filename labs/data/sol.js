@@ -50,6 +50,13 @@ let global_sol = {
             }
         },
         {
+            "path": "java/jspecifynull",
+            "data": {
+                "completed": "2026-03-13",
+                "labId": "AE1KAD"
+            }
+        },
+        {
             "path": "java/map",
             "data": {
                 "completed": "2024-12-06",

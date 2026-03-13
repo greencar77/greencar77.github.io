@@ -190,6 +190,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "AE1KAD",
+            "path": "java/_simple/nullable",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "javaapi",
+                "lang_en"
+            ],
+            "title": "JSpecify nullability"
+        },
+        {
+            "type": "simple",
             "id": "QK290P",
             "path": "js/_simple/winjs",
             "lang": [
