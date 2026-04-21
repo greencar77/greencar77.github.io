@@ -36,6 +36,13 @@ let global_sol = {
             }
         },
         {
+            "path": "java/jdk_features/java09/modularity",
+            "data": {
+                "completed": "2026-03-26",
+                "labId": "7ZYDYX"
+            }
+        },
+        {
             "path": "java/jdk_features/java09/reactivedemo",
             "data": {
                 "completed": "2026-02-15",
@@ -61,6 +68,13 @@ let global_sol = {
             "data": {
                 "completed": "2024-12-06",
                 "labId": "1UL79Q"
+            }
+        },
+        {
+            "path": "java/spring/mvcdemo",
+            "data": {
+                "completed": "2026-04-21",
+                "labId": "LGPH17"
             }
         },
         {
