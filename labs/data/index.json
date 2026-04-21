@@ -88,6 +88,21 @@
         },
         {
             "type": "simple",
+            "id": "7ZYDYX",
+            "path": "java/jdk_features/java09/_simple/modularity",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "java09",
+                "jdk_features",
+                "lang_en"
+            ],
+            "title": "Java Modules"
+        },
+        {
+            "type": "simple",
             "id": "6KUYRS",
             "path": "java/jdk_features/java09/_simple/reactivestreams",
             "lang": [
@@ -158,6 +173,20 @@
                 "spring"
             ],
             "title": "Spring @Configuration"
+        },
+        {
+            "type": "simple",
+            "id": "LGPH17",
+            "path": "java/spring/_simple/spring_mvc",
+            "lang": [
+                "lv"
+            ],
+            "tags": [
+                "java",
+                "lang_lv",
+                "spring"
+            ],
+            "title": "Spring MVC Basics"
         },
         {
             "type": "standalone",
