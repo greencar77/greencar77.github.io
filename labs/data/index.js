@@ -179,11 +179,11 @@ let global_index = {
             "id": "LGPH17",
             "path": "java/spring/_simple/spring_mvc",
             "lang": [
-                "lv"
+                "en"
             ],
             "tags": [
                 "java",
-                "lang_lv",
+                "lang_en",
                 "spring"
             ],
             "title": "Spring MVC Basics"
