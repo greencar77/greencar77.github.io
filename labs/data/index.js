@@ -176,6 +176,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "PL531K",
+            "path": "java/spring/_simple/spring_context",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring Contexts"
+        },
+        {
+            "type": "simple",
             "id": "LGPH17",
             "path": "java/spring/_simple/spring_mvc",
             "lang": [
