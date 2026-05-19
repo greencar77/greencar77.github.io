@@ -141,6 +141,13 @@
             }
         },
         {
+            "path": "python/libs/requests_bin",
+            "data": {
+                "completed": "2026-05-19",
+                "labId": "Q6HP1W"
+            }
+        },
+        {
             "path": "python/matplotlib",
             "data": {
                 "completed": "2025-11-23",
