@@ -203,6 +203,20 @@ let global_index = {
             "title": "Spring MVC Basics"
         },
         {
+            "type": "simple",
+            "id": "KZ5HX1",
+            "path": "java/spring/_simple/spring_rest",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring @RestController"
+        },
+        {
             "type": "standalone",
             "id": "8DRNII",
             "path": "java/swagger/swagger_plugin",
