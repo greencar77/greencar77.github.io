@@ -272,6 +272,48 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "WJ39KX",
+            "path": "python/libs/_simple/matplotlib",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "matplotlib"
+        },
+        {
+            "type": "simple",
+            "id": "LQ7BLR",
+            "path": "python/libs/_simple/mysql",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "mysql"
+        },
+        {
+            "type": "simple",
+            "id": "V8GD3Y",
+            "path": "python/libs/_simple/numpy_create",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "numpy"
+        },
+        {
+            "type": "simple",
             "id": "X3PU6D",
             "path": "python/think_python/_simple/ex_12_3_metathesis",
             "lang": [
@@ -296,45 +338,6 @@ let global_index = {
                 "python"
             ],
             "title": "Jira API"
-        },
-        {
-            "type": "simple",
-            "id": "WJ39KX",
-            "path": "python/_simple/matplotlib",
-            "lang": [
-                "en"
-            ],
-            "tags": [
-                "lang_en",
-                "python"
-            ],
-            "title": "matplotlib"
-        },
-        {
-            "type": "simple",
-            "id": "LQ7BLR",
-            "path": "python/_simple/mysql",
-            "lang": [
-                "en"
-            ],
-            "tags": [
-                "lang_en",
-                "python"
-            ],
-            "title": "mysql"
-        },
-        {
-            "type": "simple",
-            "id": "V8GD3Y",
-            "path": "python/_simple/numpy_create",
-            "lang": [
-                "en"
-            ],
-            "tags": [
-                "lang_en",
-                "python"
-            ],
-            "title": "numpy"
         },
         {
             "type": "special",
