@@ -71,6 +71,13 @@ let global_sol = {
             }
         },
         {
+            "path": "java/spring/httpjson",
+            "data": {
+                "completed": "2026-05-19",
+                "labId": "KZ5HX1"
+            }
+        },
+        {
             "path": "java/spring/mvcdemo",
             "data": {
                 "completed": "2026-04-21",
