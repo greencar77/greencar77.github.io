@@ -314,6 +314,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "Q6HP1W",
+            "path": "python/libs/_simple/requests_bin",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "Python lib requests"
+        },
+        {
+            "type": "simple",
             "id": "X3PU6D",
             "path": "python/think_python/_simple/ex_12_3_metathesis",
             "lang": [
