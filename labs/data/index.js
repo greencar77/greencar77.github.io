@@ -190,6 +190,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "VU740Z",
+            "path": "java/spring/_simple/spring_hibernate",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring Hibernate"
+        },
+        {
+            "type": "simple",
             "id": "LGPH17",
             "path": "java/spring/_simple/spring_mvc",
             "lang": [
