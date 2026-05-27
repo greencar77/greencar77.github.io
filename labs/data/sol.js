@@ -85,6 +85,13 @@ let global_sol = {
             }
         },
         {
+            "path": "java/spring/springboot-hibernate-em",
+            "data": {
+                "completed": "2026-05-27",
+                "labId": "G14DCI"
+            }
+        },
+        {
             "path": "java/spring/springboot-hibernate-jpa",
             "data": {
                 "completed": "2026-05-25",
