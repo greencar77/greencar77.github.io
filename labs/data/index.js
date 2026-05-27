@@ -200,7 +200,7 @@ let global_index = {
                 "lang_en",
                 "spring"
             ],
-            "title": "Spring Hibernate"
+            "title": "Spring Data JPA"
         },
         {
             "type": "simple",
