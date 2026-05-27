@@ -190,8 +190,22 @@
         },
         {
             "type": "simple",
+            "id": "G14DCI",
+            "path": "java/spring/_simple/spring_hib_em",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring Data EntityManager"
+        },
+        {
+            "type": "simple",
             "id": "VU740Z",
-            "path": "java/spring/_simple/spring_hibernate",
+            "path": "java/spring/_simple/spring_hib_jpa",
             "lang": [
                 "en"
             ],
