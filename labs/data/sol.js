@@ -85,7 +85,7 @@ let global_sol = {
             }
         },
         {
-            "path": "java/spring/springboot-hibernate",
+            "path": "java/spring/springboot-hibernate-jpa",
             "data": {
                 "completed": "2026-05-25",
                 "labId": "VU740Z"
