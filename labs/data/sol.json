@@ -162,6 +162,13 @@
             }
         },
         {
+            "path": "python/libs/playwright",
+            "data": {
+                "completed": "2026-06-02",
+                "labId": "BG99P0"
+            }
+        },
+        {
             "path": "python/libs/requests_bin",
             "data": {
                 "completed": "2026-05-19",
@@ -180,6 +187,13 @@
             "data": {
                 "completed": "2025-11-04",
                 "labId": "V8GD3Y"
+            }
+        },
+        {
+            "path": "python/py_install",
+            "data": {
+                "completed": "2026-06-02",
+                "labId": "R0667X"
             }
         },
         {
