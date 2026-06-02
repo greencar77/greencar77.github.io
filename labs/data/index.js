@@ -356,6 +356,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "BG99P0",
+            "path": "python/libs/_simple/playwright",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "Python lib - playwright"
+        },
+        {
+            "type": "simple",
             "id": "Q6HP1W",
             "path": "python/libs/_simple/requests_bin",
             "lang": [
@@ -381,6 +395,19 @@ let global_index = {
                 "think_python"
             ],
             "title": "ex_12_3_metathesis"
+        },
+        {
+            "type": "simple",
+            "id": "R0667X",
+            "path": "python/_simple/install_python",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "python"
+            ],
+            "title": "Install Python"
         },
         {
             "type": "simple",
