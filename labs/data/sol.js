@@ -71,6 +71,13 @@ let global_sol = {
             }
         },
         {
+            "path": "java/spring/hibernate/hibernate-eagerlazy",
+            "data": {
+                "completed": "2026-06-05",
+                "labId": "DL8HJG"
+            }
+        },
+        {
             "path": "java/spring/hibernate/springboot-hibernate-em",
             "data": {
                 "completed": "2026-05-27",
