@@ -71,6 +71,20 @@ let global_sol = {
             }
         },
         {
+            "path": "java/spring/hibernate/springboot-hibernate-em",
+            "data": {
+                "completed": "2026-05-27",
+                "labId": "G14DCI"
+            }
+        },
+        {
+            "path": "java/spring/hibernate/springboot-hibernate-jpa",
+            "data": {
+                "completed": "2026-05-25",
+                "labId": "VU740Z"
+            }
+        },
+        {
             "path": "java/spring/httpjson",
             "data": {
                 "completed": "2026-05-19",
@@ -82,20 +96,6 @@ let global_sol = {
             "data": {
                 "completed": "2026-04-21",
                 "labId": "LGPH17"
-            }
-        },
-        {
-            "path": "java/spring/springboot-hibernate-em",
-            "data": {
-                "completed": "2026-05-27",
-                "labId": "G14DCI"
-            }
-        },
-        {
-            "path": "java/spring/springboot-hibernate-jpa",
-            "data": {
-                "completed": "2026-05-25",
-                "labId": "VU740Z"
             }
         },
         {
