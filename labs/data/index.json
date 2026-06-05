@@ -162,6 +162,21 @@
         },
         {
             "type": "simple",
+            "id": "DL8HJG",
+            "path": "java/spring/hibernate/_simple/eager_lazy",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Hibernate Eager and Lazy"
+        },
+        {
+            "type": "simple",
             "id": "G14DCI",
             "path": "java/spring/hibernate/_simple/spring_hib_em",
             "lang": [
