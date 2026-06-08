@@ -440,6 +440,19 @@ let global_index = {
             "title": "Jira API"
         },
         {
+            "type": "simple",
+            "id": "PJD37O",
+            "path": "python/_simple/misc",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "python"
+            ],
+            "title": "Python language"
+        },
+        {
             "type": "special",
             "id": "HITYTE",
             "url": "https://adventofcode.com/2024/day/1",

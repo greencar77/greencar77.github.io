@@ -320,6 +320,16 @@ let global_sol = {
             ]
         },
         {
+            "path": "python/recipe",
+            "data": {
+                "completed": "2026-06-08",
+                "labId": "PJD37O"
+            },
+            "pathTags": [
+                "python"
+            ]
+        },
+        {
             "path": "python/think_python/metathesis",
             "data": {
                 "completed": "2025-10-24",
