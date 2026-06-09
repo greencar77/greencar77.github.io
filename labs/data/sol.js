@@ -268,6 +268,28 @@ let global_sol = {
             ]
         },
         {
+            "path": "python/libs/matplotlib",
+            "data": {
+                "completed": "2025-11-23",
+                "labId": "WJ39KX"
+            },
+            "pathTags": [
+                "libs",
+                "python"
+            ]
+        },
+        {
+            "path": "python/libs/numpy_create",
+            "data": {
+                "completed": "2025-11-04",
+                "labId": "V8GD3Y"
+            },
+            "pathTags": [
+                "libs",
+                "python"
+            ]
+        },
+        {
             "path": "python/libs/playwright",
             "data": {
                 "completed": "2026-06-02",
@@ -286,26 +308,6 @@ let global_sol = {
             },
             "pathTags": [
                 "libs",
-                "python"
-            ]
-        },
-        {
-            "path": "python/matplotlib",
-            "data": {
-                "completed": "2025-11-23",
-                "labId": "WJ39KX"
-            },
-            "pathTags": [
-                "python"
-            ]
-        },
-        {
-            "path": "python/numpy_create",
-            "data": {
-                "completed": "2025-11-04",
-                "labId": "V8GD3Y"
-            },
-            "pathTags": [
                 "python"
             ]
         },
