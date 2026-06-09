@@ -411,7 +411,7 @@ let global_index = {
                 "python",
                 "think_python"
             ],
-            "title": "ex_12_3_metathesis"
+            "title": "Think Python - exercise 12.3 - Metathesis pair"
         },
         {
             "type": "simple",
