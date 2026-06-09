@@ -341,7 +341,7 @@
                 "libs",
                 "python"
             ],
-            "title": "matplotlib"
+            "title": "Python lib - matplotlib"
         },
         {
             "type": "simple",

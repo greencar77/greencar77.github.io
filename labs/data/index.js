@@ -341,7 +341,7 @@ let global_index = {
                 "libs",
                 "python"
             ],
-            "title": "matplotlib"
+            "title": "Python lib - matplotlib"
         },
         {
             "type": "simple",
