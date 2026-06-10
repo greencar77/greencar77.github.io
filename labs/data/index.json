@@ -306,6 +306,19 @@
         },
         {
             "type": "simple",
+            "id": "2NIHR0",
+            "path": "java/_simple/spring_vaadin",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en"
+            ],
+            "title": "Vaadin (SpringBoot)"
+        },
+        {
+            "type": "simple",
             "id": "QK290P",
             "path": "js/_simple/winjs",
             "lang": [

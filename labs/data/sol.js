@@ -166,6 +166,17 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/springboot-vaadin",
+            "data": {
+                "completed": "2026-05-26",
+                "labId": "2NIHR0"
+            },
+            "pathTags": [
+                "java",
+                "spring"
+            ]
+        },
+        {
             "path": "java/spring/springconf",
             "data": {
                 "completed": "2020-10-16",
