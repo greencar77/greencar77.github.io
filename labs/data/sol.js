@@ -120,6 +120,18 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/hibernate/optimistic",
+            "data": {
+                "completed": "2026-06-11",
+                "labId": "VLCYNX"
+            },
+            "pathTags": [
+                "hibernate",
+                "java",
+                "spring"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/springboot-hibernate-em",
             "data": {
                 "completed": "2026-05-27",

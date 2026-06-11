@@ -177,6 +177,21 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "VLCYNX",
+            "path": "java/spring/hibernate/_simple/optimistic",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Hibernate Optimistic locking"
+        },
+        {
+            "type": "simple",
             "id": "G14DCI",
             "path": "java/spring/hibernate/_simple/spring_hib_em",
             "lang": [
