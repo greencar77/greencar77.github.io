@@ -8,7 +8,8 @@ let global_sol = {
             },
             "tags": [
                 "java",
-                "javaapi"
+                "javaapi",
+                "maven"
             ]
         },
         {
@@ -19,7 +20,8 @@ let global_sol = {
             },
             "tags": [
                 "java",
-                "javaapi"
+                "javaapi",
+                "maven"
             ]
         },
         {
@@ -29,7 +31,8 @@ let global_sol = {
                 "labId": "C235GQ"
             },
             "tags": [
-                "java"
+                "java",
+                "maven"
             ]
         },
         {
@@ -39,7 +42,8 @@ let global_sol = {
                 "labId": "AM0Q4G"
             },
             "tags": [
-                "java"
+                "java",
+                "maven"
             ]
         },
         {
@@ -49,7 +53,8 @@ let global_sol = {
                 "labId": "7DQSC6"
             },
             "tags": [
-                "java"
+                "java",
+                "maven"
             ]
         },
         {
@@ -61,7 +66,8 @@ let global_sol = {
             "tags": [
                 "java",
                 "java09",
-                "jdk_features"
+                "jdk_features",
+                "maven"
             ]
         },
         {
@@ -73,7 +79,8 @@ let global_sol = {
             "tags": [
                 "java",
                 "java09",
-                "jdk_features"
+                "jdk_features",
+                "maven"
             ]
         },
         {
@@ -84,7 +91,8 @@ let global_sol = {
             },
             "tags": [
                 "java",
-                "jdk_features"
+                "jdk_features",
+                "maven"
             ]
         },
         {
@@ -94,7 +102,8 @@ let global_sol = {
                 "labId": "AE1KAD"
             },
             "tags": [
-                "java"
+                "java",
+                "maven"
             ]
         },
         {
@@ -104,7 +113,8 @@ let global_sol = {
                 "labId": "1UL79Q"
             },
             "tags": [
-                "java"
+                "java",
+                "maven"
             ]
         },
         {
@@ -116,6 +126,7 @@ let global_sol = {
             "tags": [
                 "hibernate",
                 "java",
+                "maven",
                 "spring"
             ]
         },
@@ -128,6 +139,7 @@ let global_sol = {
             "tags": [
                 "hibernate",
                 "java",
+                "maven",
                 "spring"
             ]
         },
@@ -140,6 +152,7 @@ let global_sol = {
             "tags": [
                 "hibernate",
                 "java",
+                "maven",
                 "spring"
             ]
         },
@@ -152,6 +165,7 @@ let global_sol = {
             "tags": [
                 "hibernate",
                 "java",
+                "maven",
                 "spring"
             ]
         },
@@ -163,6 +177,7 @@ let global_sol = {
             },
             "tags": [
                 "java",
+                "maven",
                 "spring"
             ]
         },
@@ -174,6 +189,7 @@ let global_sol = {
             },
             "tags": [
                 "java",
+                "maven",
                 "spring"
             ]
         },
@@ -185,6 +201,7 @@ let global_sol = {
             },
             "tags": [
                 "java",
+                "maven",
                 "spring"
             ]
         },
@@ -196,6 +213,7 @@ let global_sol = {
             },
             "tags": [
                 "java",
+                "maven",
                 "spring"
             ]
         },
@@ -207,6 +225,7 @@ let global_sol = {
             },
             "tags": [
                 "java",
+                "maven",
                 "spring"
             ]
         },
