@@ -2,7 +2,6 @@
 
 class MyApp {
 
-
     constructor() {
         this.data = new DataContainer(global_index);
         this.appData = this.data.data;
@@ -63,8 +62,6 @@ class MyApp {
             + '</td>'
             + '<td>'
             + linkLv
-            + '</td>'
-            + '<td>'
             + linkEn
             + '</td>'
             + '<td>'
