@@ -2,25 +2,39 @@
 
 class MyApp {
 
+    filterConfig = {
+            "tagPropName": "pathTags",
+            "filters":  [
+                {
+                   "id": "f1",
+                   "random": true,
+                },
+            ],
+            "ignorableTags": null,
+            "entryCreator": (entry, skippingTags) => this.entryCreator(entry, skippingTags),
+            "appName": "app",
+            "filterPropertyName": "filterApp",
+            "itemsComparator": this.compare,
+            "tagGroups": [
+                {
+                    "id": "g2",
+                    "byValues": [ "java", "python" ],
+                    "title": "Programming language",
+                },
+                {
+                    "title": "Language",
+                    "byPrefix": "lang_",
+                },
+            ],
+            "containerFn": () => this.createContainerTable,
+        };
+
     constructor() {
         this.data = new DataContainer(global_index);
-        this.appData = this.data.data;
+        this.appData = Array.from(this.data.solutions.values());
 
-        this.show();
-    }
-
-    show() {
-        let main = document.getElementById('main');
-
-        main.appendChild(this.createTitle('x', 'Completed Tasks'));
-
-        let table = document.createElement('table');
-        let sorted = Array.from(this.data.solutions.values()).sort(this.compare);
-        sorted.forEach(e => {
-            table.appendChild(this.entryCreator(e));
-        });
-
-        main.appendChild(table);
+        this.filterApp = new FilterCore(this.appData, this.filterConfig);
+        this.filterApp.init();
     }
 
     entryCreator(entry, skippingTags) {
@@ -87,10 +101,11 @@ class MyApp {
         return link;
     }
 
-    createTitle(id, text) {
-        let result = document.createElement('h2');
-        result.setAttribute('id', id);
-        result.textContent = text;
-        return result;
+    createContainerTable() {
+        let outerElement = document.createElement('div');
+        let innerElement = document.createElement('table');
+        innerElement.setAttribute('class', 'filter');
+        outerElement.appendChild(innerElement);
+        return { "outer": outerElement, "inner": innerElement };
     }
 }
