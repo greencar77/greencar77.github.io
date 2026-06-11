@@ -140,6 +140,23 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/exceptions",
+            "data": {
+                "completed": "2026-06-11",
+                "labId": "LVAYZ7"
+            },
+            "tags": [
+                "java",
+                "maven",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.5.11"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/hibernate-eagerlazy",
             "data": {
                 "completed": "2026-06-05",

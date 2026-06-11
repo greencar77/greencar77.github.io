@@ -222,6 +222,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "LVAYZ7",
+            "path": "java/spring/_simple/exceptions",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring Exceptions"
+        },
+        {
+            "type": "simple",
             "id": "K204NK",
             "path": "java/spring/_simple/simple",
             "lang": [
