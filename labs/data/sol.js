@@ -172,7 +172,6 @@ let global_sol = {
                 "mvndep_com.h2database:h2",
                 "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
-                "mvndep_org.springframework.boot:spring-boot-starter-web",
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
                 "springboot",
