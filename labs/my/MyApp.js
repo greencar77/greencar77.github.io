@@ -29,6 +29,10 @@ class MyApp {
                     "title": "Maven dependency",
                     "byPrefix": "mvndep_",
                 },
+                {
+                    "title": "SpringBoot",
+                    "byPrefix": "springboot_",
+                },
             ],
             "containerFn": () => this.createContainerTable,
         };

@@ -153,7 +153,10 @@
                 "mvndep_net.ttddyy:datasource-proxy",
                 "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
-                "spring"
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.0"
             ]
         },
         {
@@ -170,7 +173,10 @@
                 "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
                 "mvndep_org.springframework.boot:spring-boot-starter-web",
-                "spring"
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_2.4.3"
             ]
         },
         {
@@ -186,7 +192,10 @@
                 "mvndep_com.h2database:h2",
                 "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
                 "mvndep_org.springframework.boot:spring-boot-starter-web",
-                "spring"
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.0"
             ]
         },
         {
@@ -202,7 +211,10 @@
                 "mvndep_com.h2database:h2",
                 "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
                 "mvndep_org.springframework.boot:spring-boot-starter-web",
-                "spring"
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.0"
             ]
         },
         {
@@ -216,7 +228,10 @@
                 "maven",
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
                 "mvndep_org.springframework.boot:spring-boot-starter-web",
-                "spring"
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.0"
             ]
         },
         {
@@ -249,7 +264,10 @@
                 "maven",
                 "mvndep_com.vaadin:vaadin-bom",
                 "mvndep_com.vaadin:vaadin-spring-boot-starter",
-                "spring"
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.5"
             ]
         },
         {
