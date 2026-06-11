@@ -9,7 +9,11 @@ let global_sol = {
             "tags": [
                 "java",
                 "javaapi",
-                "maven"
+                "maven",
+                "mvndep_org.apache.logging.log4j:log4j-api",
+                "mvndep_org.apache.logging.log4j:log4j-core",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
             ]
         },
         {
@@ -21,7 +25,10 @@ let global_sol = {
             "tags": [
                 "java",
                 "javaapi",
-                "maven"
+                "maven",
+                "mvndep_io.rest-assured:rest-assured",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
             ]
         },
         {
@@ -32,7 +39,10 @@ let global_sol = {
             },
             "tags": [
                 "java",
-                "maven"
+                "maven",
+                "mvndep_javax.xml.bind:jaxb-api",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
             ]
         },
         {
@@ -43,7 +53,10 @@ let global_sol = {
             },
             "tags": [
                 "java",
-                "maven"
+                "maven",
+                "mvndep_javax.xml.bind:jaxb-api",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
             ]
         },
         {
@@ -54,7 +67,11 @@ let global_sol = {
             },
             "tags": [
                 "java",
-                "maven"
+                "maven",
+                "mvndep_jakarta.xml.bind:jakarta.xml.bind-api",
+                "mvndep_org.glassfish.jaxb:jaxb-runtime",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
             ]
         },
         {
@@ -80,7 +97,9 @@ let global_sol = {
                 "java",
                 "java09",
                 "jdk_features",
-                "maven"
+                "maven",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
             ]
         },
         {
@@ -103,7 +122,10 @@ let global_sol = {
             },
             "tags": [
                 "java",
-                "maven"
+                "maven",
+                "mvndep_org.jspecify:jspecify",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
             ]
         },
         {
@@ -127,6 +149,10 @@ let global_sol = {
                 "hibernate",
                 "java",
                 "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_net.ttddyy:datasource-proxy",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
                 "spring"
             ]
         },
@@ -140,6 +166,10 @@ let global_sol = {
                 "hibernate",
                 "java",
                 "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
                 "spring"
             ]
         },
@@ -153,6 +183,9 @@ let global_sol = {
                 "hibernate",
                 "java",
                 "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
                 "spring"
             ]
         },
@@ -166,6 +199,9 @@ let global_sol = {
                 "hibernate",
                 "java",
                 "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
                 "spring"
             ]
         },
@@ -178,6 +214,8 @@ let global_sol = {
             "tags": [
                 "java",
                 "maven",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
                 "spring"
             ]
         },
@@ -190,6 +228,13 @@ let global_sol = {
             "tags": [
                 "java",
                 "maven",
+                "mvndep_jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api",
+                "mvndep_jakarta.servlet.jsp:jakarta.servlet.jsp-api",
+                "mvndep_jakarta.servlet:jakarta.servlet-api",
+                "mvndep_org.glassfish.web:jakarta.servlet.jsp.jstl",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "mvndep_org.springframework:spring-webmvc",
                 "spring"
             ]
         },
@@ -202,6 +247,8 @@ let global_sol = {
             "tags": [
                 "java",
                 "maven",
+                "mvndep_com.vaadin:vaadin-bom",
+                "mvndep_com.vaadin:vaadin-spring-boot-starter",
                 "spring"
             ]
         },
@@ -214,6 +261,10 @@ let global_sol = {
             "tags": [
                 "java",
                 "maven",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
                 "spring"
             ]
         },
@@ -226,6 +277,9 @@ let global_sol = {
             "tags": [
                 "java",
                 "maven",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "mvndep_org.springframework:spring-context",
                 "spring"
             ]
         },

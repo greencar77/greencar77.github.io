@@ -25,6 +25,10 @@ class MyApp {
                     "title": "Language",
                     "byPrefix": "lang_",
                 },
+                {
+                    "title": "Maven dependency",
+                    "byPrefix": "mvndep_",
+                },
             ],
             "containerFn": () => this.createContainerTable,
         };
