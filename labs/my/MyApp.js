@@ -3,7 +3,7 @@
 class MyApp {
 
     filterConfig = {
-            "tagPropName": "pathTags",
+            "tagPropName": "tags",
             "filters":  [
                 {
                    "id": "f1",

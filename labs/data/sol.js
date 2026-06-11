@@ -6,7 +6,7 @@ let global_sol = {
                 "completed": "2020-11-10",
                 "labId": "DLT57N"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "javaapi"
             ]
@@ -17,7 +17,7 @@ let global_sol = {
                 "completed": "2025-10-22",
                 "labId": "M55OE6"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "javaapi"
             ]
@@ -28,7 +28,7 @@ let global_sol = {
                 "completed": "2025-11-17",
                 "labId": "C235GQ"
             },
-            "pathTags": [
+            "tags": [
                 "java"
             ]
         },
@@ -38,7 +38,7 @@ let global_sol = {
                 "completed": "2026-02-26",
                 "labId": "AM0Q4G"
             },
-            "pathTags": [
+            "tags": [
                 "java"
             ]
         },
@@ -48,7 +48,7 @@ let global_sol = {
                 "completed": "2025-11-14",
                 "labId": "7DQSC6"
             },
-            "pathTags": [
+            "tags": [
                 "java"
             ]
         },
@@ -58,7 +58,7 @@ let global_sol = {
                 "completed": "2026-03-26",
                 "labId": "7ZYDYX"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "java09",
                 "jdk_features"
@@ -70,7 +70,7 @@ let global_sol = {
                 "completed": "2026-02-15",
                 "labId": "6KUYRS"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "java09",
                 "jdk_features"
@@ -82,7 +82,7 @@ let global_sol = {
                 "completed": "2024-12-06",
                 "labId": "8JXY4S"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "jdk_features"
             ]
@@ -93,7 +93,7 @@ let global_sol = {
                 "completed": "2026-03-13",
                 "labId": "AE1KAD"
             },
-            "pathTags": [
+            "tags": [
                 "java"
             ]
         },
@@ -103,7 +103,7 @@ let global_sol = {
                 "completed": "2024-12-06",
                 "labId": "1UL79Q"
             },
-            "pathTags": [
+            "tags": [
                 "java"
             ]
         },
@@ -113,7 +113,7 @@ let global_sol = {
                 "completed": "2026-06-05",
                 "labId": "DL8HJG"
             },
-            "pathTags": [
+            "tags": [
                 "hibernate",
                 "java",
                 "spring"
@@ -125,7 +125,7 @@ let global_sol = {
                 "completed": "2026-06-11",
                 "labId": "VLCYNX"
             },
-            "pathTags": [
+            "tags": [
                 "hibernate",
                 "java",
                 "spring"
@@ -137,7 +137,7 @@ let global_sol = {
                 "completed": "2026-05-27",
                 "labId": "G14DCI"
             },
-            "pathTags": [
+            "tags": [
                 "hibernate",
                 "java",
                 "spring"
@@ -149,7 +149,7 @@ let global_sol = {
                 "completed": "2026-05-25",
                 "labId": "VU740Z"
             },
-            "pathTags": [
+            "tags": [
                 "hibernate",
                 "java",
                 "spring"
@@ -161,7 +161,7 @@ let global_sol = {
                 "completed": "2026-05-19",
                 "labId": "KZ5HX1"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "spring"
             ]
@@ -172,7 +172,7 @@ let global_sol = {
                 "completed": "2026-04-21",
                 "labId": "LGPH17"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "spring"
             ]
@@ -183,7 +183,7 @@ let global_sol = {
                 "completed": "2026-05-26",
                 "labId": "2NIHR0"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "spring"
             ]
@@ -194,7 +194,7 @@ let global_sol = {
                 "completed": "2020-10-16",
                 "labId": "K204NK"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "spring"
             ]
@@ -205,7 +205,7 @@ let global_sol = {
                 "completed": "2026-05-08",
                 "labId": "PL531K"
             },
-            "pathTags": [
+            "tags": [
                 "java",
                 "spring"
             ]
@@ -216,7 +216,7 @@ let global_sol = {
                 "completed": "2026-01-30",
                 "labId": "QK290P"
             },
-            "pathTags": [
+            "tags": [
                 "js"
             ]
         },
@@ -226,7 +226,7 @@ let global_sol = {
                 "completed": "2025-11-15",
                 "labId": "HITYTE"
             },
-            "pathTags": [
+            "tags": [
                 "2024",
                 "aoc",
                 "python"
@@ -238,7 +238,7 @@ let global_sol = {
                 "completed": "2025-11-15",
                 "labId": "GT6G23"
             },
-            "pathTags": [
+            "tags": [
                 "2024",
                 "aoc",
                 "python"
@@ -250,7 +250,7 @@ let global_sol = {
                 "completed": "2025-12-10",
                 "labId": "YC1XB5"
             },
-            "pathTags": [
+            "tags": [
                 "2024",
                 "aoc",
                 "python"
@@ -262,7 +262,7 @@ let global_sol = {
                 "completed": "2025-12-19",
                 "labId": "MUN0SW"
             },
-            "pathTags": [
+            "tags": [
                 "2025",
                 "aoc",
                 "python"
@@ -274,7 +274,7 @@ let global_sol = {
                 "completed": "2026-02-21",
                 "labId": "KGU4RY"
             },
-            "pathTags": [
+            "tags": [
                 "2025",
                 "aoc",
                 "python"
@@ -286,7 +286,7 @@ let global_sol = {
                 "completed": "2026-03-03",
                 "labId": "HZE4YC"
             },
-            "pathTags": [
+            "tags": [
                 "python"
             ]
         },
@@ -296,7 +296,7 @@ let global_sol = {
                 "completed": "2025-11-23",
                 "labId": "WJ39KX"
             },
-            "pathTags": [
+            "tags": [
                 "libs",
                 "python"
             ]
@@ -307,7 +307,7 @@ let global_sol = {
                 "completed": "2025-11-04",
                 "labId": "V8GD3Y"
             },
-            "pathTags": [
+            "tags": [
                 "libs",
                 "python"
             ]
@@ -318,7 +318,7 @@ let global_sol = {
                 "completed": "2026-06-02",
                 "labId": "BG99P0"
             },
-            "pathTags": [
+            "tags": [
                 "libs",
                 "python"
             ]
@@ -329,7 +329,7 @@ let global_sol = {
                 "completed": "2026-05-19",
                 "labId": "Q6HP1W"
             },
-            "pathTags": [
+            "tags": [
                 "libs",
                 "python"
             ]
@@ -340,7 +340,7 @@ let global_sol = {
                 "completed": "2026-06-02",
                 "labId": "R0667X"
             },
-            "pathTags": [
+            "tags": [
                 "python"
             ]
         },
@@ -350,7 +350,7 @@ let global_sol = {
                 "completed": "2026-06-08",
                 "labId": "PJD37O"
             },
-            "pathTags": [
+            "tags": [
                 "python"
             ]
         },
@@ -360,7 +360,7 @@ let global_sol = {
                 "completed": "2025-10-24",
                 "labId": "X3PU6D"
             },
-            "pathTags": [
+            "tags": [
                 "python",
                 "think_python"
             ]
