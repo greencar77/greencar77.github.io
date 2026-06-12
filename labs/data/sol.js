@@ -283,6 +283,22 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/resttemplate",
+            "data": {
+                "completed": "2026-06-12",
+                "labId": "W24TKW"
+            },
+            "tags": [
+                "java",
+                "maven",
+                "mvndep_com.fasterxml.jackson.core:jackson-databind",
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "mvndep_org.springframework:spring-context",
+                "mvndep_org.springframework:spring-web",
+                "spring"
+            ]
+        },
+        {
             "path": "java/spring/springboot-vaadin",
             "data": {
                 "completed": "2026-05-26",
@@ -349,6 +365,7 @@ let global_sol = {
             "tags": [
                 "2024",
                 "aoc",
+                "python",
                 "python"
             ]
         },
@@ -361,6 +378,7 @@ let global_sol = {
             "tags": [
                 "2024",
                 "aoc",
+                "python",
                 "python"
             ]
         },
@@ -373,6 +391,8 @@ let global_sol = {
             "tags": [
                 "2024",
                 "aoc",
+                "pylib_re",
+                "python",
                 "python"
             ]
         },
@@ -385,6 +405,7 @@ let global_sol = {
             "tags": [
                 "2025",
                 "aoc",
+                "python",
                 "python"
             ]
         },
@@ -397,6 +418,7 @@ let global_sol = {
             "tags": [
                 "2025",
                 "aoc",
+                "python",
                 "python"
             ]
         },
@@ -407,6 +429,9 @@ let global_sol = {
                 "labId": "HZE4YC"
             },
             "tags": [
+                "pylib_config",
+                "pylib_requests",
+                "python",
                 "python"
             ]
         },
@@ -418,6 +443,8 @@ let global_sol = {
             },
             "tags": [
                 "libs",
+                "pylib_matplotlib",
+                "python",
                 "python"
             ]
         },
@@ -429,6 +456,8 @@ let global_sol = {
             },
             "tags": [
                 "libs",
+                "pylib_numpy",
+                "python",
                 "python"
             ]
         },
@@ -440,6 +469,9 @@ let global_sol = {
             },
             "tags": [
                 "libs",
+                "pylib_os",
+                "pylib_playwright",
+                "python",
                 "python"
             ]
         },
@@ -451,6 +483,8 @@ let global_sol = {
             },
             "tags": [
                 "libs",
+                "pylib_requests",
+                "python",
                 "python"
             ]
         },
@@ -471,6 +505,7 @@ let global_sol = {
                 "labId": "PJD37O"
             },
             "tags": [
+                "python",
                 "python"
             ]
         },
@@ -481,6 +516,9 @@ let global_sol = {
                 "labId": "X3PU6D"
             },
             "tags": [
+                "pylib___future__",
+                "pylib_anagram_sets",
+                "python",
                 "python",
                 "think_python"
             ]

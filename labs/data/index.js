@@ -250,6 +250,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "W24TKW",
+            "path": "java/spring/_simple/resttemplate",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring RestTemplate"
+        },
+        {
+            "type": "simple",
             "id": "K204NK",
             "path": "java/spring/_simple/simple",
             "lang": [
