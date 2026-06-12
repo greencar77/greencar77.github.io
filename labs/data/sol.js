@@ -1,6 +1,19 @@
 let global_sol = {
     "values": [
         {
+            "path": "java/hashmap_thread",
+            "data": {
+                "completed": "2026-06-12",
+                "labId": "DMHCC3"
+            },
+            "tags": [
+                "java",
+                "maven",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
+            ]
+        },
+        {
             "path": "java/javaapi/log4j",
             "data": {
                 "completed": "2020-11-10",

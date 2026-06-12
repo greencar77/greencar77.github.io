@@ -57,6 +57,20 @@ let global_index = {
             "title": "streams"
         },
         {
+            "type": "simple",
+            "id": "DMHCC3",
+            "path": "java/javalang/_simple/hashmap",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "javalang",
+                "lang_en"
+            ],
+            "title": "HashMap thread-safety"
+        },
+        {
             "type": "standalone",
             "id": "7DQSC6",
             "path": "java/jaxb/jaxb2-maven-plugin",
