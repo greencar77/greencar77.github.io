@@ -33,6 +33,10 @@ class MyApp {
                     "title": "SpringBoot",
                     "byPrefix": "springboot_",
                 },
+                {
+                    "title": "Python libs",
+                    "byPrefix": "pylib_",
+                },
             ],
             "containerFn": () => this.createContainerTable,
         };
