@@ -1,6 +1,19 @@
 {
     "values": [
         {
+            "path": "java/executorservice",
+            "data": {
+                "completed": "2026-06-13",
+                "labId": "JDS4HK"
+            },
+            "tags": [
+                "java",
+                "maven",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
+            ]
+        },
+        {
             "path": "java/hashmap_thread",
             "data": {
                 "completed": "2026-06-12",

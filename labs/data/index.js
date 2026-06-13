@@ -58,6 +58,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "JDS4HK",
+            "path": "java/javalang/_simple/executorservice",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "javalang",
+                "lang_en"
+            ],
+            "title": "Java ExecutorService"
+        },
+        {
+            "type": "simple",
             "id": "DMHCC3",
             "path": "java/javalang/_simple/hashmap",
             "lang": [
