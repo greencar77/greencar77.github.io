@@ -277,6 +277,25 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/kafka",
+            "data": {
+                "completed": "2026-06-15",
+                "labId": "AFCAJ1"
+            },
+            "tags": [
+                "java",
+                "maven",
+                "mvndep_org.springframework.boot:spring-boot-starter",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.kafka:spring-kafka",
+                "mvndep_org.springframework.kafka:spring-kafka-test",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.0"
+            ]
+        },
+        {
             "path": "java/spring/mvcdemo",
             "data": {
                 "completed": "2026-04-21",

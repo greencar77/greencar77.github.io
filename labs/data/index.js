@@ -264,6 +264,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "AFCAJ1",
+            "path": "java/spring/_simple/kafka",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "SpringBoot Kafka"
+        },
+        {
+            "type": "simple",
             "id": "W24TKW",
             "path": "java/spring/_simple/resttemplate",
             "lang": [
