@@ -391,6 +391,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "YXQGCA",
+            "path": "java/_simple/soap_namespaces",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en"
+            ],
+            "title": "SOAP creation and namespaces"
+        },
+        {
+            "type": "simple",
             "id": "2NIHR0",
             "path": "java/_simple/spring_vaadin",
             "lang": [

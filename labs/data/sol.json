@@ -166,6 +166,21 @@
             ]
         },
         {
+            "path": "java/soap2bodies",
+            "data": {
+                "completed": "2026-06-16",
+                "labId": "YXQGCA"
+            },
+            "tags": [
+                "java",
+                "maven",
+                "mvndep_com.sun.xml.messaging.saaj:saaj-impl",
+                "mvndep_javax.xml.soap:javax.xml.soap-api",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
+            ]
+        },
+        {
             "path": "java/spring/exceptions",
             "data": {
                 "completed": "2026-06-11",
