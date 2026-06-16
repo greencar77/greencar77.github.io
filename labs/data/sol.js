@@ -427,7 +427,6 @@ let global_sol = {
             "tags": [
                 "2024",
                 "aoc",
-                "python",
                 "python"
             ]
         },
@@ -440,7 +439,6 @@ let global_sol = {
             "tags": [
                 "2024",
                 "aoc",
-                "python",
                 "python"
             ]
         },
@@ -454,7 +452,6 @@ let global_sol = {
                 "2024",
                 "aoc",
                 "pylib_re",
-                "python",
                 "python"
             ]
         },
@@ -467,7 +464,6 @@ let global_sol = {
             "tags": [
                 "2025",
                 "aoc",
-                "python",
                 "python"
             ]
         },
@@ -480,7 +476,6 @@ let global_sol = {
             "tags": [
                 "2025",
                 "aoc",
-                "python",
                 "python"
             ]
         },
@@ -494,7 +489,6 @@ let global_sol = {
                 "pylib_asyncio",
                 "pylib_concurrent",
                 "pylib_time",
-                "python",
                 "python"
             ]
         },
@@ -507,7 +501,6 @@ let global_sol = {
             "tags": [
                 "pylib_config",
                 "pylib_requests",
-                "python",
                 "python"
             ]
         },
@@ -520,7 +513,6 @@ let global_sol = {
             "tags": [
                 "libs",
                 "pylib_matplotlib",
-                "python",
                 "python"
             ]
         },
@@ -533,7 +525,6 @@ let global_sol = {
             "tags": [
                 "libs",
                 "pylib_numpy",
-                "python",
                 "python"
             ]
         },
@@ -547,7 +538,6 @@ let global_sol = {
                 "libs",
                 "pylib_os",
                 "pylib_playwright",
-                "python",
                 "python"
             ]
         },
@@ -560,7 +550,6 @@ let global_sol = {
             "tags": [
                 "libs",
                 "pylib_requests",
-                "python",
                 "python"
             ]
         },
@@ -581,7 +570,6 @@ let global_sol = {
                 "labId": "PJD37O"
             },
             "tags": [
-                "python",
                 "python"
             ]
         },
@@ -594,7 +582,6 @@ let global_sol = {
             "tags": [
                 "pylib___future__",
                 "pylib_anagram_sets",
-                "python",
                 "python",
                 "think_python"
             ]
