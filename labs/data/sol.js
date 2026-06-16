@@ -485,6 +485,20 @@ let global_sol = {
             ]
         },
         {
+            "path": "python/async",
+            "data": {
+                "completed": "2026-06-16",
+                "labId": "UX0FSP"
+            },
+            "tags": [
+                "pylib_asyncio",
+                "pylib_concurrent",
+                "pylib_time",
+                "python",
+                "python"
+            ]
+        },
+        {
             "path": "python/jira_query",
             "data": {
                 "completed": "2026-03-03",

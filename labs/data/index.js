@@ -541,6 +541,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "UX0FSP",
+            "path": "python/_simple/async",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "python"
+            ],
+            "title": "Python concurrency"
+        },
+        {
+            "type": "simple",
             "id": "R0667X",
             "path": "python/_simple/install_python",
             "lang": [
