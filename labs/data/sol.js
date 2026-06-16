@@ -141,6 +141,21 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/jdk_features/java21/virtualthreads",
+            "data": {
+                "completed": "2026-06-16",
+                "labId": "BSURUT"
+            },
+            "tags": [
+                "java",
+                "java21",
+                "jdk_features",
+                "maven",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api"
+            ]
+        },
+        {
             "path": "java/jspecifynull",
             "data": {
                 "completed": "2026-03-13",

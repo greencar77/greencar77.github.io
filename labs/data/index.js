@@ -174,6 +174,21 @@ let global_index = {
             "title": "java16"
         },
         {
+            "type": "simple",
+            "id": "BSURUT",
+            "path": "java/jdk_features/java21/_simple/virtualthreads",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "java21",
+                "jdk_features",
+                "lang_en"
+            ],
+            "title": "Java virtual threads (Java 21)"
+        },
+        {
             "type": "standalone",
             "id": "AM0Q4G",
             "path": "java/maven_plugin/jaxb2inherit",
