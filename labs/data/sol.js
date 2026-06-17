@@ -1,6 +1,16 @@
 let global_sol = {
     "values": [
         {
+            "path": "htmlcssjs/popup",
+            "data": {
+                "completed": "2026-06-17",
+                "labId": "MBLU4L"
+            },
+            "tags": [
+                "htmlcssjs"
+            ]
+        },
+        {
             "path": "java/executorservice",
             "data": {
                 "completed": "2026-06-13",

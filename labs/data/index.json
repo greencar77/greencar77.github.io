@@ -2,6 +2,19 @@
     "values": [
         {
             "type": "simple",
+            "id": "MBLU4L",
+            "path": "htmlcssjs/_simple/popup",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "htmlcssjs",
+                "lang_en"
+            ],
+            "title": "HTML popup"
+        },
+        {
+            "type": "simple",
             "id": "ST59CX",
             "path": "java/javaapi/_simple/gson",
             "lang": [
