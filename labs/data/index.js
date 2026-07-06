@@ -494,7 +494,7 @@ let global_index = {
                 "libs",
                 "python"
             ],
-            "title": "mysql"
+            "title": "Python lib - mysql"
         },
         {
             "type": "simple",
