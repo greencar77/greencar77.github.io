@@ -527,6 +527,19 @@ let global_sol = {
             ]
         },
         {
+            "path": "python/libs/mysqldemo",
+            "data": {
+                "completed": "2026-07-06",
+                "labId": "LQ7BLR"
+            },
+            "tags": [
+                "libs",
+                "pylib_getpass",
+                "pylib_mysql",
+                "python"
+            ]
+        },
+        {
             "path": "python/libs/numpy_create",
             "data": {
                 "completed": "2025-11-04",
