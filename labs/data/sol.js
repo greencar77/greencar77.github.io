@@ -231,7 +231,15 @@ let global_sol = {
             "tags": [
                 "hibernate",
                 "java",
-                "spring"
+                "maven",
+                "mvndep_com.mysql:mysql-connector-j",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.1"
             ]
         },
         {
