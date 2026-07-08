@@ -386,6 +386,7 @@ let global_sol = {
                 "labId": "UDGEIK"
             },
             "tags": [
+                "browser_ui",
                 "java",
                 "maven",
                 "mvndep_com.mysql:mysql-connector-j",
