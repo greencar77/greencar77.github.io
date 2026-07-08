@@ -379,6 +379,28 @@
             ]
         },
         {
+            "path": "java/spring/springboot-jsp-db",
+            "data": {
+                "completed": "2026-07-08",
+                "labId": "UDGEIK"
+            },
+            "tags": [
+                "java",
+                "maven",
+                "mvndep_com.mysql:mysql-connector-j",
+                "mvndep_jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api",
+                "mvndep_org.apache.tomcat.embed:tomcat-embed-jasper",
+                "mvndep_org.glassfish.web:jakarta.servlet.jsp.jstl",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.5.0-SNAPSHOT"
+            ]
+        },
+        {
             "path": "java/spring/springboot-vaadin",
             "data": {
                 "completed": "2026-05-26",

@@ -334,6 +334,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "UDGEIK",
+            "path": "java/spring/_simple/springboot_jsp_db",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "SpringBoot, JSP, Hibernate, MySQL"
+        },
+        {
+            "type": "simple",
             "id": "PL531K",
             "path": "java/spring/_simple/spring_context",
             "lang": [
