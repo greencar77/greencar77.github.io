@@ -248,6 +248,21 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "GQMJ29",
+            "path": "java/spring/hibernate/_simple/reveng",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Hibernate entity class generation"
+        },
+        {
+            "type": "simple",
             "id": "G14DCI",
             "path": "java/spring/hibernate/_simple/spring_hib_em",
             "lang": [

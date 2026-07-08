@@ -223,6 +223,18 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/hibernate/genbytool",
+            "data": {
+                "completed": "2026-07-08",
+                "labId": "GQMJ29"
+            },
+            "tags": [
+                "hibernate",
+                "java",
+                "spring"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/hibernate-eagerlazy",
             "data": {
                 "completed": "2026-06-05",
