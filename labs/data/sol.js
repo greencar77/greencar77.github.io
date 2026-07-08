@@ -303,9 +303,13 @@ let global_sol = {
             "path": "java/spring/httpjson",
             "data": {
                 "completed": "2026-05-19",
-                "labId": "KZ5HX1"
+                "labId": "KZ5HX1",
+                "tags": [
+                    "http"
+                ]
             },
             "tags": [
+                "http",
                 "java",
                 "maven",
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
@@ -374,9 +378,13 @@ let global_sol = {
             "path": "java/spring/springboot-vaadin",
             "data": {
                 "completed": "2026-05-26",
-                "labId": "2NIHR0"
+                "labId": "2NIHR0",
+                "tags": [
+                    "browser_ui"
+                ]
             },
             "tags": [
+                "browser_ui",
                 "java",
                 "maven",
                 "mvndep_com.vaadin:vaadin-bom",
