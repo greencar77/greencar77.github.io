@@ -343,9 +343,13 @@
             "path": "java/spring/mvcdemo",
             "data": {
                 "completed": "2026-04-21",
-                "labId": "LGPH17"
+                "labId": "LGPH17",
+                "tags": [
+                    "browser_ui"
+                ]
             },
             "tags": [
+                "browser_ui",
                 "java",
                 "maven",
                 "mvndep_jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api",
