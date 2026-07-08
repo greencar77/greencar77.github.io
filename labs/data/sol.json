@@ -383,10 +383,14 @@
             "path": "java/spring/springboot-jsp-db",
             "data": {
                 "completed": "2026-07-08",
-                "labId": "UDGEIK"
+                "labId": "UDGEIK",
+                "tags": [
+                    "hibernate"
+                ]
             },
             "tags": [
                 "browser_ui",
+                "hibernate",
                 "java",
                 "maven",
                 "mvndep_com.mysql:mysql-connector-j",
