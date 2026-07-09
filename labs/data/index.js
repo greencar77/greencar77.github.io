@@ -321,6 +321,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "PQM1B5",
+            "path": "java/spring/_simple/jsp",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Basic JSP"
+        },
+        {
+            "type": "simple",
             "id": "AFCAJ1",
             "path": "java/spring/_simple/kafka",
             "lang": [
