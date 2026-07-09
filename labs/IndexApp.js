@@ -30,8 +30,17 @@ class IndexApp {
             "tagGroups": [
                 {
                     "id": "g2",
-                    "byValues": [ "java", "python" ],
                     "title": "Programming language",
+                    "byValues": [ "java", "python" ],
+                },
+                {
+                    "id": "g3",
+                    "title": "Java features",
+                    "byValues": [ "java09", "java14", "java21" ],
+                },
+                {
+                    "title": "Advent of Code year",
+                    "byPrefix": "aoc_",
                 },
                 {
                     "title": "Language",
