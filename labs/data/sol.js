@@ -1,6 +1,16 @@
 let global_sol = {
     "values": [
         {
+            "path": "git/exclude_existing",
+            "data": {
+                "completed": "2026-07-09",
+                "labId": "MZE5EK"
+            },
+            "tags": [
+                "git"
+            ]
+        },
+        {
             "path": "htmlcssjs/popup",
             "data": {
                 "completed": "2026-06-17",
