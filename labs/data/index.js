@@ -541,6 +541,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "35BY1M",
+            "path": "python/libs/_simple/pandas",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "Python lib - pandas"
+        },
+        {
+            "type": "simple",
             "id": "BG99P0",
             "path": "python/libs/_simple/playwright",
             "lang": [

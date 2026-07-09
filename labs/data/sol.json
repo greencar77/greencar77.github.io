@@ -613,6 +613,20 @@
             ]
         },
         {
+            "path": "python/libs/pandas",
+            "data": {
+                "completed": "2026-07-09",
+                "labId": "35BY1M"
+            },
+            "tags": [
+                "libs",
+                "pylib_matplotlib",
+                "pylib_pandas",
+                "pylib_seaborn",
+                "python"
+            ]
+        },
+        {
             "path": "python/libs/playwright",
             "data": {
                 "completed": "2026-06-02",
