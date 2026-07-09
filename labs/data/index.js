@@ -173,18 +173,19 @@ let global_index = {
             "title": "\"instanceof\" pattern matching"
         },
         {
-            "type": "standalone",
+            "type": "simple",
             "id": "8JXY4S",
-            "path": "java/jdk_features/java16",
+            "path": "java/jdk_features/java16/_simple/records",
             "lang": [
                 "en"
             ],
             "tags": [
                 "java",
+                "java16",
                 "jdk_features",
                 "lang_en"
             ],
-            "title": "java16"
+            "title": "Java records"
         },
         {
             "type": "simple",
