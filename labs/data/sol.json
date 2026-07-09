@@ -371,6 +371,7 @@
             "tags": [
                 "browser_ui",
                 "java",
+                "jsp",
                 "maven",
                 "mvndep_jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api",
                 "mvndep_jakarta.servlet.jsp:jakarta.servlet.jsp-api",
@@ -412,6 +413,7 @@
                 "browser_ui",
                 "hibernate",
                 "java",
+                "jsp",
                 "maven",
                 "mvndep_com.mysql:mysql-connector-j",
                 "mvndep_jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api",
