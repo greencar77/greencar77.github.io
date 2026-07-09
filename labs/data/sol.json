@@ -139,13 +139,14 @@
             ]
         },
         {
-            "path": "java/jdk_features/java16",
+            "path": "java/jdk_features/java16/records",
             "data": {
                 "completed": "2024-12-06",
                 "labId": "8JXY4S"
             },
             "tags": [
                 "java",
+                "java16",
                 "jdk_features",
                 "maven"
             ]
