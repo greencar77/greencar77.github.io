@@ -79,6 +79,7 @@ class IndexApp {
     }
 
     createItem(entry, skippingTags) {
+        skippingTags = [ "solved_x", "solved_x-", "lang_en", "lang_lv" ]; //dirty override
         let langLv;
         let langEn;
         if (entry.lang.includes('lv')) {
