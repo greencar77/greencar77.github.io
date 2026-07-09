@@ -24,7 +24,7 @@ class MyApp {
                 {
                     "id": "g3",
                     "title": "Java features",
-                    "byValues": [ "java09", "java14", "java21" ],
+                    "byValues": [ "java09", "java14", "java16", "java21" ],
                 },
                 {
                     "title": "Advent of Code year",
