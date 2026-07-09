@@ -537,7 +537,7 @@ let global_index = {
                 "libs",
                 "python"
             ],
-            "title": "numpy"
+            "title": "Python lib - numpy"
         },
         {
             "type": "simple",
@@ -579,7 +579,7 @@ let global_index = {
                 "libs",
                 "python"
             ],
-            "title": "Python lib requests"
+            "title": "Python lib - requests"
         },
         {
             "type": "simple",
