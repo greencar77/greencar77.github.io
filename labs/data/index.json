@@ -1,6 +1,19 @@
 {
     "values": [
         {
+            "type": "standalone",
+            "id": "MZE5EK",
+            "path": "git/exclude_existing",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "git",
+                "lang_en"
+            ],
+            "title": "Git - exclude existing folder"
+        },
+        {
             "type": "simple",
             "id": "MBLU4L",
             "path": "htmlcssjs/_simple/popup",
