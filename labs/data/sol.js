@@ -307,11 +307,13 @@ let global_sol = {
                     "emMethods": [
                         "getCriteriaBuilder",
                         "createQuery",
-                        "createNativeQuery"
+                        "createNativeQuery",
+                        "createNamedQuery"
                     ]
                 }
             },
             "tags": [
+                "entitymanager_createNamedQuery",
                 "entitymanager_createNativeQuery",
                 "entitymanager_createQuery",
                 "entitymanager_getCriteriaBuilder",
