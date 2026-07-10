@@ -460,7 +460,7 @@ let global_sol = {
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
                 "springboot",
-                "springboot_3.5.0-SNAPSHOT",
+                "springboot_3.5.14",
                 "webapp"
             ]
         },
