@@ -27,6 +27,11 @@ class MyApp {
                     "byValues": [ "java09", "java14", "java16", "java21" ],
                 },
                 {
+                    "id": "g4",
+                    "title": "EntityManager",
+                    "byPrefix": "entitymanager_",
+                },
+                {
                     "title": "Advent of Code year",
                     "byPrefix": "aoc_",
                 },
