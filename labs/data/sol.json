@@ -257,9 +257,15 @@
             "path": "java/spring/hibernate/hibernate-eagerlazy",
             "data": {
                 "completed": "2026-06-05",
-                "labId": "DL8HJG"
+                "labId": "DL8HJG",
+                "hibernate": {
+                    "emMethods": [
+                        "find"
+                    ]
+                }
             },
             "tags": [
+                "entitymanager_find",
                 "hibernate",
                 "java",
                 "maven",
@@ -296,9 +302,19 @@
             "path": "java/spring/hibernate/queries",
             "data": {
                 "completed": "2026-07-10",
-                "labId": "8U28QN"
+                "labId": "8U28QN",
+                "hibernate": {
+                    "emMethods": [
+                        "getCriteriaBuilder",
+                        "createQuery",
+                        "createNativeQuery"
+                    ]
+                }
             },
             "tags": [
+                "entitymanager_createNativeQuery",
+                "entitymanager_createQuery",
+                "entitymanager_getCriteriaBuilder",
                 "hibernate",
                 "java",
                 "maven",
