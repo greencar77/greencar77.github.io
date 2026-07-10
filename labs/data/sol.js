@@ -293,6 +293,29 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/hibernate/queries",
+            "data": {
+                "completed": "2026-07-10",
+                "labId": "8U28QN"
+            },
+            "tags": [
+                "hibernate",
+                "java",
+                "maven",
+                "mvndep_com.mysql:mysql-connector-j",
+                "mvndep_com.zaxxer:HikariCP",
+                "mvndep_jakarta.annotation:jakarta.annotation-api",
+                "mvndep_org.hibernate.orm:hibernate-core",
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "mvndep_org.junit.jupiter:junit-jupiter-engine",
+                "mvndep_org.springframework:spring-context",
+                "mvndep_org.springframework:spring-orm",
+                "mvndep_org.springframework:spring-test",
+                "mvndep_org.springframework:spring-tx",
+                "spring"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/springboot-hibernate-em",
             "data": {
                 "completed": "2026-05-27",

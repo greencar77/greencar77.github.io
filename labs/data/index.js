@@ -28,6 +28,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "8U28QN",
+            "path": "java/hibernate/_simple/queries",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en"
+            ],
+            "title": "Hibernate queries"
+        },
+        {
+            "type": "simple",
             "id": "ST59CX",
             "path": "java/javaapi/_simple/gson",
             "lang": [
