@@ -1,0 +1,39 @@
+body {
+    font-family: arial;
+}
+
+table {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: transparent;
+	table-layout: fixed;
+}
+
+table.family {
+    margin-top: 1px;
+    border-radius: 4px;
+    border-collapse: separate;
+    background-color: #bde9ba;
+    /*background-color: #D1FDCE;*/
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	table-layout: fixed;
+	font-size: 14px;
+}
+
+td {
+	border-width: 1px;
+	padding: 4px;
+	border-style: inset;
+	border-color: gray;
+	background-color: transparent;
+	-moz-border-radius: 0px 0px 0px 0px;
+	vertical-align: top;
+	word-wrap: break-word;
+}
+
