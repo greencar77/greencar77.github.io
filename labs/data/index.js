@@ -641,10 +641,10 @@ let global_index = {
             "id": "I6WVDR",
             "path": "python/libs/_simple/spacy",
             "lang": [
-                "lv"
+                "en"
             ],
             "tags": [
-                "lang_lv",
+                "lang_en",
                 "libs",
                 "python"
             ],
