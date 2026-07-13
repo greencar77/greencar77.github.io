@@ -744,6 +744,19 @@
             ]
         },
         {
+            "path": "python/libs/spacy",
+            "data": {
+                "completed": "2026-07-13",
+                "labId": "I6WVDR"
+            },
+            "tags": [
+                "libs",
+                "pylib_re",
+                "pylib_spacy",
+                "python"
+            ]
+        },
+        {
             "path": "python/py_install",
             "data": {
                 "completed": "2026-06-02",

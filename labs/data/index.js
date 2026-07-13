@@ -638,6 +638,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "I6WVDR",
+            "path": "python/libs/_simple/spacy",
+            "lang": [
+                "lv"
+            ],
+            "tags": [
+                "lang_lv",
+                "libs",
+                "python"
+            ],
+            "title": "Python lib - spacy"
+        },
+        {
+            "type": "simple",
             "id": "X3PU6D",
             "path": "python/think_python/_simple/ex_12_3_metathesis",
             "lang": [
