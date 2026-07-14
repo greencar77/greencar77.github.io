@@ -537,7 +537,7 @@ let global_index = {
             "tags": [
                 "lang_en"
             ],
-            "title": "jwt"
+            "title": "JWT SpringBoot"
         },
         {
             "type": "simple",
