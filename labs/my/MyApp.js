@@ -19,7 +19,12 @@ class MyApp {
                 {
                     "id": "g2",
                     "title": "Programming language",
-                    "byValues": [ "java", "python" ],
+                    "byValues": [ "java", "python", "js" ],
+                },
+                {
+                    "id": "g5",
+                    "title": "Technology",
+                    "byValues": [ "git", "maven", "docker", "htmlcssjs", "os", "db" ],
                 },
                 {
                     "id": "g3",
@@ -36,7 +41,7 @@ class MyApp {
                     "byPrefix": "aoc_",
                 },
                 {
-                    "title": "Language",
+                    "title": "Task language",
                     "byPrefix": "lang_",
                 },
                 {
