@@ -817,6 +817,18 @@ let global_sol = {
             ]
         },
         {
+            "path": "python/libs/xmldemo",
+            "data": {
+                "completed": "2026-07-15",
+                "labId": "G7OXSL"
+            },
+            "tags": [
+                "libs",
+                "pylib_xml",
+                "python"
+            ]
+        },
+        {
             "path": "python/py_install",
             "data": {
                 "completed": "2026-06-02",
@@ -847,17 +859,6 @@ let global_sol = {
                 "pylib_anagram_sets",
                 "python",
                 "think_python"
-            ]
-        },
-        {
-            "path": "python/xmldemo",
-            "data": {
-                "completed": "2026-07-15",
-                "labId": "G7OXSL"
-            },
-            "tags": [
-                "pylib_xml",
-                "python"
             ]
         }
     ]
