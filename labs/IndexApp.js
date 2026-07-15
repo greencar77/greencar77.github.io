@@ -31,7 +31,7 @@ class IndexApp {
                 {
                     "id": "g2",
                     "title": "Programming language",
-                    "byValues": [ "java", "python", "js" ],
+                    "byValues": [ "java", "python", "js", "sql" ],
                 },
                 {
                     "id": "g5",
