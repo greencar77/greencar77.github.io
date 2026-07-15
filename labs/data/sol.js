@@ -848,6 +848,17 @@ let global_sol = {
                 "python",
                 "think_python"
             ]
+        },
+        {
+            "path": "python/xmldemo",
+            "data": {
+                "completed": "2026-07-15",
+                "labId": "G7OXSL"
+            },
+            "tags": [
+                "pylib_xml",
+                "python"
+            ]
         }
     ]
 };
