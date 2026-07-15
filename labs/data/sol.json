@@ -1,6 +1,16 @@
 {
     "values": [
         {
+            "path": "db/mysql_queries",
+            "data": {
+                "completed": "2026-07-15",
+                "labId": "AJ25KW"
+            },
+            "tags": [
+                "db"
+            ]
+        },
+        {
             "path": "git/exclude_existing",
             "data": {
                 "completed": "2026-07-09",

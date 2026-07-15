@@ -1,6 +1,22 @@
 let global_index = {
     "values": [
         {
+            "type": "simple",
+            "id": "AJ25KW",
+            "path": "db/_simple/mysql_queries",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "db",
+                "db_mysql",
+                "lang_en",
+                "sakila",
+                "sql"
+            ],
+            "title": "MySQL queries"
+        },
+        {
             "type": "standalone",
             "id": "MZE5EK",
             "path": "git/exclude_existing",
@@ -535,7 +551,8 @@ let global_index = {
                 "en"
             ],
             "tags": [
-                "lang_en"
+                "lang_en",
+                "springboot"
             ],
             "title": "JWT SpringBoot"
         },
@@ -574,9 +591,12 @@ let global_index = {
                 "en"
             ],
             "tags": [
+                "db",
+                "db_mysql",
                 "lang_en",
                 "libs",
-                "python"
+                "python",
+                "sakila"
             ],
             "title": "Python lib - mysql"
         },
