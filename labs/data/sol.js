@@ -737,9 +737,15 @@ let global_sol = {
             "path": "python/libs/mysqldemo",
             "data": {
                 "completed": "2026-07-06",
-                "labId": "LQ7BLR"
+                "labId": "LQ7BLR",
+                "tags": [
+                    "db_mysql",
+                    "dbname_sakila"
+                ]
             },
             "tags": [
+                "db_mysql",
+                "dbname_sakila",
                 "libs",
                 "pylib_getpass",
                 "pylib_mysql",
