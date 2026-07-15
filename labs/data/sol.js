@@ -8,14 +8,14 @@ let global_sol = {
                 "tags": [
                     "sql",
                     "db_mysql",
-                    "sakila",
+                    "dbname_sakila",
                     "db"
                 ]
             },
             "tags": [
                 "db",
                 "db_mysql",
-                "sakila",
+                "dbname_sakila",
                 "sql"
             ]
         },
@@ -286,6 +286,8 @@ let global_sol = {
                 "labId": "GQMJ29"
             },
             "tags": [
+                "db_mysql",
+                "dbname_sakila",
                 "hibernate",
                 "java",
                 "maven",
@@ -311,6 +313,7 @@ let global_sol = {
                 }
             },
             "tags": [
+                "db_h2",
                 "entitymanager_find",
                 "hibernate",
                 "java",
@@ -332,6 +335,7 @@ let global_sol = {
                 "labId": "VLCYNX"
             },
             "tags": [
+                "db_h2",
                 "hibernate",
                 "java",
                 "maven",
@@ -386,6 +390,7 @@ let global_sol = {
                 "labId": "G14DCI"
             },
             "tags": [
+                "db_h2",
                 "hibernate",
                 "java",
                 "maven",
@@ -405,6 +410,7 @@ let global_sol = {
                 "labId": "VU740Z"
             },
             "tags": [
+                "db_h2",
                 "hibernate",
                 "java",
                 "maven",
@@ -533,6 +539,8 @@ let global_sol = {
             },
             "tags": [
                 "browser_ui",
+                "db_mysql",
+                "dbname_sakila",
                 "hibernate",
                 "java",
                 "jsp",
