@@ -31,12 +31,21 @@ class IndexApp {
                 {
                     "id": "g2",
                     "title": "Programming language",
-                    "byValues": [ "java", "python" ],
+                    "byValues": [ "java", "python", "js", "sql" ],
+                },
+                {
+                    "id": "g5",
+                    "title": "Technology",
+                    "byValues": [ "git", "maven", "docker", "htmlcssjs", "os", "db" ],
                 },
                 {
                     "id": "g3",
                     "title": "Java features",
                     "byValues": [ "java09", "java14", "java16", "java21" ],
+                },
+                {
+                    "title": "DBMS",
+                    "byPrefix": "db_",
                 },
                 {
                     "title": "Advent of Code year",

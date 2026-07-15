@@ -19,7 +19,12 @@ class MyApp {
                 {
                     "id": "g2",
                     "title": "Programming language",
-                    "byValues": [ "java", "python" ],
+                    "byValues": [ "java", "python", "js", "sql" ],
+                },
+                {
+                    "id": "g5",
+                    "title": "Technology",
+                    "byValues": [ "git", "maven", "docker", "htmlcssjs", "os", "db" ],
                 },
                 {
                     "id": "g3",
@@ -27,12 +32,17 @@ class MyApp {
                     "byValues": [ "java09", "java14", "java16", "java21" ],
                 },
                 {
-                    "title": "Advent of Code year",
-                    "byPrefix": "aoc_",
+                    "title": "DBMS",
+                    "byPrefix": "db_",
                 },
                 {
-                    "title": "Language",
-                    "byPrefix": "lang_",
+                    "id": "g4",
+                    "title": "EntityManager",
+                    "byPrefix": "entitymanager_",
+                },
+                {
+                    "title": "Advent of Code year",
+                    "byPrefix": "aoc_",
                 },
                 {
                     "title": "Maven dependency",
@@ -45,6 +55,10 @@ class MyApp {
                 {
                     "title": "Python libs",
                     "byPrefix": "pylib_",
+                },
+                {
+                    "title": "Task language",
+                    "byPrefix": "lang_",
                 },
             ],
             "containerFn": () => this.createContainerTable,

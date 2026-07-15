@@ -1,6 +1,22 @@
 let global_index = {
     "values": [
         {
+            "type": "simple",
+            "id": "AJ25KW",
+            "path": "db/_simple/mysql_queries",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "db",
+                "db_mysql",
+                "lang_en",
+                "sakila",
+                "sql"
+            ],
+            "title": "MySQL queries"
+        },
+        {
             "type": "standalone",
             "id": "MZE5EK",
             "path": "git/exclude_existing",
@@ -535,9 +551,10 @@ let global_index = {
                 "en"
             ],
             "tags": [
-                "lang_en"
+                "lang_en",
+                "springboot"
             ],
-            "title": "jwt"
+            "title": "JWT SpringBoot"
         },
         {
             "type": "simple",
@@ -551,6 +568,20 @@ let global_index = {
                 "os"
             ],
             "title": "Release port 80"
+        },
+        {
+            "type": "standalone",
+            "id": "G7OXSL",
+            "path": "python/libs/etree",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "Python lib - xml.etree"
         },
         {
             "type": "simple",
@@ -574,9 +605,12 @@ let global_index = {
                 "en"
             ],
             "tags": [
+                "db",
+                "db_mysql",
                 "lang_en",
                 "libs",
-                "python"
+                "python",
+                "sakila"
             ],
             "title": "Python lib - mysql"
         },
@@ -635,6 +669,20 @@ let global_index = {
                 "python"
             ],
             "title": "Python lib - requests"
+        },
+        {
+            "type": "simple",
+            "id": "I6WVDR",
+            "path": "python/libs/_simple/spacy",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "Python lib - spacy"
         },
         {
             "type": "simple",

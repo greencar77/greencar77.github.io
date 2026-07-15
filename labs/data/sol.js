@@ -1,6 +1,25 @@
 let global_sol = {
     "values": [
         {
+            "path": "db/mysql_queries",
+            "data": {
+                "completed": "2026-07-15",
+                "labId": "AJ25KW",
+                "tags": [
+                    "sql",
+                    "db_mysql",
+                    "dbname_sakila",
+                    "db"
+                ]
+            },
+            "tags": [
+                "db",
+                "db_mysql",
+                "dbname_sakila",
+                "sql"
+            ]
+        },
+        {
             "path": "git/exclude_existing",
             "data": {
                 "completed": "2026-07-09",
@@ -191,6 +210,33 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/jwt",
+            "data": {
+                "completed": "2026-07-14",
+                "labId": "E0L7XZ"
+            },
+            "tags": [
+                "browser_ui",
+                "java",
+                "jsp",
+                "maven",
+                "mvndep_io.jsonwebtoken:jjwt-api",
+                "mvndep_io.jsonwebtoken:jjwt-impl",
+                "mvndep_io.jsonwebtoken:jjwt-jackson",
+                "mvndep_jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api",
+                "mvndep_org.apache.tomcat.embed:tomcat-embed-jasper",
+                "mvndep_org.glassfish.web:jakarta.servlet.jsp.jstl",
+                "mvndep_org.springframework.boot:spring-boot-starter-security",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvndep_org.springframework.security:spring-security-test",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "springboot",
+                "springboot_3.5.14",
+                "webapp"
+            ]
+        },
+        {
             "path": "java/map",
             "data": {
                 "completed": "2024-12-06",
@@ -240,6 +286,8 @@ let global_sol = {
                 "labId": "GQMJ29"
             },
             "tags": [
+                "db_mysql",
+                "dbname_sakila",
                 "hibernate",
                 "java",
                 "maven",
@@ -257,9 +305,16 @@ let global_sol = {
             "path": "java/spring/hibernate/hibernate-eagerlazy",
             "data": {
                 "completed": "2026-06-05",
-                "labId": "DL8HJG"
+                "labId": "DL8HJG",
+                "hibernate": {
+                    "emMethods": [
+                        "find"
+                    ]
+                }
             },
             "tags": [
+                "db_h2",
+                "entitymanager_find",
                 "hibernate",
                 "java",
                 "maven",
@@ -280,6 +335,7 @@ let global_sol = {
                 "labId": "VLCYNX"
             },
             "tags": [
+                "db_h2",
                 "hibernate",
                 "java",
                 "maven",
@@ -296,9 +352,21 @@ let global_sol = {
             "path": "java/spring/hibernate/queries",
             "data": {
                 "completed": "2026-07-10",
-                "labId": "8U28QN"
+                "labId": "8U28QN",
+                "hibernate": {
+                    "emMethods": [
+                        "getCriteriaBuilder",
+                        "createQuery",
+                        "createNativeQuery",
+                        "createNamedQuery"
+                    ]
+                }
             },
             "tags": [
+                "entitymanager_createNamedQuery",
+                "entitymanager_createNativeQuery",
+                "entitymanager_createQuery",
+                "entitymanager_getCriteriaBuilder",
                 "hibernate",
                 "java",
                 "maven",
@@ -322,6 +390,7 @@ let global_sol = {
                 "labId": "G14DCI"
             },
             "tags": [
+                "db_h2",
                 "hibernate",
                 "java",
                 "maven",
@@ -341,6 +410,7 @@ let global_sol = {
                 "labId": "VU740Z"
             },
             "tags": [
+                "db_h2",
                 "hibernate",
                 "java",
                 "maven",
@@ -469,6 +539,8 @@ let global_sol = {
             },
             "tags": [
                 "browser_ui",
+                "db_mysql",
+                "dbname_sakila",
                 "hibernate",
                 "java",
                 "jsp",
@@ -665,9 +737,15 @@ let global_sol = {
             "path": "python/libs/mysqldemo",
             "data": {
                 "completed": "2026-07-06",
-                "labId": "LQ7BLR"
+                "labId": "LQ7BLR",
+                "tags": [
+                    "db_mysql",
+                    "dbname_sakila"
+                ]
             },
             "tags": [
+                "db_mysql",
+                "dbname_sakila",
                 "libs",
                 "pylib_getpass",
                 "pylib_mysql",
@@ -722,6 +800,31 @@ let global_sol = {
             "tags": [
                 "libs",
                 "pylib_requests",
+                "python"
+            ]
+        },
+        {
+            "path": "python/libs/spacy",
+            "data": {
+                "completed": "2026-07-13",
+                "labId": "I6WVDR"
+            },
+            "tags": [
+                "libs",
+                "pylib_re",
+                "pylib_spacy",
+                "python"
+            ]
+        },
+        {
+            "path": "python/libs/xmldemo",
+            "data": {
+                "completed": "2026-07-15",
+                "labId": "G7OXSL"
+            },
+            "tags": [
+                "libs",
+                "pylib_xml",
                 "python"
             ]
         },
