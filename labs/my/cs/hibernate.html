@@ -13,38 +13,48 @@
         <ol>
             <li>EntityManager (jakarta.persistence.EntityManager)</li>
             <ol>
+                <li>find</li>
+                <li>createStoredProcedureQuery</li>
+                <li>createCriteriaBuilder (Criteria (to build CriteriaQuery))</li>
+                <li>createQuery (JPQL, Criteria)</li>
+                <li>createNativeQuery (Native)</li>
+                <li>createNamedQuery</li>
+            </ol>
+            <ol>
                 <li>Session (org.hibernate.Session)</li>
             </ol>
         </ol>
     </ol>
 
     <ol>
-        <li>EntityManager</li>
+        <li>Repository (org.springframework.data.repository.Repository)</li>
         <ol>
-            <li>find</li>
-            <li>createStoredProcedureQuery</li>
-            <li>createCriteriaBuilder (Criteria (to build CriteriaQuery))</li>
-            <li>createQuery (JPQL, Criteria)</li>
-            <li>createNativeQuery (Native)</li>
-            <li>createNamedQuery</li>
-        </ol>
-    </ol>
-
-    <ol>
-        <ol>
-            <li>ListCrudRepository</li>
+            <li>CrudRepository (org.springframework.data.repository.CrudRepository)</li>
             <ol>
-                <li>JpaRepository (org.springframework.data.jpa.repository.JpaRepository)</li>
+                <li>save</li>
+                <li>saveAll</li>
+                <li>findById</li>
+                <li>existsById</li>
+                <li>findAll</li>
+                <li>findAllById</li>
+                <li>count</li>
+                <li>deleteById</li>
+            </ol>
+            <ol>
+                <li>ListCrudRepository (org.springframework.data.repository.ListCrudRepository)</li>
                 <ol>
-                    <li>flush</li>
-                    <li>saveAndFlush</li>
-                    <li>saveAllAndFlush</li>
-                    <li>deleteInBatch</li>
-                    <li>deleteAllInBatch</li>
-                    <li>deleteAllByIdInBatch</li>
-                    <li>deleteAllInBatch</li>
-                    <li>getReferenceById</li>
-                    <li>findAll</li>
+                    <li>JpaRepository (org.springframework.data.jpa.repository.JpaRepository)</li>
+                    <ol>
+                        <li>flush</li>
+                        <li>saveAndFlush</li>
+                        <li>saveAllAndFlush</li>
+                        <li>deleteInBatch</li>
+                        <li>deleteAllInBatch</li>
+                        <li>deleteAllByIdInBatch</li>
+                        <li>deleteAllInBatch</li>
+                        <li>getReferenceById</li>
+                        <li>findAll</li>
+                    </ol>
                 </ol>
             </ol>
         </ol>
