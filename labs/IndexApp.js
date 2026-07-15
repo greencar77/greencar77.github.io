@@ -44,6 +44,10 @@ class IndexApp {
                     "byValues": [ "java09", "java14", "java16", "java21" ],
                 },
                 {
+                    "title": "DBMS",
+                    "byPrefix": "db_",
+                },
+                {
                     "title": "Advent of Code year",
                     "byPrefix": "aoc_",
                 },

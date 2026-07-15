@@ -32,6 +32,10 @@ class MyApp {
                     "byValues": [ "java09", "java14", "java16", "java21" ],
                 },
                 {
+                    "title": "DBMS",
+                    "byPrefix": "db_",
+                },
+                {
                     "id": "g4",
                     "title": "EntityManager",
                     "byPrefix": "entitymanager_",
@@ -39,10 +43,6 @@ class MyApp {
                 {
                     "title": "Advent of Code year",
                     "byPrefix": "aoc_",
-                },
-                {
-                    "title": "Task language",
-                    "byPrefix": "lang_",
                 },
                 {
                     "title": "Maven dependency",
@@ -55,6 +55,10 @@ class MyApp {
                 {
                     "title": "Python libs",
                     "byPrefix": "pylib_",
+                },
+                {
+                    "title": "Task language",
+                    "byPrefix": "lang_",
                 },
             ],
             "containerFn": () => this.createContainerTable,
