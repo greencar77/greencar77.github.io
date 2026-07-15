@@ -412,6 +412,7 @@ let global_sol = {
             "tags": [
                 "db_h2",
                 "hibernate",
+                "import_org.springframework.data.jpa.repository.JpaRepository",
                 "java",
                 "maven",
                 "mvndep_com.h2database:h2",
@@ -542,6 +543,7 @@ let global_sol = {
                 "db_mysql",
                 "dbname_sakila",
                 "hibernate",
+                "import_org.springframework.data.jpa.repository.JpaRepository",
                 "java",
                 "jsp",
                 "maven",

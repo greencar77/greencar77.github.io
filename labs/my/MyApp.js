@@ -49,6 +49,10 @@ class MyApp {
                     "byPrefix": "mvndep_",
                 },
                 {
+                    "title": "Java import",
+                    "byPrefix": "import_",
+                },
+                {
                     "title": "SpringBoot",
                     "byPrefix": "springboot_",
                 },
