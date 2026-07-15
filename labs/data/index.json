@@ -570,6 +570,20 @@
             "title": "Release port 80"
         },
         {
+            "type": "standalone",
+            "id": "G7OXSL",
+            "path": "python/libs/etree",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "libs",
+                "python"
+            ],
+            "title": "Python lib - xml.etree"
+        },
+        {
             "type": "simple",
             "id": "WJ39KX",
             "path": "python/libs/_simple/matplotlib",
