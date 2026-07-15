@@ -4,10 +4,19 @@ let global_sol = {
             "path": "db/mysql_queries",
             "data": {
                 "completed": "2026-07-15",
-                "labId": "AJ25KW"
+                "labId": "AJ25KW",
+                "tags": [
+                    "sql",
+                    "db_mysql",
+                    "sakila",
+                    "db"
+                ]
             },
             "tags": [
-                "db"
+                "db",
+                "db_mysql",
+                "sakila",
+                "sql"
             ]
         },
         {
