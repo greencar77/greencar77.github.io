@@ -127,12 +127,10 @@ class MyApp {
         let link;
         if (entry.type == 'simple') {
             link = entry.path + (lang == 'en'? '_en' : '') + '.md';
-        }
-        if (entry.type == 'standalone') {
+        } else if (entry.type == 'standalone') {
             if (lang == 'lv') {
                 link = entry.path + '/practice.md';
-            }
-            else {
+            } else {
                 link = entry.path + '/practice_en.md';
             }
         }
