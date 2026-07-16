@@ -1,6 +1,6 @@
 "use strict";
 
-class App {
+class CsApp {
     constructor() {
         this.prepareData();
 
