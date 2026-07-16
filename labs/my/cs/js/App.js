@@ -56,10 +56,13 @@ class App {
         this.tagMap.get(tag).forEach(task => {
             const li = document.createElement('li');
             const a = document.createElement('a');
-            a.href = task.path;
+            a.href = 'https://github.com/greencar77/labssol/tree/main/' + task.path;
             a.textContent = task.data.labId;
             a.target = '_blank';
             li.appendChild(a);
+            const span = document.createElement('span');
+            span.textContent = " " + task.path;
+            li.appendChild(span);
             popupLinks.appendChild(li);
         });
 
