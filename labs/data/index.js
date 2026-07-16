@@ -298,9 +298,11 @@ let global_index = {
                 "en"
             ],
             "tags": [
+                "db_mysql",
                 "hibernate",
                 "java",
                 "lang_en",
+                "sakila",
                 "spring"
             ],
             "title": "Hibernate entity class generation"
