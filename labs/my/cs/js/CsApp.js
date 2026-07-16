@@ -3,6 +3,7 @@
 class CsApp {
     constructor() {
         this.prepareData();
+        this.insertOverlayDiv();
 
         let kbList = document.getElementsByTagName("kb");
         for (const kb of kbList) {
@@ -42,6 +43,25 @@ class CsApp {
         }
     }
 
+    insertOverlayDiv() {
+        const body = document.getElementsByTagName("body")[0];
+        const html = `
+    <div id="overlay" class="overlay">
+        <div id="popup" class="popup">
+            <h2 id="popup-title">Popup Title</h2>
+            <div id="popup-content">
+                <p>Solutions:</p>
+                <ul id="popup-links">
+                    <!-- Links will be injected here -->
+                </ul>
+            </div>
+            <button id="close-btn">Close</button>
+        </div>
+    </div>
+        `;
+        body.insertAdjacentHTML("beforeend", html);
+    }
+
     closePopup() {
         const overlay = document.getElementById('overlay');
         overlay.style.display = 'none';
@@ -72,7 +92,6 @@ class CsApp {
 
     prepareData() {
         this.tagMap = new Map();
-
         for (const sol of global_sol.values) {
             for (const tag of sol.tags) {
                 if (tag.startsWith("entitymanager_")) {
