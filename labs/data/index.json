@@ -409,6 +409,20 @@
         },
         {
             "type": "simple",
+            "id": "293D4S",
+            "path": "java/spring/_simple/springboot_batch",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "JPA batches"
+        },
+        {
+            "type": "simple",
             "id": "UDGEIK",
             "path": "java/spring/_simple/springboot_jsp_db",
             "lang": [

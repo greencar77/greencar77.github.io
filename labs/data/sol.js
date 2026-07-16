@@ -281,6 +281,37 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/hibernate/batch",
+            "data": {
+                "completed": "2026-07-16",
+                "labId": "293D4S",
+                "hibernate": {
+                    "emMethods": [
+                        "createQuery",
+                        "flush",
+                        "clear"
+                    ]
+                }
+            },
+            "tags": [
+                "db_h2",
+                "entitymanager_clear",
+                "entitymanager_createQuery",
+                "entitymanager_flush",
+                "hibernate",
+                "java",
+                "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.1"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/genbytool",
             "data": {
                 "completed": "2026-07-08",
