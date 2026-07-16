@@ -78,7 +78,8 @@ let global_sol = {
                 "mvndep_org.apache.logging.log4j:log4j-api",
                 "mvndep_org.apache.logging.log4j:log4j-core",
                 "mvndep_org.junit.jupiter:junit-jupiter",
-                "mvndep_org.junit.jupiter:junit-jupiter-api"
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
             ]
         },
         {
@@ -93,7 +94,8 @@ let global_sol = {
                 "maven",
                 "mvndep_io.rest-assured:rest-assured",
                 "mvndep_org.junit.jupiter:junit-jupiter",
-                "mvndep_org.junit.jupiter:junit-jupiter-api"
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
             ]
         },
         {
@@ -107,7 +109,8 @@ let global_sol = {
                 "maven",
                 "mvndep_javax.xml.bind:jaxb-api",
                 "mvndep_org.junit.jupiter:junit-jupiter",
-                "mvndep_org.junit.jupiter:junit-jupiter-api"
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
             ]
         },
         {
@@ -121,7 +124,8 @@ let global_sol = {
                 "maven",
                 "mvndep_javax.xml.bind:jaxb-api",
                 "mvndep_org.junit.jupiter:junit-jupiter",
-                "mvndep_org.junit.jupiter:junit-jupiter-api"
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
             ]
         },
         {
@@ -136,7 +140,8 @@ let global_sol = {
                 "mvndep_jakarta.xml.bind:jakarta.xml.bind-api",
                 "mvndep_org.glassfish.jaxb:jaxb-runtime",
                 "mvndep_org.junit.jupiter:junit-jupiter",
-                "mvndep_org.junit.jupiter:junit-jupiter-api"
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
             ]
         },
         {
@@ -149,7 +154,8 @@ let global_sol = {
                 "java",
                 "java09",
                 "jdk_features",
-                "maven"
+                "maven",
+                "unit_test"
             ]
         },
         {
@@ -164,7 +170,8 @@ let global_sol = {
                 "jdk_features",
                 "maven",
                 "mvndep_org.junit.jupiter:junit-jupiter",
-                "mvndep_org.junit.jupiter:junit-jupiter-api"
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
             ]
         },
         {
@@ -206,7 +213,8 @@ let global_sol = {
                 "maven",
                 "mvndep_org.jspecify:jspecify",
                 "mvndep_org.junit.jupiter:junit-jupiter",
-                "mvndep_org.junit.jupiter:junit-jupiter-api"
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
             ]
         },
         {
@@ -234,6 +242,7 @@ let global_sol = {
                 "spring",
                 "springboot",
                 "springboot_3.5.14",
+                "unit_test",
                 "webapp"
             ]
         },
@@ -260,7 +269,8 @@ let global_sol = {
                 "mvndep_com.sun.xml.messaging.saaj:saaj-impl",
                 "mvndep_javax.xml.soap:javax.xml.soap-api",
                 "mvndep_org.junit.jupiter:junit-jupiter",
-                "mvndep_org.junit.jupiter:junit-jupiter-api"
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
             ]
         },
         {
@@ -277,7 +287,8 @@ let global_sol = {
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
                 "springboot",
-                "springboot_3.5.11"
+                "springboot_3.5.11",
+                "unit_test"
             ]
         },
         {
@@ -308,7 +319,8 @@ let global_sol = {
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
                 "springboot",
-                "springboot_3.3.1"
+                "springboot_3.3.1",
+                "unit_test"
             ]
         },
         {
@@ -363,7 +375,8 @@ let global_sol = {
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
                 "springboot",
-                "springboot_3.3.1"
+                "springboot_3.3.1",
+                "unit_test"
             ]
         },
         {
@@ -396,7 +409,8 @@ let global_sol = {
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
                 "springboot",
-                "springboot_3.3.0"
+                "springboot_3.3.0",
+                "unit_test"
             ]
         },
         {
@@ -416,7 +430,8 @@ let global_sol = {
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
                 "springboot",
-                "springboot_2.4.3"
+                "springboot_2.4.3",
+                "unit_test"
             ]
         },
         {
@@ -451,7 +466,8 @@ let global_sol = {
                 "mvndep_org.springframework:spring-orm",
                 "mvndep_org.springframework:spring-test",
                 "mvndep_org.springframework:spring-tx",
-                "spring"
+                "spring",
+                "unit_test"
             ]
         },
         {
@@ -525,7 +541,8 @@ let global_sol = {
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
                 "springboot",
-                "springboot_3.3.0"
+                "springboot_3.3.0",
+                "unit_test"
             ]
         },
         {
@@ -593,6 +610,7 @@ let global_sol = {
                 "mvndep_org.junit.jupiter:junit-jupiter-api",
                 "mvndep_org.springframework:spring-webmvc",
                 "spring",
+                "unit_test",
                 "webapp"
             ]
         },
@@ -678,7 +696,8 @@ let global_sol = {
                 "mvndep_org.junit.jupiter:junit-jupiter-api",
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
                 "mvndep_org.springframework.boot:spring-boot-starter-web",
-                "spring"
+                "spring",
+                "unit_test"
             ]
         },
         {
@@ -693,7 +712,8 @@ let global_sol = {
                 "mvndep_org.junit.jupiter:junit-jupiter",
                 "mvndep_org.junit.jupiter:junit-jupiter-api",
                 "mvndep_org.springframework:spring-context",
-                "spring"
+                "spring",
+                "unit_test"
             ]
         },
         {
