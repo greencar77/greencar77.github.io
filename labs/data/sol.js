@@ -231,6 +231,7 @@ let global_sol = {
                 "mvndep_org.springframework.boot:spring-boot-starter-web",
                 "mvndep_org.springframework.security:spring-security-test",
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
                 "springboot",
                 "springboot_3.5.14",
                 "webapp"
