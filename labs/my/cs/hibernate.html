@@ -3,9 +3,11 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="cs.css" type="text/css">
+    <script src="../../data/sol.js"></script>
+    <script src="js/App.js"></script>
     <title>CS Hibernate</title>
 </head>
-<body>
+<body onLoad="app = new App()">
 
 <div id="main">
     <ol>
@@ -13,12 +15,12 @@
         <ol>
             <li>EntityManager (jakarta.persistence.EntityManager)</li>
             <ol>
-                <li>find</li>
+                <li>find <kb value="entitymanager_find"/></li>
                 <li>createStoredProcedureQuery</li>
                 <li>createCriteriaBuilder (Criteria (to build CriteriaQuery))</li>
                 <li>createQuery (JPQL, Criteria)</li>
                 <li>createNativeQuery (Native)</li>
-                <li>createNamedQuery</li>
+                <li>createNamedQuery <kb value="entitymanager_createNamedQuery"/></li>
             </ol>
             <ol>
                 <li>Session (org.hibernate.Session)</li>
@@ -60,6 +62,19 @@
         </ol>
     </ol>
 </div>
+
+    <div id="overlay" class="overlay">
+        <div id="popup" class="popup">
+            <h2 id="popup-title">Popup Title</h2>
+            <div id="popup-content">
+                <p>Links for this item:</p>
+                <ul id="popup-links">
+                    <!-- Links will be injected here -->
+                </ul>
+            </div>
+            <button id="close-btn">Close</button>
+        </div>
+    </div>
 
 </body>
 </html>
