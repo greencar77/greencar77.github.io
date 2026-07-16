@@ -308,13 +308,19 @@ let global_sol = {
                 "labId": "DL8HJG",
                 "hibernate": {
                     "emMethods": [
-                        "find"
+                        "find",
+                        "persist",
+                        "merge",
+                        "remove"
                     ]
                 }
             },
             "tags": [
                 "db_h2",
                 "entitymanager_find",
+                "entitymanager_merge",
+                "entitymanager_persist",
+                "entitymanager_remove",
                 "hibernate",
                 "java",
                 "maven",
@@ -387,10 +393,22 @@ let global_sol = {
             "path": "java/spring/hibernate/springboot-hibernate-em",
             "data": {
                 "completed": "2026-05-27",
-                "labId": "G14DCI"
+                "labId": "G14DCI",
+                "hibernate": {
+                    "emMethods": [
+                        "find",
+                        "persist",
+                        "merge",
+                        "remove"
+                    ]
+                }
             },
             "tags": [
                 "db_h2",
+                "entitymanager_find",
+                "entitymanager_merge",
+                "entitymanager_persist",
+                "entitymanager_remove",
                 "hibernate",
                 "java",
                 "maven",
