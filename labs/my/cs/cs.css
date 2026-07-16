@@ -38,10 +38,11 @@ td {
 }
 
 .kb {
-	background-color: #4f46e5;
+	background-color: #cbcbd3;
 	color: white;
 	padding: 2px 8px;
 	border-radius: 9999px; /* Fully rounded (pill shape) */
+    font-size: 0.9em;
 }
 
 .overlay {
