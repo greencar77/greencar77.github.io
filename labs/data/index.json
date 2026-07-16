@@ -43,6 +43,19 @@
             "title": "HTML popup"
         },
         {
+            "type": "standalone",
+            "id": "JURSPC",
+            "path": "java/h2access",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en"
+            ],
+            "title": "H2 db access"
+        },
+        {
             "type": "simple",
             "id": "8U28QN",
             "path": "java/hibernate/_simple/queries",

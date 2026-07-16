@@ -334,6 +334,39 @@
             ]
         },
         {
+            "path": "java/spring/hibernate/h2access",
+            "data": {
+                "completed": "2026-07-16",
+                "labId": "JURSPC",
+                "hibernate": {
+                    "emMethods": [
+                        "flush",
+                        "persist",
+                        "clear",
+                        "createQuery"
+                    ]
+                }
+            },
+            "tags": [
+                "db_h2",
+                "entitymanager_clear",
+                "entitymanager_createQuery",
+                "entitymanager_flush",
+                "entitymanager_persist",
+                "hibernate",
+                "java",
+                "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3.3.1"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/hibernate-eagerlazy",
             "data": {
                 "completed": "2026-06-05",
