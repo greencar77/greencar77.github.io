@@ -81,3 +81,18 @@ td {
     background: #c82333;
 }
 
+.code-snippet {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: block;
+    width: fit-content;
+    min-width: 300px;
+    max-width: 100%;
+    font-size: 0.9em;
+}
+
