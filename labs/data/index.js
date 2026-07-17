@@ -25,8 +25,8 @@ let global_index = {
             ],
             "tags": [
                 "db",
-                "lang_en",
-                "postgres"
+                "db_postgres",
+                "lang_en"
             ],
             "title": "Postgres sample db"
         },
