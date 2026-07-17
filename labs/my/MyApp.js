@@ -24,7 +24,7 @@ class MyApp {
                 {
                     "id": "g5",
                     "title": "Technology",
-                    "byValues": [ "git", "maven", "docker", "htmlcssjs", "os", "db" ],
+                    "byValues": [ "git", "docker", "htmlcssjs", "os", "db", "gradle", "maven" ],
                 },
                 {
                     "id": "g3",
