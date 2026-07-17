@@ -153,6 +153,30 @@ ol, ul {
 .tasksLink {
     text-align: center;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tasksLink a {
+    background-color: #bde9ba;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #a0d89c;
+    box-shadow: 0 4px #88c185;
+    transition: all 0.1s;
+}
+
+.tasksLink a:hover {
+    background-color: #a0d89c;
+    box-shadow: 0 4px #77ae74;
+}
+
+.tasksLink a:active {
+    box-shadow: 0 2px #77ae74;
+    transform: translateY(2px);
 }
 
 .mainRules {
