@@ -77,11 +77,11 @@ class CsApp {
             const li = document.createElement('li');
             const a = document.createElement('a');
             a.href = 'https://github.com/greencar77/labssol/tree/main/' + task.path;
-            a.textContent = task.data.labId;
+            a.textContent = task.path;
             a.target = '_blank';
             li.appendChild(a);
             const span = document.createElement('span');
-            span.textContent = " " + task.path;
+            span.textContent = " (" + task.data.labId + ")";
             li.appendChild(span);
             popupLinks.appendChild(li);
         });
