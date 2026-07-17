@@ -634,7 +634,11 @@ let global_sol = {
             "path": "java/spring/sb4-gradle",
             "data": {
                 "completed": "2026-07-17",
-                "labId": "RUU45F"
+                "labId": "RUU45F",
+                "tags": [
+                    "springboot",
+                    "springboot4"
+                ]
             },
             "tags": [
                 "browser_ui",
@@ -644,6 +648,8 @@ let global_sol = {
                 "java",
                 "jsp",
                 "spring",
+                "springboot",
+                "springboot4",
                 "unit_test",
                 "webapp"
             ]
