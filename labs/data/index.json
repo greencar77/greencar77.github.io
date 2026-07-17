@@ -408,6 +408,23 @@
         },
         {
             "type": "simple",
+            "id": "RUU45F",
+            "path": "java/spring/_simple/sb4_gradle",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "gradle",
+                "java",
+                "lang_en",
+                "spring",
+                "springboot",
+                "springboot4"
+            ],
+            "title": "SpringBoot 4, Gradle, JSP"
+        },
+        {
+            "type": "simple",
             "id": "K204NK",
             "path": "java/spring/_simple/simple",
             "lang": [

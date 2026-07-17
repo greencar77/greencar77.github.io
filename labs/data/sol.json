@@ -631,6 +631,17 @@
             ]
         },
         {
+            "path": "java/spring/sb4-gradle",
+            "data": {
+                "completed": "2026-07-17",
+                "labId": "RUU45F"
+            },
+            "tags": [
+                "java",
+                "spring"
+            ]
+        },
+        {
             "path": "java/spring/springboot-jsp-db",
             "data": {
                 "completed": "2026-07-08",
