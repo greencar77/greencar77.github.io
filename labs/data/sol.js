@@ -637,7 +637,8 @@ let global_sol = {
                 "labId": "RUU45F",
                 "tags": [
                     "springboot",
-                    "springboot4"
+                    "springboot_4.*",
+                    "springboot_4.1.0"
                 ]
             },
             "tags": [
@@ -649,7 +650,8 @@ let global_sol = {
                 "jsp",
                 "spring",
                 "springboot",
-                "springboot4",
+                "springboot_4.*",
+                "springboot_4.1.0",
                 "unit_test",
                 "webapp"
             ]
