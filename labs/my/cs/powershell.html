@@ -14,7 +14,11 @@
 <div id="main">
     <div class="code-snippet">$env:PATH += ";C:\Program Files\JetBrains\IntelliJ IDEA 2026.1.2\plugins\maven\lib\maven3\bin;$env:JAVA_HOME\bin" ; mvn -version</div>
 
-    <div class="code-snippet">$env:PATH -split ';'</div>
+    <div class="code-snippet">$env:PATH -split ';'
+$env:PATH -split ';' | Select-String "Gradle"</div>
+
+    <div class="code-snippet">[Environment]::GetEnvironmentVariable("Path", "Machine")
+[Environment]::GetEnvironmentVariable("Path", "User")</div>
 </div>
 </body>
 </html>
