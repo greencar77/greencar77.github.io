@@ -637,8 +637,15 @@ let global_sol = {
                 "labId": "RUU45F"
             },
             "tags": [
+                "browser_ui",
+                "db_h2",
+                "gradle",
+                "import_org.springframework.data.jpa.repository.JpaRepository",
                 "java",
-                "spring"
+                "jsp",
+                "spring",
+                "unit_test",
+                "webapp"
             ]
         },
         {
