@@ -17,6 +17,20 @@ let global_index = {
             "title": "MySQL queries"
         },
         {
+            "type": "simple",
+            "id": "QWI112",
+            "path": "db/_simple/postgres_sample",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "db",
+                "lang_en",
+                "postgres"
+            ],
+            "title": "Postgres sample db"
+        },
+        {
             "type": "standalone",
             "id": "MZE5EK",
             "path": "git/exclude_existing",

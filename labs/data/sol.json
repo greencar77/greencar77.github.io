@@ -20,6 +20,20 @@
             ]
         },
         {
+            "path": "db/postgres_sample",
+            "data": {
+                "completed": "2026-07-17",
+                "labId": "QWI112",
+                "tags": [
+                    "db_postgres"
+                ]
+            },
+            "tags": [
+                "db",
+                "db_postgres"
+            ]
+        },
+        {
             "path": "git/exclude_existing",
             "data": {
                 "completed": "2026-07-09",
