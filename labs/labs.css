@@ -149,3 +149,13 @@ ol, ul {
    display: block;
    margin: auto;
 }
+
+.tasksLink {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainRules {
+    margin-left: 10%;
+    margin-right: 10%;
+}
