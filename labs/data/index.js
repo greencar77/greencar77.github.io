@@ -31,6 +31,19 @@ let global_index = {
             "title": "Postgres sample db"
         },
         {
+            "type": "simple",
+            "id": "TS396J",
+            "path": "docker/_simple/simple_pull",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "docker",
+                "lang_en"
+            ],
+            "title": "Docker - simple container"
+        },
+        {
             "type": "standalone",
             "id": "MZE5EK",
             "path": "git/exclude_existing",
