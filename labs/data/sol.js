@@ -41,14 +41,22 @@ let global_sol = {
                 "docker": {
                     "cmd": [
                         "image",
-                        "pull"
+                        "pull",
+                        "run",
+                        "stop",
+                        "ps",
+                        "history"
                     ]
                 }
             },
             "tags": [
                 "docker",
+                "docker_cmd_history",
                 "docker_cmd_image",
-                "docker_cmd_pull"
+                "docker_cmd_ps",
+                "docker_cmd_pull",
+                "docker_cmd_run",
+                "docker_cmd_stop"
             ]
         },
         {
