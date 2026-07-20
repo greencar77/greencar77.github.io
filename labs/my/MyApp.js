@@ -41,6 +41,11 @@ class MyApp {
                     "byPrefix": "entitymanager_",
                 },
                 {
+                    "id": "g6",
+                    "title": "Docker commands",
+                    "byPrefix": "docker_cmd_",
+                },
+                {
                     "title": "Advent of Code year",
                     "byPrefix": "aoc_",
                 },
