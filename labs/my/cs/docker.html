@@ -14,6 +14,11 @@
 
 <div id="main">
 
+    <a href="https://docs.docker.com/">DockerDocs</a>
+    <ol>
+        <li><a href="https://docs.docker.com/reference/cli/docker/">CLI Reference</a></li>
+    </ol>
+    <br/>
     <a href="https://www.coursera.org/collections/docker-cheat-sheet">Coursera Docker Cheat Sheet</a><br/>
 
     <table>
@@ -28,10 +33,10 @@
             </td>
             <td>
                 <ol>
-                    <li>images <kb value="docker_cmd_images"/></li>
-                    <li>image <kb value="docker_cmd_image"/></li>
-                    <li>pull <kb value="docker_cmd_pull"/></li>
-                    <li>push <kb value="docker_cmd_push"/></li>
+                    <li>image <a href="https://docs.docker.com/reference/cli/docker/image/">REF</a> <kb value="docker_cmd_image"/></li>
+                    <ol>
+                        <li>pull <a href="https://docs.docker.com/reference/cli/docker/image/pull/">REF</a></li>
+                    </ol>
                     <li>rmi <kb value="docker_cmd_rmi"/></li>
                     <li>history <kb value="docker_cmd_history"/></li>
                     <li>run <kb value="docker_cmd_run"/></li>
@@ -39,10 +44,14 @@
             </td>
             <td>
                 <ol>
+                    <li>container <kb value="docker_cmd_container"/></li>
+                    <ol>
+                        <li>run <a href="https://docs.docker.com/reference/cli/docker/container/run/">REF</a></li>
+                        <li>start <a href="https://docs.docker.com/reference/cli/docker/container/start/">REF</a></li>
+                        <li>restart <a href="https://docs.docker.com/reference/cli/docker/container/restart/">REF</a></li>
+                    </ol>
                     <li>ps <kb value="docker_cmd_ps"/></li>
-                    <li>start <kb value="docker_cmd_start"/></li>
                     <li>stop <kb value="docker_cmd_stop"/></li>
-                    <li>restart <kb value="docker_cmd_restart"/></li>
                     <li>rm <kb value="docker_cmd_rm"/></li>
                 </ol>
             </td>
@@ -58,9 +67,13 @@
         <li>image</li>
         <ol>
             <li>inspect</li>
+            <li>ls (alias 'images')</li>
+            <li>pull (alias 'pull') <a href="https://docs.docker.com/reference/cli/docker/image/pull/">REF</a></li>
+            <li>push (alias 'push') <a href="https://docs.docker.com/reference/cli/docker/image/push/">REF</a></li>
         </ol>
-        <li>run</li>
+        <li>container</li>
         <ol>
+            <li>run (alias 'run') <a href="https://docs.docker.com/reference/cli/docker/container/run/">REF</a></li>
             <li>--rm</li>
             <li>-d</li>
             <li>--name</li>
