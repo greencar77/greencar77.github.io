@@ -34,6 +34,24 @@ let global_sol = {
             ]
         },
         {
+            "path": "docker/simple_localhost",
+            "data": {
+                "completed": "2026-07-20",
+                "labId": "TS396J",
+                "docker": {
+                    "cmd": [
+                        "image",
+                        "pull"
+                    ]
+                }
+            },
+            "tags": [
+                "docker",
+                "docker_cmd_image",
+                "docker_cmd_pull"
+            ]
+        },
+        {
             "path": "git/exclude_existing",
             "data": {
                 "completed": "2026-07-09",
