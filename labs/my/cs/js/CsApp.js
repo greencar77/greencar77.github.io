@@ -1,6 +1,8 @@
 "use strict";
 
 class CsApp {
+    allowedStarts = [ 'entitymanager_', 'docker_cmd_' ]
+
     constructor() {
         this.prepareData();
         this.insertOverlayDiv();
@@ -94,11 +96,13 @@ class CsApp {
         this.tagMap = new Map();
         for (const sol of global_sol.values) {
             for (const tag of sol.tags) {
-                if (tag.startsWith("entitymanager_")) {
-                    if (!this.tagMap.has(tag)) {
-                        this.tagMap.set(tag, []);
+                for (const as of this.allowedStarts) {
+                    if (tag.startsWith(as)) {
+                        if (!this.tagMap.has(tag)) {
+                            this.tagMap.set(tag, []);
+                        }
+                        this.tagMap.get(tag).push(sol);
                     }
-                    this.tagMap.get(tag).push(sol);
                 }
             }
         }
