@@ -71,14 +71,14 @@ td {
     margin-top: 20px;
     padding: 10px 20px;
     cursor: pointer;
-    background: #dc3545;
+    background: #b9e496;
     color: white;
     border: none;
     border-radius: 4px;
 }
 
 #close-btn:hover {
-    background: #c82333;
+    background: #80dc35;
 }
 
 .code-snippet {
