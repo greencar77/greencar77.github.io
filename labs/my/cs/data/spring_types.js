@@ -9,6 +9,14 @@ let global_spring_types = {
             "type": "@interface"
         },
         {
+            "canonical": "org.springframework.context.annotation.ComponentScan",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.context.annotation.ComponentScans",
+            "type": "@interface"
+        },
+        {
             "canonical": "org.springframework.context.annotation.Lazy",
             "type": "@interface"
         },
