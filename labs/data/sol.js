@@ -265,7 +265,9 @@ let global_sol = {
             },
             "tags": [
                 "browser_ui",
+                "import_org.springframework.beans.factory.annotation.Autowired",
                 "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Configuration",
                 "import_org.springframework.context.annotation.Lazy",
                 "java",
                 "jsp",
@@ -323,6 +325,7 @@ let global_sol = {
                 "labId": "LVAYZ7"
             },
             "tags": [
+                "import_org.springframework.beans.factory.annotation.Autowired",
                 "java",
                 "maven",
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
@@ -413,6 +416,7 @@ let global_sol = {
                 "entitymanager_persist",
                 "hibernate",
                 "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Configuration",
                 "java",
                 "maven",
                 "mvndep_com.h2database:h2",
@@ -448,6 +452,7 @@ let global_sol = {
                 "entitymanager_persist",
                 "entitymanager_remove",
                 "hibernate",
+                "import_org.springframework.beans.factory.annotation.Autowired",
                 "import_org.springframework.context.annotation.Bean",
                 "java",
                 "maven",
@@ -472,6 +477,7 @@ let global_sol = {
             "tags": [
                 "db_h2",
                 "hibernate",
+                "import_org.springframework.beans.factory.annotation.Autowired",
                 "java",
                 "maven",
                 "mvndep_com.h2database:h2",
@@ -505,7 +511,9 @@ let global_sol = {
                 "entitymanager_createQuery",
                 "entitymanager_getCriteriaBuilder",
                 "hibernate",
+                "import_org.springframework.beans.factory.annotation.Autowired",
                 "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Configuration",
                 "import_org.springframework.context.annotation.Primary",
                 "java",
                 "maven",
@@ -634,6 +642,7 @@ let global_sol = {
             },
             "tags": [
                 "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Configuration",
                 "java",
                 "maven",
                 "mvndep_org.springframework.boot:spring-boot-starter",
@@ -659,6 +668,7 @@ let global_sol = {
             "tags": [
                 "browser_ui",
                 "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Configuration",
                 "java",
                 "jsp",
                 "maven",
@@ -705,6 +715,7 @@ let global_sol = {
                 "browser_ui",
                 "db_h2",
                 "gradle",
+                "import_org.springframework.beans.factory.annotation.Autowired",
                 "import_org.springframework.data.jpa.repository.JpaRepository",
                 "java",
                 "jsp",
@@ -779,6 +790,7 @@ let global_sol = {
             },
             "tags": [
                 "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Configuration",
                 "java",
                 "maven",
                 "mvndep_org.junit.jupiter:junit-jupiter",
@@ -797,6 +809,7 @@ let global_sol = {
             },
             "tags": [
                 "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Configuration",
                 "java",
                 "maven",
                 "mvndep_org.junit.jupiter:junit-jupiter",
