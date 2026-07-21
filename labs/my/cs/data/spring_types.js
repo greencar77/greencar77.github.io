@@ -27,6 +27,14 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.beans.factory.annotation.Autowired",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.boot.test.context.SpringBootTest",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.test.annotation.DirtiesContext",
+            "type": "@interface"
         }
     ]
 };

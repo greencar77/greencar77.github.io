@@ -266,6 +266,7 @@
             "tags": [
                 "browser_ui",
                 "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.boot.test.context.SpringBootTest",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Configuration",
                 "import_org.springframework.context.annotation.Lazy",
@@ -386,6 +387,7 @@
                 "entitymanager_createQuery",
                 "entitymanager_flush",
                 "hibernate",
+                "import_org.springframework.boot.test.context.SpringBootTest",
                 "java",
                 "maven",
                 "mvndep_com.h2database:h2",
@@ -444,6 +446,7 @@
                 "entitymanager_flush",
                 "entitymanager_persist",
                 "hibernate",
+                "import_org.springframework.boot.test.context.SpringBootTest",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Configuration",
                 "java",
@@ -465,6 +468,9 @@
             "data": {
                 "completed": "2026-06-05",
                 "labId": "DL8HJG",
+                "tags": [
+                    "spring_di_field"
+                ],
                 "hibernate": {
                     "emMethods": [
                         "find",
@@ -482,6 +488,7 @@
                 "entitymanager_remove",
                 "hibernate",
                 "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.boot.test.context.SpringBootTest",
                 "import_org.springframework.context.annotation.Bean",
                 "java",
                 "maven",
@@ -491,6 +498,7 @@
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
+                "spring_di_field",
                 "springboot",
                 "springboot_3",
                 "springboot_3.3.0",
@@ -507,6 +515,8 @@
                 "db_h2",
                 "hibernate",
                 "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.boot.test.context.SpringBootTest",
+                "import_org.springframework.test.annotation.DirtiesContext",
                 "java",
                 "maven",
                 "mvndep_com.h2database:h2",
