@@ -15,6 +15,14 @@ let global_hibernate_types = {
         {
             "canonical": "jakarta.persistence.EntityManager",
             "type": "interface"
+        },
+        {
+            "canonical": "javax.persistence.PersistenceContext",
+            "type": "@interface"
+        },
+        {
+            "canonical": "jakarta.persistence.PersistenceContext",
+            "type": "@interface"
         }
     ]
 };
