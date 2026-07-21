@@ -4,15 +4,29 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="cs.css" type="text/css">
     <script src="../../data/sol.js"></script>
+    <script src="data/hibernate_types.js"></script>
     <script src="js/CsApp.js"></script>
+    <script src="js/HibernateApp.js"></script>
     <title>CS Hibernate</title>
 </head>
-<body onLoad="app = new CsApp()">
+<body onLoad="app = new HibernateApp()">
 <a href="index.html" class="home-link">Home</a>
 
 <h1>Hibernate</h1>
 
 <div id="main">
+    <a href="https://docs.hibernate.org">(Hibernate Docs Root)</a>
+    <ol>
+        <li><a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/">Hibernate ORM User Guide (7.4.6.Final)</a></li>
+        <ol>
+            <li><a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking">11. Locking</a></li>
+            <ol>
+                <li><a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-optimistic">11.1. Optimistic</a></li>
+                <li><a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-pessimistic">11.2. Pessimistic</a></li>
+            </ol>
+        </ol>
+    </ol>
+
     <ol>
         <li>AutoCloseable (java.lang.AutoCloseable)</li>
         <ol>
@@ -69,6 +83,17 @@
             </ol>
         </ol>
     </ol>
+
+    Locking types:
+    <ol>
+        <li>Optimistic <a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-optimistic">HibDoc</a> <kb value="hibernate_lock_optimistic"/></li>
+        <li>Pessimistic <a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-pessimistic">HibDoc</a> <kb value="hibernate_lock_pessimistic"/></li>
+    </ol>
+
+    <h2>Hibernate Java types</h2>
+    <div class="manyItems">
+        <ol id="hibernateJavaTypes"></ol>
+    </div>
 </div>
 </body>
 </html>
