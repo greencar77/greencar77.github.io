@@ -265,6 +265,7 @@ let global_sol = {
             },
             "tags": [
                 "browser_ui",
+                "import_org.springframework.context.annotation.Lazy",
                 "java",
                 "jsp",
                 "maven",
