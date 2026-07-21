@@ -46,6 +46,11 @@ class MyApp {
                     "byPrefix": "docker_cmd_",
                 },
                 {
+                    "id": "g7",
+                    "title": "Spring DI",
+                    "byPrefix": "spring_di_",
+                },
+                {
                     "title": "Advent of Code year",
                     "byPrefix": "aoc_",
                 },
