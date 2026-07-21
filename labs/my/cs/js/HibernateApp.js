@@ -1,14 +1,5 @@
 "use strict";
 
-function shortName(el) {
-    let parts = el.canonical.split('.');
-    let prefix = '';
-    if (el.type == '@interface') {
-        prefix = '@';
-    }
-    return prefix + parts[parts.length-1];
-}
-
 class HibernateApp extends CsApp {
     constructor() {
         let hibernateJavaTypes = document.getElementById("hibernateJavaTypes");
