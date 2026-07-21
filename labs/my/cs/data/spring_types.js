@@ -46,6 +46,10 @@ let global_spring_types = {
         {
             "canonical": "javax.persistence.PersistenceContext",
             "type": "@interface"
+        },
+        {
+            "canonical": "jakarta.persistence.PersistenceContext",
+            "type": "@interface"
         }
     ]
 };
