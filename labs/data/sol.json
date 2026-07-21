@@ -265,6 +265,7 @@
             },
             "tags": [
                 "browser_ui",
+                "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Lazy",
                 "java",
                 "jsp",
@@ -411,6 +412,7 @@
                 "entitymanager_flush",
                 "entitymanager_persist",
                 "hibernate",
+                "import_org.springframework.context.annotation.Bean",
                 "java",
                 "maven",
                 "mvndep_com.h2database:h2",
@@ -446,6 +448,7 @@
                 "entitymanager_persist",
                 "entitymanager_remove",
                 "hibernate",
+                "import_org.springframework.context.annotation.Bean",
                 "java",
                 "maven",
                 "mvndep_com.h2database:h2",
@@ -502,6 +505,8 @@
                 "entitymanager_createQuery",
                 "entitymanager_getCriteriaBuilder",
                 "hibernate",
+                "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Primary",
                 "java",
                 "maven",
                 "mvndep_com.mysql:mysql-connector-j",
@@ -628,6 +633,7 @@
                 "labId": "AFCAJ1"
             },
             "tags": [
+                "import_org.springframework.context.annotation.Bean",
                 "java",
                 "maven",
                 "mvndep_org.springframework.boot:spring-boot-starter",
@@ -652,6 +658,7 @@
             },
             "tags": [
                 "browser_ui",
+                "import_org.springframework.context.annotation.Bean",
                 "java",
                 "jsp",
                 "maven",
@@ -771,6 +778,7 @@
                 "labId": "K204NK"
             },
             "tags": [
+                "import_org.springframework.context.annotation.Bean",
                 "java",
                 "maven",
                 "mvndep_org.junit.jupiter:junit-jupiter",
@@ -788,6 +796,7 @@
                 "labId": "PL531K"
             },
             "tags": [
+                "import_org.springframework.context.annotation.Bean",
                 "java",
                 "maven",
                 "mvndep_org.junit.jupiter:junit-jupiter",
