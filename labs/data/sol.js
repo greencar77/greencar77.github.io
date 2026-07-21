@@ -512,11 +512,20 @@ let global_sol = {
             "path": "java/spring/hibernate/optimistic",
             "data": {
                 "completed": "2026-06-11",
-                "labId": "VLCYNX"
+                "labId": "VLCYNX",
+                "tags": [
+                    "spring_di_field",
+                    "hibernate_lock_optimistic"
+                ]
             },
             "tags": [
                 "db_h2",
                 "hibernate",
+                "hibernate_lock_optimistic",
+                "import_javax.persistence.PersistenceContext",
+                "import_javax.persistence.Version",
+                "import_org.hibernate.annotations.OptimisticLockType",
+                "import_org.hibernate.annotations.OptimisticLocking",
                 "import_org.springframework.beans.factory.annotation.Autowired",
                 "import_org.springframework.boot.test.context.SpringBootTest",
                 "import_org.springframework.test.annotation.DirtiesContext",
@@ -528,6 +537,7 @@ let global_sol = {
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
                 "mvnparent_org.springframework.boot:spring-boot-starter-parent",
                 "spring",
+                "spring_di_field",
                 "springboot",
                 "springboot_2",
                 "springboot_2.4.3",
