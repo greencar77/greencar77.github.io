@@ -1,7 +1,7 @@
 "use strict";
 
 class CsApp {
-    allowedStarts = [ 'entitymanager_', 'docker_cmd_', 'import_' ]
+    allowedStarts = [ 'entitymanager_', 'docker_cmd_', 'import_', 'spring_di_' ]
 
     constructor() {
         this.prepareData();
