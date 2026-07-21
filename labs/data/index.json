@@ -379,6 +379,20 @@
         },
         {
             "type": "simple",
+            "id": "X4QGBI",
+            "path": "java/spring/_simple/di",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring dependency injection types"
+        },
+        {
+            "type": "simple",
             "id": "LVAYZ7",
             "path": "java/spring/_simple/exceptions",
             "lang": [
