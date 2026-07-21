@@ -1,12 +1,16 @@
 "use strict";
 
 class CsApp {
-    allowedStarts = [ 'entitymanager_', 'docker_cmd_' ]
+    allowedStarts = [ 'entitymanager_', 'docker_cmd_', 'import_' ]
 
     constructor() {
         this.prepareData();
-        this.insertOverlayDiv();
 
+        this.insertOverlayDiv();
+        this.populateKb();
+    }
+
+    populateKb() {
         let kbList = document.getElementsByTagName("kb");
         for (const kb of kbList) {
             const tag = kb.getAttribute('value');
@@ -53,9 +57,9 @@ class CsApp {
             <h2 id="popup-title">Popup Title</h2>
             <div id="popup-content">
                 <p>Solutions:</p>
-                <ul id="popup-links">
+                <ol id="popup-links">
                     <!-- Links will be injected here -->
-                </ul>
+                </ol>
             </div>
             <button id="close-btn">Close</button>
         </div>
