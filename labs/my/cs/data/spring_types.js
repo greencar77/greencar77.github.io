@@ -26,7 +26,10 @@ let global_spring_types = {
         },
         {
             "canonical": "org.springframework.beans.factory.annotation.Autowired",
-            "type": "@interface"
+            "type": "@interface",
+            "links": [
+                "https://www.baeldung.com/spring-core-annotations#autowired"
+            ]
         },
         {
             "canonical": "org.springframework.boot.test.context.SpringBootTest",
@@ -34,6 +37,10 @@ let global_spring_types = {
         },
         {
             "canonical": "org.springframework.test.annotation.DirtiesContext",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.transaction.annotation.Transactional",
             "type": "@interface"
         }
     ]
