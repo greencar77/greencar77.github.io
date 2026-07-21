@@ -118,3 +118,7 @@ h1 {
 .manyItems {
     column-count: 4;
 }
+
+.manyItems ol {
+    margin-top: 0;
+}
