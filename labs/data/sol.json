@@ -354,12 +354,13 @@
                 "completed": "2026-06-11",
                 "labId": "LVAYZ7",
                 "tags": [
-                    "http"
+                    "http",
+                    "dynamic_caller"
                 ]
             },
             "tags": [
+                "dynamic_caller",
                 "http",
-                "import_httpjson.helper.DynamicCaller",
                 "import_org.springframework.beans.factory.annotation.Autowired",
                 "import_org.springframework.web.client.RestTemplate",
                 "java",
@@ -708,7 +709,8 @@
                 "completed": "2026-05-27",
                 "labId": "G14DCI",
                 "tags": [
-                    "http"
+                    "http",
+                    "dynamic_caller"
                 ],
                 "hibernate": {
                     "emMethods": [
@@ -721,6 +723,7 @@
             },
             "tags": [
                 "db_h2",
+                "dynamic_caller",
                 "entitymanager_find",
                 "entitymanager_merge",
                 "entitymanager_persist",
@@ -745,10 +748,14 @@
             "path": "java/spring/hibernate/springboot-hibernate-jpa",
             "data": {
                 "completed": "2026-05-25",
-                "labId": "VU740Z"
+                "labId": "VU740Z",
+                "tags": [
+                    "dynamic_caller"
+                ]
             },
             "tags": [
                 "db_h2",
+                "dynamic_caller",
                 "hibernate",
                 "import_org.springframework.data.jpa.repository.JpaRepository",
                 "java",
@@ -769,10 +776,12 @@
                 "completed": "2026-05-19",
                 "labId": "KZ5HX1",
                 "tags": [
-                    "http"
+                    "http",
+                    "dynamic_caller"
                 ]
             },
             "tags": [
+                "dynamic_caller",
                 "http",
                 "java",
                 "maven",
