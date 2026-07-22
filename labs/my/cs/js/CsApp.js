@@ -15,7 +15,8 @@ class CsApp {
         'docker_cmd_',
         'import_',
         'spring_di_',
-        'hibernate_lock_'
+        'hibernate_lock_',
+        'hibernate_LockModeType_'
     ]
 
     constructor() {

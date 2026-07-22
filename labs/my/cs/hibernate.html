@@ -84,24 +84,31 @@
         </ol>
     </ol>
 
+    <h2>Locking</h2>
     Locking types:
     <ol>
         <li>Optimistic <a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-optimistic">HibDoc</a> <kb value="hibernate_lock_optimistic"/> - when conflicts are rare</li>
         <li>Pessimistic <a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-pessimistic">HibDoc</a> <kb value="hibernate_lock_pessimistic"/> - when conflicts are likely</li>
     </ol>
 
-    LockModeType:
     <ol>
-        <li>READ</li>
-        <li>WRITE</li>
-        <li>OPTIMISTIC</li>
-        <li>OPTIMISTIC_FORCE_INCREMENT</li>
-        <li>PESSIMISTIC_READ</li>
-        <li>PESSIMISTIC_WRITE</li>
-        <li>PESSIMISTIC_FORCE_INCREMENT</li>
-        <li>NONE</li>
+        <li><a href="https://www.javacodegeeks.com/2016/02/differences-jpa-entity-locking-modes.html">javacodegeeks - Differences in JPA entity locking modes</a></li>
+        <li><a href="https://www.javacodegeeks.com/2015/02/hibernate-locking-patterns-how-does-pessimistic_read-and-pessimistic_write-work.html">javacodegeeks - Hibernate Locking Patterns – How does PESSIMISTIC_READ and PESSIMISTIC_WRITE work</a></li>
     </ol>
 
+    <br>
+    LockModeType:
+    <ol>
+        <li>READ <kb value="hibernate_LockModeType_READ"></kb></li>
+        <li>WRITE <kb value="hibernate_LockModeType_WRITE"></kb></li>
+        <li>OPTIMISTIC <kb value="hibernate_LockModeType_OPTIMISTIC"></kb></li>
+        <li>OPTIMISTIC_FORCE_INCREMENT <kb value="hibernate_LockModeType_OPTIMISTIC_FORCE_INCREMENT"></kb></li>
+        <li>PESSIMISTIC_READ <kb value="hibernate_LockModeType_PESSIMISTIC_READ"></kb></li>
+        <li>PESSIMISTIC_WRITE <kb value="hibernate_LockModeType_PESSIMISTIC_WRITE"></kb></li>
+        <li>PESSIMISTIC_FORCE_INCREMENT <kb value="hibernate_LockModeType_PESSIMISTIC_FORCE_INCREMENT"></kb></li>
+        <li>NONE <kb value="hibernate_LockModeType_NONE"></kb></li>
+    </ol>
+    <a href="https://javaee.github.io/tutorial/persistence-locking002.html">The Java EE Tutorial - Lock Modes</a><br/>
 
     <h2>Hibernate Java types</h2>
     <div class="manyItems">
