@@ -317,6 +317,21 @@
         },
         {
             "type": "simple",
+            "id": "VDB5DL",
+            "path": "java/spring/hibernate/_simple/lockmodetype",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "LockModeType - Optimistic cases"
+        },
+        {
+            "type": "simple",
             "id": "VLCYNX",
             "path": "java/spring/hibernate/_simple/optimistic",
             "lang": [

@@ -515,6 +515,56 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/hibernate/lockmodetype",
+            "data": {
+                "completed": "2026-07-22",
+                "labId": "VDB5DL",
+                "tags": [
+                    "spring_di_field",
+                    "hibernate_lock_optimistic"
+                ],
+                "hibernate": {
+                    "emMethods": [
+                        "find"
+                    ],
+                    "LockModeType": [
+                        "OPTIMISTIC",
+                        "OPTIMISTIC_FORCE_INCREMENT"
+                    ]
+                }
+            },
+            "tags": [
+                "db_h2",
+                "entitymanager_find",
+                "hibernate",
+                "hibernate_LockModeType_OPTIMISTIC",
+                "hibernate_LockModeType_OPTIMISTIC_FORCE_INCREMENT",
+                "hibernate_lock_optimistic",
+                "import_jakarta.persistence.EntityManager",
+                "import_jakarta.persistence.LockModeType",
+                "import_jakarta.persistence.PersistenceContext",
+                "import_org.hibernate.annotations.DynamicUpdate",
+                "import_org.hibernate.annotations.OptimisticLockType",
+                "import_org.hibernate.annotations.OptimisticLocking",
+                "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.boot.test.context.SpringBootTest",
+                "import_org.springframework.test.annotation.DirtiesContext",
+                "import_org.springframework.transaction.annotation.Transactional",
+                "java",
+                "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "spring_di_field",
+                "springboot",
+                "springboot_4",
+                "springboot_4.1.0",
+                "unit_test"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/optimistic",
             "data": {
                 "completed": "2026-06-11",
