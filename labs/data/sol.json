@@ -522,10 +522,16 @@
                 "tags": [
                     "spring_di_field",
                     "hibernate_lock_optimistic"
-                ]
+                ],
+                "hibernate": {
+                    "emMethods": [
+                        "find"
+                    ]
+                }
             },
             "tags": [
                 "db_h2",
+                "entitymanager_find",
                 "hibernate",
                 "hibernate_lock_optimistic",
                 "import_javax.persistence.EntityManager",
@@ -560,10 +566,16 @@
                 "tags": [
                     "spring_di_field",
                     "hibernate_lock_optimistic"
-                ]
+                ],
+                "hibernate": {
+                    "emMethods": [
+                        "find"
+                    ]
+                }
             },
             "tags": [
                 "db_h2",
+                "entitymanager_find",
                 "hibernate",
                 "hibernate_lock_optimistic",
                 "import_jakarta.persistence.EntityManager",
