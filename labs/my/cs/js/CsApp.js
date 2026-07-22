@@ -10,6 +10,7 @@ function shortName(el) {
 }
 
 class CsApp {
+    //Add also a group in MyApp.js
     allowedStarts = [
         'entitymanager_',
         'docker_cmd_',

@@ -51,6 +51,11 @@ class MyApp {
                     "byPrefix": "spring_di_",
                 },
                 {
+                    "id": "g8",
+                    "title": "LockModeType",
+                    "byPrefix": "hibernate_LockModeType_",
+                },
+                {
                     "title": "Advent of Code year",
                     "byPrefix": "aoc_",
                 },
