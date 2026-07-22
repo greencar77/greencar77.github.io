@@ -529,7 +529,8 @@ let global_sol = {
                     ],
                     "LockModeType": [
                         "OPTIMISTIC",
-                        "OPTIMISTIC_FORCE_INCREMENT"
+                        "OPTIMISTIC_FORCE_INCREMENT",
+                        "NONE"
                     ]
                 }
             },
@@ -537,6 +538,7 @@ let global_sol = {
                 "db_h2",
                 "entitymanager_find",
                 "hibernate",
+                "hibernate_LockModeType_NONE",
                 "hibernate_LockModeType_OPTIMISTIC",
                 "hibernate_LockModeType_OPTIMISTIC_FORCE_INCREMENT",
                 "hibernate_lock_optimistic",
