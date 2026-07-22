@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="cs.css" type="text/css">
+    <script src="../../data/sol.js"></script>
+    <script src="js/CsApp.js"></script>
+    <title>CS Win</title>
+</head>
+<body onLoad="app = new CsApp()">
+<a href="index.html" class="home-link">Home</a>
+
+<h1>Windows</h1>
+
+<div id="main">
+    <div class="code-snippet">> netstat -ano | findstr :8080
+  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       13140
+  TCP    [::]:8080              [::]:0                 LISTENING       13140
+
+The last number is the PID
+
+> taskkill /PID 13140 /F
+SUCCESS: The process with PID 13140 has been terminated.</div>
+</div>
+</body>
+</html>
