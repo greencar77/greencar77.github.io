@@ -86,9 +86,22 @@
 
     Locking types:
     <ol>
-        <li>Optimistic <a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-optimistic">HibDoc</a> <kb value="hibernate_lock_optimistic"/></li>
-        <li>Pessimistic <a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-pessimistic">HibDoc</a> <kb value="hibernate_lock_pessimistic"/></li>
+        <li>Optimistic <a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-optimistic">HibDoc</a> <kb value="hibernate_lock_optimistic"/> - when conflicts are rare</li>
+        <li>Pessimistic <a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/#locking-pessimistic">HibDoc</a> <kb value="hibernate_lock_pessimistic"/> - when conflicts are likely</li>
     </ol>
+
+    LockModeType:
+    <ol>
+        <li>READ</li>
+        <li>WRITE</li>
+        <li>OPTIMISTIC</li>
+        <li>OPTIMISTIC_FORCE_INCREMENT</li>
+        <li>PESSIMISTIC_READ</li>
+        <li>PESSIMISTIC_WRITE</li>
+        <li>PESSIMISTIC_FORCE_INCREMENT</li>
+        <li>NONE</li>
+    </ol>
+
 
     <h2>Hibernate Java types</h2>
     <div class="manyItems">
