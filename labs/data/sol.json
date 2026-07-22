@@ -829,11 +829,13 @@
                 "completed": "2026-04-21",
                 "labId": "LGPH17",
                 "tags": [
-                    "browser_ui"
+                    "browser_ui",
+                    "http"
                 ]
             },
             "tags": [
                 "browser_ui",
+                "http",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.ComponentScan",
                 "import_org.springframework.context.annotation.Configuration",
