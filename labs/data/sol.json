@@ -531,6 +531,7 @@
                 "import_javax.persistence.EntityManager",
                 "import_javax.persistence.PersistenceContext",
                 "import_javax.persistence.Version",
+                "import_org.hibernate.annotations.DynamicUpdate",
                 "import_org.hibernate.annotations.OptimisticLockType",
                 "import_org.hibernate.annotations.OptimisticLocking",
                 "import_org.springframework.beans.factory.annotation.Autowired",
@@ -548,6 +549,43 @@
                 "springboot",
                 "springboot_2",
                 "springboot_2.4.3",
+                "unit_test"
+            ]
+        },
+        {
+            "path": "java/spring/hibernate/optimistic-sb4",
+            "data": {
+                "completed": "2026-07-22",
+                "labId": "QEVCDB",
+                "tags": [
+                    "spring_di_field",
+                    "hibernate_lock_optimistic"
+                ]
+            },
+            "tags": [
+                "db_h2",
+                "hibernate",
+                "hibernate_lock_optimistic",
+                "import_jakarta.persistence.EntityManager",
+                "import_jakarta.persistence.PersistenceContext",
+                "import_org.hibernate.annotations.DynamicUpdate",
+                "import_org.hibernate.annotations.OptimisticLockType",
+                "import_org.hibernate.annotations.OptimisticLocking",
+                "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.boot.test.context.SpringBootTest",
+                "import_org.springframework.test.annotation.DirtiesContext",
+                "import_org.springframework.transaction.annotation.Transactional",
+                "java",
+                "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "spring_di_field",
+                "springboot",
+                "springboot_4",
+                "springboot_4.1.0",
                 "unit_test"
             ]
         },

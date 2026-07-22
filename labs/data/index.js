@@ -332,6 +332,21 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "QEVCDB",
+            "path": "java/spring/hibernate/_simple/optimistic_sb4",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Hibernate Optimistic locking - SpringBoot 4"
+        },
+        {
+            "type": "simple",
             "id": "GQMJ29",
             "path": "java/spring/hibernate/_simple/reveng",
             "lang": [
