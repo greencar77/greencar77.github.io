@@ -352,9 +352,13 @@ let global_sol = {
             "path": "java/spring/exceptions",
             "data": {
                 "completed": "2026-06-11",
-                "labId": "LVAYZ7"
+                "labId": "LVAYZ7",
+                "tags": [
+                    "http"
+                ]
             },
             "tags": [
+                "http",
                 "import_org.springframework.beans.factory.annotation.Autowired",
                 "java",
                 "maven",
@@ -701,6 +705,9 @@ let global_sol = {
             "data": {
                 "completed": "2026-05-27",
                 "labId": "G14DCI",
+                "tags": [
+                    "http"
+                ],
                 "hibernate": {
                     "emMethods": [
                         "find",
@@ -717,6 +724,7 @@ let global_sol = {
                 "entitymanager_persist",
                 "entitymanager_remove",
                 "hibernate",
+                "http",
                 "import_jakarta.persistence.EntityManager",
                 "import_jakarta.persistence.PersistenceContext",
                 "java",
@@ -861,6 +869,7 @@ let global_sol = {
                 "labId": "W24TKW"
             },
             "tags": [
+                "import_org.springframework.web.client.RestTemplate",
                 "java",
                 "maven",
                 "mvndep_com.fasterxml.jackson.core:jackson-databind",
