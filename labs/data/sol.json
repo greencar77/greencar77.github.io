@@ -359,7 +359,9 @@
             },
             "tags": [
                 "http",
+                "import_httpjson.helper.DynamicCaller",
                 "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.web.client.RestTemplate",
                 "java",
                 "maven",
                 "mvndep_org.springframework.boot:spring-boot-starter-test",
