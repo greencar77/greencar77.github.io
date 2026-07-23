@@ -465,6 +465,20 @@
         },
         {
             "type": "simple",
+            "id": "85HECW",
+            "path": "java/spring/_simple/parallel_http",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring RestTemplate - parallel calls"
+        },
+        {
+            "type": "simple",
             "id": "W24TKW",
             "path": "java/spring/_simple/resttemplate",
             "lang": [

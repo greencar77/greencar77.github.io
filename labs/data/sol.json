@@ -876,12 +876,38 @@
             ]
         },
         {
+            "path": "java/spring/parallel-http",
+            "data": {
+                "completed": "2026-07-23",
+                "labId": "85HECW",
+                "tags": [
+                    "dynamic_caller"
+                ]
+            },
+            "tags": [
+                "dynamic_caller",
+                "import_java.util.concurrent.ExecutorService",
+                "import_org.springframework.web.client.RestTemplate",
+                "java",
+                "maven",
+                "mvndep_com.fasterxml.jackson.core:jackson-databind",
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "mvndep_org.springframework:spring-context",
+                "mvndep_org.springframework:spring-web",
+                "spring"
+            ]
+        },
+        {
             "path": "java/spring/resttemplate",
             "data": {
                 "completed": "2026-06-12",
-                "labId": "W24TKW"
+                "labId": "W24TKW",
+                "tags": [
+                    "dynamic_caller"
+                ]
             },
             "tags": [
+                "dynamic_caller",
                 "import_org.springframework.web.client.RestTemplate",
                 "java",
                 "maven",
