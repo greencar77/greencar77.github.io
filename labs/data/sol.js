@@ -1048,6 +1048,17 @@ let global_sol = {
             ]
         },
         {
+            "path": "nodejs/angular/some",
+            "data": {
+                "completed": "2026-07-23",
+                "labId": "1AK8T1"
+            },
+            "tags": [
+                "angular",
+                "nodejs"
+            ]
+        },
+        {
             "path": "nodejs/hello",
             "data": {
                 "completed": "2026-07-23",

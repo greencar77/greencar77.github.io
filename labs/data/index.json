@@ -689,6 +689,20 @@
         },
         {
             "type": "simple",
+            "id": "1AK8T1",
+            "path": "nodejs/angular/_simple/ang_basic",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "angular",
+                "lang_en",
+                "nodejs"
+            ],
+            "title": "Angular - Hello World"
+        },
+        {
+            "type": "simple",
             "id": "TMWEGR",
             "path": "nodejs/_simple/helloworld",
             "lang": [
