@@ -86,6 +86,7 @@ let global_sol = {
                 "labId": "JDS4HK"
             },
             "tags": [
+                "import_java.util.concurrent.ExecutorService",
                 "java",
                 "maven",
                 "mvndep_org.junit.jupiter:junit-jupiter",
@@ -234,6 +235,7 @@ let global_sol = {
                 "labId": "BSURUT"
             },
             "tags": [
+                "import_java.util.concurrent.ExecutorService",
                 "java",
                 "java21",
                 "jdk_features",
