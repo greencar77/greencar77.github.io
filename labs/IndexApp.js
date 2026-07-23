@@ -36,7 +36,7 @@ class IndexApp {
                 {
                     "id": "g5",
                     "title": "Technology",
-                    "byValues": [ "git", "docker", "htmlcssjs", "os", "db", "gradle", "maven", "nodejs" ],
+                    "byValues": [ "git", "docker", "htmlcssjs", "os", "db", "gradle", "maven", "nodejs", "angular" ],
                 },
                 {
                     "id": "g3",
