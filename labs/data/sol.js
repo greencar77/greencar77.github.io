@@ -1069,6 +1069,20 @@ let global_sol = {
             ]
         },
         {
+            "path": "nodejs/tsfiles",
+            "data": {
+                "completed": "2026-07-23",
+                "labId": "LL94UB",
+                "tags": [
+                    "typescript"
+                ]
+            },
+            "tags": [
+                "nodejs",
+                "typescript"
+            ]
+        },
+        {
             "path": "os/release_web_port",
             "data": {
                 "completed": "2026-07-09",

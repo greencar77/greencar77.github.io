@@ -716,6 +716,19 @@
         },
         {
             "type": "simple",
+            "id": "LL94UB",
+            "path": "nodejs/_simple/nodejs_files",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "nodejs"
+            ],
+            "title": "NodeJS - TypesScript - read/write files"
+        },
+        {
+            "type": "simple",
             "id": "JN4UU3",
             "path": "os/_simple/release_web_port",
             "lang": [
