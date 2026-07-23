@@ -1048,6 +1048,16 @@ let global_sol = {
             ]
         },
         {
+            "path": "nodejs/hello",
+            "data": {
+                "completed": "2026-07-23",
+                "labId": "TMWEGR"
+            },
+            "tags": [
+                "nodejs"
+            ]
+        },
+        {
             "path": "os/release_web_port",
             "data": {
                 "completed": "2026-07-09",

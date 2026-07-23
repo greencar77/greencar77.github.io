@@ -689,6 +689,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "TMWEGR",
+            "path": "nodejs/_simple/helloworld",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "nodejs"
+            ],
+            "title": "NodeJS - Hello World"
+        },
+        {
+            "type": "simple",
             "id": "JN4UU3",
             "path": "os/_simple/release_web_port",
             "lang": [
