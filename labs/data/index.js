@@ -727,7 +727,7 @@ let global_index = {
                 "nodejs",
                 "typescript"
             ],
-            "title": "TypesScript - key-value pairs"
+            "title": "TypeScript - key-value pairs"
         },
         {
             "type": "simple",
