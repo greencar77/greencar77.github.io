@@ -1069,6 +1069,16 @@ let global_sol = {
             ]
         },
         {
+            "path": "nodejs/keyvalue",
+            "data": {
+                "completed": "2026-07-24",
+                "labId": "TAF144"
+            },
+            "tags": [
+                "nodejs"
+            ]
+        },
+        {
             "path": "nodejs/tsfiles",
             "data": {
                 "completed": "2026-07-23",

@@ -703,6 +703,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "TAF144",
+            "path": "nodejs/typescript/_simple/keyvalue",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "nodejs",
+                "typescript"
+            ],
+            "title": "TypesScript - key-value pairs"
+        },
+        {
+            "type": "simple",
             "id": "TMWEGR",
             "path": "nodejs/_simple/helloworld",
             "lang": [
