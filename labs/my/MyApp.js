@@ -19,7 +19,7 @@ class MyApp {
                 {
                     "id": "g2",
                     "title": "Programming language",
-                    "byValues": [ "java", "python", "js", "sql" ],
+                    "byValues": [ "java", "python", "js", "sql", "typescript" ],
                 },
                 {
                     "id": "g5",
