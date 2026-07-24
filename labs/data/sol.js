@@ -1059,6 +1059,20 @@ let global_sol = {
             ]
         },
         {
+            "path": "nodejs/coll",
+            "data": {
+                "completed": "2026-07-24",
+                "labId": "PF1E7Q",
+                "tags": [
+                    "typescript"
+                ]
+            },
+            "tags": [
+                "nodejs",
+                "typescript"
+            ]
+        },
+        {
             "path": "nodejs/hello",
             "data": {
                 "completed": "2026-07-23",

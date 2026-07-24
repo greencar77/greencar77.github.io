@@ -703,6 +703,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "PF1E7Q",
+            "path": "nodejs/typescript/_simple/coll",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "nodejs",
+                "typescript"
+            ],
+            "title": "TypeScript - functional programming"
+        },
+        {
+            "type": "simple",
             "id": "TAF144",
             "path": "nodejs/typescript/_simple/keyvalue",
             "lang": [
