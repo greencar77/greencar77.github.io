@@ -54,6 +54,18 @@
         <li>@angular/router</li>
         <li>@angular/forms</li>
     </ol>
+
+    Recreate node_modules
+    <div class="code-snippet">cd /path/to/your/angular-project
+
+    rm -rf node_modules
+    rmdir /s /q node_modules
+    Remove-Item -Recurse -Force node_modules
+    #if completely fresh
+    rm package-lock.json
+    npm install
+</div>
+
 </div>
 </body>
 </html>
