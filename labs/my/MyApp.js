@@ -27,6 +27,10 @@ class MyApp {
                     "byValues": [ "git", "docker", "htmlcssjs", "os", "db", "gradle", "maven", "nodejs", "angular" ],
                 },
                 {
+                    "title": "Java API",
+                    "byPrefix": "javaapi_",
+                },
+                {
                     "id": "g3",
                     "title": "Java features",
                     "byValues": [ "java09", "java14", "java16", "java21" ],
