@@ -143,11 +143,15 @@ let global_sol = {
             "path": "java/javaapi/slf4j-simple",
             "data": {
                 "completed": "2020-08-19",
-                "labId": "753K50"
+                "labId": "753K50",
+                "tags": [
+                    "javaapi_slf4j"
+                ]
             },
             "tags": [
                 "java",
                 "javaapi",
+                "javaapi_slf4j",
                 "maven",
                 "mvndep_commons-lang:commons-lang",
                 "mvndep_junit:junit",

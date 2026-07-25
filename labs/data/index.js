@@ -134,6 +134,7 @@ let global_index = {
             "tags": [
                 "java",
                 "javaapi",
+                "javaapi_slf4j",
                 "lang_en"
             ],
             "title": "SLF4J Simple"
