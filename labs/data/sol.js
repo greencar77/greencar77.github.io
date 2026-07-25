@@ -140,6 +140,23 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/javaapi/slf4j-simple",
+            "data": {
+                "completed": "2020-08-19",
+                "labId": "753K50"
+            },
+            "tags": [
+                "java",
+                "javaapi",
+                "maven",
+                "mvndep_commons-lang:commons-lang",
+                "mvndep_junit:junit",
+                "mvndep_org.slf4j:slf4j-api",
+                "mvndep_org.slf4j:slf4j-simple",
+                "unit_test"
+            ]
+        },
+        {
             "path": "java/jaxb2demo",
             "data": {
                 "completed": "2025-11-17",

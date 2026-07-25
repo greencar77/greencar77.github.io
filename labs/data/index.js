@@ -125,6 +125,20 @@ let global_index = {
             "title": "restassured"
         },
         {
+            "type": "simple",
+            "id": "753K50",
+            "path": "java/javaapi/_simple/slf4j_simple",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "javaapi",
+                "lang_en"
+            ],
+            "title": "SLF4J Simple"
+        },
+        {
             "type": "standalone",
             "id": "1UL79Q",
             "path": "java/javalang/map",
