@@ -1069,6 +1069,20 @@
             ]
         },
         {
+            "path": "nix/curl",
+            "data": {
+                "completed": "2026-07-28",
+                "labId": "08B8AV",
+                "tags": [
+                    "nix_com_curl"
+                ]
+            },
+            "tags": [
+                "nix",
+                "nix_com_curl"
+            ]
+        },
+        {
             "path": "nodejs/angular/some",
             "data": {
                 "completed": "2026-07-23",

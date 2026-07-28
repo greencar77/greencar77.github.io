@@ -704,6 +704,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "08B8AV",
+            "path": "linux/_simple/curl",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "linux"
+            ],
+            "title": "curl"
+        },
+        {
+            "type": "simple",
             "id": "1AK8T1",
             "path": "nodejs/angular/_simple/ang_basic",
             "lang": [
