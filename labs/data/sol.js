@@ -25,12 +25,12 @@ let global_sol = {
                 "completed": "2026-07-17",
                 "labId": "QWI112",
                 "tags": [
-                    "db_postgres"
+                    "db_postgresql"
                 ]
             },
             "tags": [
                 "db",
-                "db_postgres"
+                "db_postgresql"
             ]
         },
         {
