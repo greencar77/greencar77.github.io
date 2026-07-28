@@ -394,6 +394,21 @@
         },
         {
             "type": "simple",
+            "id": "61JGL6",
+            "path": "java/spring/hibernate/_simple/sb4_postgres",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "SpringBoot 4, Postgres"
+        },
+        {
+            "type": "simple",
             "id": "G14DCI",
             "path": "java/spring/hibernate/_simple/spring_hib_em",
             "lang": [

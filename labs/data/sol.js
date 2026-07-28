@@ -727,6 +727,33 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/spring/hibernate/sb4-postgres",
+            "data": {
+                "completed": "2026-06-28",
+                "labId": "61JGL6"
+            },
+            "tags": [
+                "db_postgresql",
+                "dbname_dvdrental",
+                "hibernate",
+                "import_org.springframework.boot.test.context.SpringBootTest",
+                "import_org.springframework.data.jpa.repository.JpaRepository",
+                "java",
+                "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.postgresql:postgresql",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_4",
+                "springboot_4.1.0",
+                "unit_test"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/springboot-hibernate-em",
             "data": {
                 "completed": "2026-05-27",
