@@ -104,9 +104,15 @@ class CsApp {
             a.textContent = task.path;
             a.target = '_blank';
             li.appendChild(a);
+
+            const details = document.createElement('span');
+            details.innerHTML = ' <a href="../details.html#' + task.data.labId + '">[details]</a>';
+            li.appendChild(details);
+
             const span = document.createElement('span');
             span.textContent = " (" + task.data.labId + ")";
             li.appendChild(span);
+
             popupLinks.appendChild(li);
         });
 
