@@ -139,6 +139,9 @@ class MyApp {
             + '<td>'
             + '<a href="https://github.com/greencar77/labssol/tree/main/' + entry.path + '">[solution]</a>'
             + '</td>'
+            + '<td>'
+            + '<a href="details.html#' + task.id + '">[details]</a>'
+            + '</td>'
             ;
     }
 
