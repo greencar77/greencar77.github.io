@@ -439,6 +439,21 @@
         },
         {
             "type": "simple",
+            "id": "WRLA8Z",
+            "path": "java/spring/hibernate/_simple/transactional",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "@Transactional"
+        },
+        {
+            "type": "simple",
             "id": "X4QGBI",
             "path": "java/spring/_simple/di",
             "lang": [

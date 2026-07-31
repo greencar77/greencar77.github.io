@@ -394,8 +394,7 @@ let global_sol = {
                 "spring",
                 "springboot",
                 "springboot_3",
-                "springboot_3.5.11",
-                "unit_test"
+                "springboot_3.5.11"
             ]
         },
         {
@@ -788,7 +787,6 @@ let global_sol = {
                 "import_jakarta.persistence.EntityManager",
                 "import_jakarta.persistence.PersistenceContext",
                 "import_jakarta.transaction.Transactional",
-                "import_org.springframework.transaction.annotation.Transactional",
                 "java",
                 "maven",
                 "mvndep_com.h2database:h2",
@@ -826,6 +824,43 @@ let global_sol = {
                 "springboot",
                 "springboot_3",
                 "springboot_3.3.0"
+            ]
+        },
+        {
+            "path": "java/spring/hibernate/transactional",
+            "data": {
+                "completed": "2026-07-31",
+                "labId": "WRLA8Z",
+                "hibernate": {
+                    "emMethods": [
+                        "find",
+                        "merge"
+                    ]
+                }
+            },
+            "tags": [
+                "db_h2",
+                "entitymanager_find",
+                "entitymanager_merge",
+                "hibernate",
+                "import_jakarta.persistence.EntityManager",
+                "import_jakarta.persistence.PersistenceContext",
+                "import_jakarta.transaction.Transactional",
+                "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.boot.test.context.SpringBootTest",
+                "import_org.springframework.transaction.annotation.Transactional",
+                "java",
+                "maven",
+                "mvndep_com.h2database:h2",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3",
+                "springboot_3.5.14",
+                "unit_test"
             ]
         },
         {
