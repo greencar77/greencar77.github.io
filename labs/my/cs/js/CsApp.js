@@ -1,5 +1,10 @@
 "use strict";
 
+function createKb(prefix, value) {
+    let kb = document.createElement("kb");
+    kb.setAttribute("value", prefix + value);
+    return kb
+}
 function shortName(el) {
     let parts = el.canonical.split('.');
     let prefix = '';
@@ -18,7 +23,8 @@ class CsApp {
         'spring_di_',
         'hibernate_lock_',
         'hibernate_LockModeType_',
-        'nix_com_'
+        'nix_com_',
+        'pylib_',
     ]
 
     constructor() {
