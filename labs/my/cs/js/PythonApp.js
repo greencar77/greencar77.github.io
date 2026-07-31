@@ -43,6 +43,8 @@ class PythonApp extends CsApp {
     constructor() {
         fillDown("libraries", global_python_libraries.values, "pylib_");
         super();
+
+        new PyLibsApp(global_pylibs);
     }
 }
 
