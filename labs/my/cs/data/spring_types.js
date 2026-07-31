@@ -45,7 +45,10 @@ let global_spring_types = {
         },
         {
             "canonical": "jakarta.transaction.Transactional",
-            "type": "@interface"
+            "type": "@interface",
+            "focus": [
+                { "id": "WRLA8Z", "comment": "" }
+            ]
         },
         {
             "canonical": "org.springframework.transaction.annotation.Transactional",

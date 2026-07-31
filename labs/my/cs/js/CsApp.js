@@ -73,9 +73,15 @@ class CsApp {
     <div id="overlay" class="overlay">
         <div id="popup" class="popup">
             <h2 id="popup-title">Popup Title</h2>
-            <div id="popup-content">
-                <p>Solutions:</p>
-                <ol id="popup-links">
+<!--            <div id="focus">-->
+<!--                <p>Focus:</p>-->
+<!--                <ol id="focus-links">-->
+<!--                    &lt;!&ndash; Links will be injected here &ndash;&gt;-->
+<!--                </ol>-->
+<!--            </div>-->
+            <div id="used-in">
+                <p>Used in:</p>
+                <ol id="used-in-links">
                     <!-- Links will be injected here -->
                 </ol>
             </div>
@@ -94,10 +100,20 @@ class CsApp {
     openPopup(tag) {
         const popupTitle = document.getElementById('popup-title');
         popupTitle.textContent = tag;
-        const popupLinks = document.getElementById('popup-links');
-        popupLinks.innerHTML = '';
 
-        this.tagMap.get(tag).forEach(task => {
+        // this.appendTasks('focus-links', this.tagMap.get(tag), true);
+        this.appendTasks('used-in-links', this.tagMap.get(tag),false);
+
+        const overlay = document.getElementById('overlay');
+        overlay.style.display = 'flex';
+    }
+
+    appendTasks(linksId, tasks, focus) {
+        const popupLinks = document.getElementById(linksId);
+        popupLinks.innerHTML = '';
+        tasks
+            // .filter(task => focus || !task.data.focus)
+            .forEach(task => {
             const li = document.createElement('li');
             const a = document.createElement('a');
             a.href = 'https://github.com/greencar77/labssol/tree/main/' + task.path;
@@ -115,9 +131,6 @@ class CsApp {
 
             popupLinks.appendChild(li);
         });
-
-        const overlay = document.getElementById('overlay');
-        overlay.style.display = 'flex';
     }
 
     prepareData() {
