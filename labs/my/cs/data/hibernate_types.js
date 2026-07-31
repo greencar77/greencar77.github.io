@@ -35,6 +35,10 @@ let global_hibernate_types = {
         {
             "canonical": "org.hibernate.annotations.DynamicUpdate",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.hibernate.Session",
+            "type": "interface"
         }
     ]
 };

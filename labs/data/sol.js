@@ -709,6 +709,7 @@ let global_sol = {
                 "hibernate",
                 "import_jakarta.persistence.EntityManager",
                 "import_jakarta.persistence.PersistenceContext",
+                "import_org.hibernate.Session",
                 "import_org.springframework.beans.factory.annotation.Autowired",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Configuration",
