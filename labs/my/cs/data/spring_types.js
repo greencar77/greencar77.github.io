@@ -40,6 +40,14 @@ let global_spring_types = {
             "type": "@interface"
         },
         {
+            "canonical": "javax.transaction.Transactional",
+            "type": "@interface"
+        },
+        {
+            "canonical": "jakarta.transaction.Transactional",
+            "type": "@interface"
+        },
+        {
             "canonical": "org.springframework.transaction.annotation.Transactional",
             "type": "@interface"
         }
