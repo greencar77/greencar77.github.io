@@ -14,7 +14,7 @@ class DetailsApp {
 
     show() {
         let pathEl = document.getElementById('details-path');
-        pathEl.innerHTML = this.entry.path;
+        pathEl.innerHTML = '<a href="https://github.com/greencar77/labssol/tree/main/' + this.entry.path + '">' + this.entry.path + '</a>';
 
         let idEl = document.getElementById('details-id');
         idEl.innerHTML = this.entry.data.labId;
