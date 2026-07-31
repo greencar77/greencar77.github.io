@@ -122,3 +122,9 @@ h1 {
 ol {
     margin-top: 0;
 }
+
+.methodGroup {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #B5C7D3FF;
+}

@@ -15,6 +15,8 @@
 <h1>Hibernate</h1>
 
 <div id="main">
+        <h2>Documentation</h2>
+
     <a href="https://docs.hibernate.org">(Hibernate Docs Root)</a>
     <ol>
         <li><a href="https://docs.hibernate.org/orm/7.4/userguide/html_single/">Hibernate ORM User Guide (7.4.6.Final)</a></li>
@@ -27,22 +29,30 @@
         </ol>
     </ol>
 
+    <h2>API</h2>
+
     <ol>
         <li>AutoCloseable (java.lang.AutoCloseable)</li>
         <ol>
             <li>EntityManager (jakarta.persistence.EntityManager)</li>
             <ol>
-                <li>find <kb value="entitymanager_find"/></li>
                 <li>createStoredProcedureQuery <kb value="entitymanager_createStoredProcedureQuery"/></li>
                 <li>createCriteriaBuilder (Criteria (to build CriteriaQuery)) <kb value="entitymanager_createCriteriaBuilder"/></li>
                 <li>createQuery (JPQL, Criteria) <kb value="entitymanager_createQuery"/></li>
                 <li>createNativeQuery (Native) <kb value="entitymanager_createNativeQuery"/></li>
                 <li>createNamedQuery <kb value="entitymanager_createNamedQuery"/></li>
-                <li>persist <kb value="entitymanager_persist"/></li>
-                <li>merge <kb value="entitymanager_merge"/></li>
-                <li>remove <kb value="entitymanager_remove"/></li>
-                <li>flush <kb value="entitymanager_flush"/></li>
-                <li>clear <kb value="entitymanager_clear"/></li>
+                <li class="methodGroup">lifecycle</li>
+                <ol>
+                    <li>find <kb value="entitymanager_find"/></li>
+                    <li>getReference</li>
+                    <li>persist <kb value="entitymanager_persist"/></li>
+                    <li>merge <kb value="entitymanager_merge"/></li>
+                    <li>remove <kb value="entitymanager_remove"/></li>
+                    <li>flush <kb value="entitymanager_flush"/></li>
+                    <li>clear <kb value="entitymanager_clear"/></li>
+                    <li>detach <kb value="entitymanager_detach"/></li>
+                    <li>commit</li>
+                </ol>
             </ol>
             <ol>
                 <li>Session (org.hibernate.Session)</li>
