@@ -712,16 +712,87 @@ let global_pylibs = {
                 "methods": [
                     {
                         "type": "method",
+                        "name": "bar"
+                    },
+                    {
+                        "type": "method",
                         "name": "barh"
                     },
                     {
                         "type": "method",
+                        "name": "plot"
+                    },
+                    {
+                        "type": "method",
+                        "name": "set_title"
+                    },
+                    {
+                        "type": "method",
+                        "name": "grid"
+                    },
+                    {
+                        "type": "method",
+                        "name": "annotate"
+                    },
+                    {
+                        "type": "method",
+                        "name": "set_ylim"
+                    },
+                    {
+                        "type": "method",
                         "name": "get_xticklabels"
+                    },
+                    {
+                        "type": "method",
+                        "name": "read_csv"
                     }
                 ]
             }
         ],
-        "Panda3D": [],
+        "pandas": [
+            {
+                "type": "class",
+                "name": "DataFrame",
+                "methods": [
+                    {
+                        "type": "method",
+                        "name": "head"
+                    },
+                    {
+                        "type": "method",
+                        "name": "tail"
+                    },
+                    {
+                        "type": "method",
+                        "name": "info"
+                    },
+                    {
+                        "type": "method",
+                        "name": "describe"
+                    },
+                    {
+                        "type": "method",
+                        "name": "plot"
+                    },
+                    {
+                        "type": "method",
+                        "name": "hist"
+                    },
+                    {
+                        "type": "method",
+                        "name": "corr"
+                    },
+                    {
+                        "type": "method",
+                        "name": "cov"
+                    },
+                    {
+                        "type": "method",
+                        "name": "groupby"
+                    }
+                ]
+            }
+        ],
         "mysql.connector": [
             {
                 "type": "method",
@@ -734,6 +805,14 @@ let global_pylibs = {
                     {
                         "type": "method",
                         "name": "cursor"
+                    },
+                    {
+                        "type": "method",
+                        "name": "commit"
+                    },
+                    {
+                        "type": "method",
+                        "name": "close"
                     }
                 ]
             },
@@ -743,11 +822,23 @@ let global_pylibs = {
                 "methods": [
                     {
                         "type": "method",
+                        "name": "lastrowid:a"
+                    },
+                    {
+                        "type": "method",
+                        "name": "execute"
+                    },
+                    {
+                        "type": "method",
                         "name": "fetchone"
                     },
                     {
                         "type": "method",
                         "name": "fetchall"
+                    },
+                    {
+                        "type": "method",
+                        "name": "close"
                     }
                 ]
             }
