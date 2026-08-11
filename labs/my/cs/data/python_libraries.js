@@ -12,7 +12,8 @@ let global_python_libraries = {
             "homeUrl": "https://numpy.org"
         },
         {
-            "id": "pandas"
+            "id": "pandas",
+            "homeUrl": "https://pandas.pydata.org/"
         },
     ]
 };
