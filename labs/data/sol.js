@@ -692,6 +692,9 @@ let global_sol = {
             "data": {
                 "completed": "2026-07-10",
                 "labId": "8U28QN",
+                "tags": [
+                    "dbname_sakila"
+                ],
                 "hibernate": {
                     "emMethods": [
                         "getCriteriaBuilder",
@@ -702,6 +705,7 @@ let global_sol = {
                 }
             },
             "tags": [
+                "dbname_sakila",
                 "entitymanager_createNamedQuery",
                 "entitymanager_createNativeQuery",
                 "entitymanager_createQuery",
@@ -1324,6 +1328,7 @@ let global_sol = {
             },
             "tags": [
                 "libs",
+                "pylib_bar",
                 "pylib_matplotlib",
                 "python"
             ]
@@ -1360,13 +1365,14 @@ let global_sol = {
             ]
         },
         {
-            "path": "python/libs/pandas",
+            "path": "python/libs/pandas/pandas",
             "data": {
                 "completed": "2026-07-09",
                 "labId": "35BY1M"
             },
             "tags": [
                 "libs",
+                "pandas",
                 "pylib_matplotlib",
                 "pylib_pandas",
                 "pylib_seaborn",
