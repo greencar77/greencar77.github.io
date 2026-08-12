@@ -1386,7 +1386,8 @@ let global_sol = {
                 "labId": "42NJ8Y",
                 "tags": [
                     "pymet_pandas_DataFrame_set_index",
-                    "pymet_pandas_DataFrame_resample"
+                    "pymet_pandas_DataFrame_resample",
+                    "pymet_pandas_DataFrame_groupby"
                 ]
             },
             "tags": [
@@ -1394,6 +1395,7 @@ let global_sol = {
                 "pandas",
                 "pylib_matplotlib",
                 "pylib_pandas",
+                "pymet_pandas_DataFrame_groupby",
                 "pymet_pandas_DataFrame_resample",
                 "pymet_pandas_DataFrame_set_index",
                 "python"
