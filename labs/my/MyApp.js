@@ -80,6 +80,10 @@ class MyApp {
                     "byPrefix": "pylib_",
                 },
                 {
+                    "title": "Python methods",
+                    "byPrefix": "pymet_",
+                },
+                {
                     "title": "Task language",
                     "byPrefix": "lang_",
                 },
