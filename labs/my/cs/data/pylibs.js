@@ -745,6 +745,10 @@ let global_pylibs = {
                     {
                         "type": "method",
                         "name": "read_csv"
+                    },
+                    {
+                        "type": "method",
+                        "name": "to_datetime"
                     }
                 ]
             }
@@ -756,39 +760,48 @@ let global_pylibs = {
                 "methods": [
                     {
                         "type": "method",
-                        "name": "head"
+                        "name": "head",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html"
                     },
                     {
                         "type": "method",
-                        "name": "tail"
+                        "name": "tail",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html"
                     },
                     {
                         "type": "method",
-                        "name": "info"
+                        "name": "info",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html"
                     },
                     {
                         "type": "method",
-                        "name": "describe"
+                        "name": "describe",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html"
                     },
                     {
                         "type": "method",
-                        "name": "plot"
+                        "name": "plot",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html"
                     },
                     {
                         "type": "method",
-                        "name": "hist"
+                        "name": "hist",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.hist.html"
                     },
                     {
                         "type": "method",
-                        "name": "corr"
+                        "name": "corr",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html"
                     },
                     {
                         "type": "method",
-                        "name": "cov"
+                        "name": "cov",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.cov.html"
                     },
                     {
                         "type": "method",
-                        "name": "groupby"
+                        "name": "groupby",
+                        "docUrl": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html"
                     }
                 ]
             }
