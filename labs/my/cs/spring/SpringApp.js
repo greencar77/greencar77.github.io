@@ -61,6 +61,13 @@ class SpringApp extends CsApp {
             }
             li.textContent = val;
 
+            li.appendChild(document.createTextNode(" "));
+            let mvn = document.createElement("a");
+            mvn.setAttribute("href", "https://mvnrepository.com/artifact/" + e.groupId + "/" + e.artifactId);
+            mvn.textContent = "[mvn]";
+            li.appendChild(mvn);
+
+            li.appendChild(document.createTextNode(" "));
             let kb = document.createElement("kb");
             kb.setAttribute("value", "mvndep_" + e.groupId + ":" + e.artifactId);
             li.appendChild(kb);
