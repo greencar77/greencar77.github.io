@@ -128,7 +128,7 @@ class CsApp {
             li.appendChild(a);
 
             const details = document.createElement('span');
-            details.innerHTML = ' <a href="../details.html#' + task.data.labId + '">[details]</a>';
+            details.innerHTML = ' <a href="' + this.detailsRoot() + '../details.html#' + task.data.labId + '">[details]</a>';
             li.appendChild(details);
 
             const span = document.createElement('span');
@@ -137,6 +137,10 @@ class CsApp {
 
             popupLinks.appendChild(li);
         });
+    }
+
+    detailsRoot() {
+        return '';
     }
 
     prepareData() {

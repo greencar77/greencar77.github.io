@@ -68,5 +68,10 @@ class SpringApp extends CsApp {
             parent.appendChild(li);
         }
     }
+
+    detailsRoot() {
+        return super.detailsRoot() + '../';
+    }
+
 }
 
