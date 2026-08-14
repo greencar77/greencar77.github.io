@@ -55,7 +55,11 @@ class SpringApp extends CsApp {
         let parent = document.getElementById(parentId);
         for (const e of source) {
             let li = document.createElement("li");
-            li.textContent = e.groupId + ":" + e.artifactId;
+            let val = e.artifactId;
+            if (val.startsWith("spring-boot-starter-")) {
+                val = val.substring("spring-boot-starter-".length);
+            }
+            li.textContent = val;
 
             let kb = document.createElement("kb");
             kb.setAttribute("value", "mvndep_" + e.groupId + ":" + e.artifactId);
