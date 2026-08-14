@@ -24,5 +24,13 @@ let global_spring_starter = {
             "groupId": "org.springframework.boot",
             "artifactId": "spring-boot-starter-test"
         },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-actuator"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-cache"
+        },
     ]
 };
