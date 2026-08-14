@@ -25,6 +25,7 @@ class CsApp {
         'hibernate_LockModeType_',
         'nix_com_',
         'pylib_',
+        'mvndep_',
     ]
 
     prepareKb() {

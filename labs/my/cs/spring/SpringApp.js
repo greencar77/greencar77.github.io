@@ -4,12 +4,16 @@ class SpringApp extends CsApp {
     constructor() {
         super();
         this.prepareJavaTypes();
+        this.prepareStarter();
         super.prepareKb();
     }
 
     prepareJavaTypes() {
-        let springJavaTypes = document.getElementById("springJavaTypes");
-        for (const e of global_spring_types.values) {
+        const parentId = "springJavaTypes";
+        const source = global_spring_types.values;
+
+        let parent = document.getElementById(parentId);
+        for (const e of source) {
             let li = document.createElement("li");
             li.textContent = shortName(e);
 
@@ -39,7 +43,25 @@ class SpringApp extends CsApp {
             kb.setAttribute("value", "import_" + e.canonical);
             li.appendChild(kb);
 
-            springJavaTypes.appendChild(li);
+            parent.appendChild(li);
+        }
+    }
+
+    prepareStarter() {
+        const parentId = "springStarter";
+        let source = global_spring_starter.values;
+        source = source.sort((a, b) => (a.groupId + ":" + a.artifactId).localeCompare(b.groupId + ":" + b.artifactId));
+
+        let parent = document.getElementById(parentId);
+        for (const e of source) {
+            let li = document.createElement("li");
+            li.textContent = e.groupId + ":" + e.artifactId;
+
+            let kb = document.createElement("kb");
+            kb.setAttribute("value", "mvndep_" + e.groupId + ":" + e.artifactId);
+            li.appendChild(kb);
+
+            parent.appendChild(li);
         }
     }
 }

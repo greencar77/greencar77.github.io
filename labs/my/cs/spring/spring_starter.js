@@ -8,5 +8,21 @@ let global_spring_starter = {
             "groupId": "org.springframework.boot",
             "artifactId": "spring-boot-starter-data-jpa"
         },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-tomcat"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-security"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-thymeleaf"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test"
+        },
     ]
 };
