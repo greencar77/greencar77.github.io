@@ -2,6 +2,12 @@
 
 class HibernateApp extends CsApp {
     constructor() {
+        super();
+        this.prepareJavaTypes();
+        super.prepareKb();
+    }
+
+    prepareJavaTypes() {
         let hibernateJavaTypes = document.getElementById("hibernateJavaTypes");
         for (const e of global_hibernate_types.values) {
             let li = document.createElement("li");
@@ -35,8 +41,6 @@ class HibernateApp extends CsApp {
 
             hibernateJavaTypes.appendChild(li);
         }
-
-        super();
     }
 }
 

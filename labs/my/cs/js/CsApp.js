@@ -27,9 +27,8 @@ class CsApp {
         'pylib_',
     ]
 
-    constructor() {
+    prepareKb() {
         this.prepareData();
-
         this.insertOverlayDiv();
         this.populateKb();
     }

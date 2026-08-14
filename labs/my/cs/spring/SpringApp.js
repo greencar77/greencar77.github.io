@@ -2,6 +2,12 @@
 
 class SpringApp extends CsApp {
     constructor() {
+        super();
+        this.prepareJavaTypes();
+        super.prepareKb();
+    }
+
+    prepareJavaTypes() {
         let springJavaTypes = document.getElementById("springJavaTypes");
         for (const e of global_spring_types.values) {
             let li = document.createElement("li");
@@ -35,8 +41,6 @@ class SpringApp extends CsApp {
 
             springJavaTypes.appendChild(li);
         }
-
-        super();
     }
 }
 
