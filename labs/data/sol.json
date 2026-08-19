@@ -739,13 +739,16 @@
             "path": "java/spring/hibernate/sb4-postgres",
             "data": {
                 "completed": "2026-07-28",
-                "labId": "61JGL6"
+                "labId": "61JGL6",
+                "tags": [
+                    "http"
+                ]
             },
             "tags": [
                 "db_postgresql",
                 "dbname_dvdrental",
                 "hibernate",
-                "import_org.springframework.boot.test.context.SpringBootTest",
+                "http",
                 "import_org.springframework.data.jpa.repository.JpaRepository",
                 "java",
                 "maven",
@@ -758,8 +761,7 @@
                 "spring",
                 "springboot",
                 "springboot_4",
-                "springboot_4.1.0",
-                "unit_test"
+                "springboot_4.1.0"
             ]
         },
         {
