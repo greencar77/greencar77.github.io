@@ -839,10 +839,12 @@ let global_sol = {
                 "completed": "2026-08-19",
                 "labId": "5BCKJU",
                 "tags": [
-                    "http"
+                    "http",
+                    "db_postgresql"
                 ]
             },
             "tags": [
+                "db_postgresql",
                 "hibernate",
                 "http",
                 "import_jakarta.persistence.EntityManager",
