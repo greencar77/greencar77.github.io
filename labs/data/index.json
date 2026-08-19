@@ -439,6 +439,21 @@
         },
         {
             "type": "simple",
+            "id": "5BCKJU",
+            "path": "java/spring/hibernate/_simple/test_postgres",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "hibernate",
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "SpringBoot test with Postgres"
+        },
+        {
+            "type": "simple",
             "id": "WRLA8Z",
             "path": "java/spring/hibernate/_simple/transactional",
             "lang": [

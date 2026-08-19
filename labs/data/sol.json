@@ -834,6 +834,57 @@
             ]
         },
         {
+            "path": "java/spring/hibernate/testpostgres",
+            "data": {
+                "completed": "2026-08-19",
+                "labId": "5BCKJU",
+                "tags": [
+                    "http"
+                ]
+            },
+            "tags": [
+                "hibernate",
+                "http",
+                "import_jakarta.persistence.EntityManager",
+                "import_jakarta.persistence.PersistenceContext",
+                "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.context.annotation.Configuration",
+                "import_org.springframework.data.jpa.repository.JpaRepository",
+                "import_org.springframework.transaction.annotation.Transactional",
+                "import_org.springframework.web.client.RestTemplate",
+                "java",
+                "maven",
+                "mvndep_com.github.gavlyukovskiy:datasource-proxy-spring-boot-starter",
+                "mvndep_com.mysql:mysql-connector-j",
+                "mvndep_io.hypersistence:hypersistence-utils-hibernate-60",
+                "mvndep_org.hibernate:hibernate-core",
+                "mvndep_org.hsqldb:hsqldb",
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "mvndep_org.postgresql:postgresql",
+                "mvndep_org.springframework.boot:spring-boot-devtools",
+                "mvndep_org.springframework.boot:spring-boot-starter-actuator",
+                "mvndep_org.springframework.boot:spring-boot-starter-cache",
+                "mvndep_org.springframework.boot:spring-boot-starter-data-jpa",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-thymeleaf",
+                "mvndep_org.springframework.boot:spring-boot-starter-web",
+                "mvndep_org.springframework:spring-test",
+                "mvndep_org.testcontainers:testcontainers-bom",
+                "mvndep_org.testcontainers:testcontainers-postgresql",
+                "mvndep_org.webjars:bootstrap",
+                "mvndep_org.webjars:jquery",
+                "mvndep_org.webjars:jquery-ui",
+                "mvndep_org.webjars:webjars-locator-core",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3",
+                "springboot_3.5.7",
+                "unit_test"
+            ]
+        },
+        {
             "path": "java/spring/hibernate/transactional",
             "data": {
                 "completed": "2026-07-31",
