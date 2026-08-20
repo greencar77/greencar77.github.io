@@ -20,11 +20,19 @@ let global_hibernate_types = {
             "type": "interface"
         },
         {
+            "canonical": "jakarta.persistence.EntityManagerFactory",
+            "type": "interface"
+        },
+        {
             "canonical": "javax.persistence.PersistenceContext",
             "type": "@interface"
         },
         {
             "canonical": "jakarta.persistence.PersistenceContext",
+            "type": "@interface"
+        },
+        {
+            "canonical": "jakarta.persistence.PersistenceUnit",
             "type": "@interface"
         },
         {
@@ -34,6 +42,26 @@ let global_hibernate_types = {
         {
             "canonical": "jakarta.persistence.LockModeType",
             "type": "enum"
+        },
+        {
+            "canonical": "jakarta.persistence.Column",
+            "type": "@interface"
+        },
+        {
+            "canonical": "jakarta.persistence.Entity",
+            "type": "@interface"
+        },
+        {
+            "canonical": "jakarta.persistence.Id",
+            "type": "@interface"
+        },
+        {
+            "canonical": "jakarta.persistence.Table",
+            "type": "@interface"
+        },
+        {
+            "canonical": "jakarta.persistence.GeneratedValue",
+            "type": "@interface"
         },
 
         {
