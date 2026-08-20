@@ -53,6 +53,10 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.transaction.annotation.Transactional",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.test.context.ContextConfiguration",
+            "type": "@interface"
         }
     ]
 };

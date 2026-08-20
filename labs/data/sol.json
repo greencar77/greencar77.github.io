@@ -853,6 +853,7 @@
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Configuration",
                 "import_org.springframework.data.jpa.repository.JpaRepository",
+                "import_org.springframework.test.context.ContextConfiguration",
                 "import_org.springframework.transaction.annotation.Transactional",
                 "import_org.springframework.web.client.RestTemplate",
                 "java",
