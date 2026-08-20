@@ -1,12 +1,15 @@
 let global_hibernate_types = {
     "values": [
         {
-            "canonical": "org.hibernate.annotations.OptimisticLocking",
+            "canonical": "javax.transaction.Transactional",
             "type": "@interface"
         },
         {
-            "canonical": "org.hibernate.annotations.OptimisticLockType",
-            "type": "enum"
+            "canonical": "jakarta.transaction.Transactional",
+            "type": "@interface",
+            "focus": [
+                { "id": "WRLA8Z", "comment": "" }
+            ]
         },
         {
             "canonical": "javax.persistence.EntityManager",
@@ -30,6 +33,15 @@ let global_hibernate_types = {
         },
         {
             "canonical": "jakarta.persistence.LockModeType",
+            "type": "enum"
+        },
+
+        {
+            "canonical": "org.hibernate.annotations.OptimisticLocking",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.hibernate.annotations.OptimisticLockType",
             "type": "enum"
         },
         {
