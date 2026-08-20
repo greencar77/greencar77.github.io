@@ -57,6 +57,26 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.test.context.ContextConfiguration",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.data.jpa.repository.config.EnableJpaRepositories",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.transaction.annotation.EnableTransactionManagement",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.context.annotation.EnableAspectJAutoProxy",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.context.annotation.ComponentScan",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.context.annotation.PropertySource",
+            "type": "@interface"
         }
     ]
 };
