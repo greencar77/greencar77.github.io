@@ -913,6 +913,7 @@ let global_sol = {
                 "import_org.springframework.data.jpa.repository.config.EnableJpaRepositories",
                 "import_org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
                 "import_org.springframework.test.context.ContextConfiguration",
+                "import_org.springframework.test.context.junit.jupiter.SpringExtension",
                 "import_org.springframework.transaction.annotation.EnableTransactionManagement",
                 "import_org.springframework.transaction.annotation.Transactional",
                 "import_org.springframework.web.client.RestTemplate",

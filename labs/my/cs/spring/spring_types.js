@@ -132,6 +132,10 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.test.context.junit.jupiter.SpringJUnitConfig",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.test.context.junit.jupiter.SpringExtension",
+            "type": "class"
         }
     ]
 };
