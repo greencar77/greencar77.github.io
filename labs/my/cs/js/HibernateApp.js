@@ -20,6 +20,11 @@ class HibernateApp extends CsApp {
             let jdoc = document.createElement("a");
             let root = 'https://docs.hibernate.org/orm/6.5/javadocs/';
             jdoc.href = root + e.canonical.replaceAll('.', '/') +  '.html';
+            if (e.canonical.startsWith("jakarta.")) {
+                // root = 'https://docs.oracle.com/javaee/8/api/';
+                root = 'https://jakarta.ee/specifications/persistence/3.2/apidocs/jakarta.persistence/';
+                jdoc.href = root + e.canonical.replaceAll('.', '/').toLowerCase();
+            }
             jdoc.textContent = "[API]";
             li.appendChild(document.createTextNode(" "));
             li.appendChild(jdoc);
