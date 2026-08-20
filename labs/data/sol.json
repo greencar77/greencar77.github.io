@@ -851,6 +851,7 @@
                 "import_jakarta.persistence.EntityManager",
                 "import_jakarta.persistence.PersistenceContext",
                 "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.beans.factory.annotation.Value",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.ComponentScan",
                 "import_org.springframework.context.annotation.Configuration",
@@ -1165,6 +1166,7 @@
                 "labId": "K204NK"
             },
             "tags": [
+                "import_org.springframework.beans.factory.annotation.Qualifier",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Configuration",
                 "java",

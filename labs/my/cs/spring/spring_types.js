@@ -2,7 +2,10 @@ let global_spring_types = {
     "values": [
         {
             "canonical": "org.springframework.context.annotation.Bean",
-            "type": "@interface"
+            "type": "@interface",
+            "links": [
+                "https://www.baeldung.com/spring-core-annotations#bean"
+            ]
         },
         {
             "canonical": "org.springframework.context.annotation.Configuration",
@@ -18,17 +21,44 @@ let global_spring_types = {
         },
         {
             "canonical": "org.springframework.context.annotation.Lazy",
-            "type": "@interface"
+            "type": "@interface",
+            "links": [
+                "https://www.baeldung.com/spring-core-annotations#lazy"
+            ]
         },
         {
             "canonical": "org.springframework.context.annotation.Primary",
-            "type": "@interface"
+            "type": "@interface",
+            "links": [
+                "https://www.baeldung.com/spring-core-annotations#primary"
+            ]
         },
         {
             "canonical": "org.springframework.beans.factory.annotation.Autowired",
             "type": "@interface",
             "links": [
                 "https://www.baeldung.com/spring-core-annotations#autowired"
+            ]
+        },
+        {
+            "canonical": "org.springframework.beans.factory.annotation.Qualifier",
+            "type": "@interface",
+            "links": [
+                "https://www.baeldung.com/spring-core-annotations#qualifier"
+            ]
+        },
+        {
+            "canonical": "org.springframework.beans.factory.annotation.Value",
+            "type": "@interface",
+            "links": [
+                "https://www.baeldung.com/spring-core-annotations#value"
+            ]
+        },
+        {
+            "canonical": "org.springframework.context.annotation.DependsOn",
+            "type": "@interface",
+            "links": [
+                "https://www.baeldung.com/spring-core-annotations#depends-on"
             ]
         },
         {
