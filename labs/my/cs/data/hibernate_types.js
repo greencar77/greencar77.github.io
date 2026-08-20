@@ -79,6 +79,10 @@ let global_hibernate_types = {
         {
             "canonical": "org.hibernate.Session",
             "type": "interface"
+        },
+        {
+            "canonical": "org.hibernate.SessionFactory",
+            "type": "interface"
         }
     ]
 };

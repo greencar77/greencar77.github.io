@@ -120,6 +120,18 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.boot.autoconfigure.SpringBootApplication",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+            "type": "class"
+        },
+        {
+            "canonical": "org.springframework.transaction.PlatformTransactionManager",
+            "type": "interface"
+        },
+        {
+            "canonical": "org.springframework.test.context.junit.jupiter.SpringJUnitConfig",
+            "type": "@interface"
         }
     ]
 };
