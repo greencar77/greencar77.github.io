@@ -3,43 +3,32 @@
 class HibernateApp extends CsApp {
     constructor() {
         super();
-        this.prepareJavaTypes();
+        this.prepareHibernateTypes();
         super.prepareKb();
     }
 
-    prepareJavaTypes() {
-        let hibernateJavaTypes = document.getElementById("hibernateJavaTypes");
-        for (const e of global_hibernate_types.values) {
+    prepareHibernateTypes() {
+        const parentId = "hibernateJavaTypes";
+        let source = global_hibernate_types.values;
+        source = source.sort((a, b) => a.canonical.localeCompare(b.canonical));
+
+        let parent = document.getElementById(parentId);
+        for (const e of source) {
             let li = document.createElement("li");
             li.textContent = shortName(e);
 
             let jdoc = document.createElement("a");
-            let root = 'https://docs.spring.io/spring-framework/docs/current/javadoc-api/';
-            if (e.canonical.indexOf(".boot.") > -1) {
-                root = 'https://docs.spring.io/spring-boot/api/java/';
-            }
+            let root = 'https://docs.hibernate.org/orm/6.5/javadocs/';
             jdoc.href = root + e.canonical.replaceAll('.', '/') +  '.html';
             jdoc.textContent = "[API]";
             li.appendChild(document.createTextNode(" "));
             li.appendChild(jdoc);
 
-            if (e.links) {
-                for (const l of e.links) {
-                    if (l.indexOf("https://www.baeldung.com/") > -1) {
-                        let a = document.createElement("a");
-                        a.href = l;
-                        a.textContent = "[Bae]";
-                        li.appendChild(document.createTextNode(" "));
-                        li.appendChild(a);
-                    }
-                }
-            }
-
             let kb = document.createElement("kb");
             kb.setAttribute("value", "import_" + e.canonical);
             li.appendChild(kb);
 
-            hibernateJavaTypes.appendChild(li);
+            parent.appendChild(li);
         }
     }
 }
