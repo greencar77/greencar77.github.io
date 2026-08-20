@@ -10,7 +10,8 @@ class SpringApp extends CsApp {
 
     prepareJavaTypes() {
         const parentId = "springJavaTypes";
-        const source = global_spring_types.values;
+        let source = global_spring_types.values;
+        source = source.sort((a, b) => a.canonical.localeCompare(b.canonical));
 
         let parent = document.getElementById(parentId);
         for (const e of source) {
