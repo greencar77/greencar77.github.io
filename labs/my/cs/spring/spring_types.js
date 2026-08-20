@@ -92,6 +92,34 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.context.annotation.PropertySource",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.web.bind.annotation.RestController",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.web.bind.annotation.RequestMapping",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.web.bind.annotation.GetMapping",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.web.bind.annotation.PostMapping",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.web.bind.annotation.RequestBody",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.web.bind.annotation.ResponseBody",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.boot.autoconfigure.SpringBootApplication",
+            "type": "@interface"
         }
     ]
 };
