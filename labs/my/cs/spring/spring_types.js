@@ -71,10 +71,6 @@ let global_spring_types = {
             "type": "@interface"
         },
         {
-            "canonical": "org.springframework.context.annotation.ComponentScan",
-            "type": "@interface"
-        },
-        {
             "canonical": "org.springframework.context.annotation.PropertySource",
             "type": "@interface"
         }
