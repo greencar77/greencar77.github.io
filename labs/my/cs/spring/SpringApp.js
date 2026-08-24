@@ -28,6 +28,14 @@ class SpringApp extends CsApp {
             li.appendChild(document.createTextNode(" "));
             li.appendChild(jdoc);
 
+            if (e.dep) {
+                li.appendChild(document.createTextNode(" "));
+                let more = document.createElement("a");
+                more.setAttribute("href", "#" + e.canonical);
+                more.textContent = "[more]";
+                li.appendChild(more);
+            }
+
             if (e.links) {
                 for (const l of e.links) {
                     if (l.indexOf("https://www.baeldung.com/") > -1) {
@@ -46,6 +54,33 @@ class SpringApp extends CsApp {
 
             parent.appendChild(li);
         }
+
+        this.appendDetails(parent.parentNode);
+    }
+
+    appendDetails(parent) {
+        let details = document.createElement("ol");
+
+        let source = global_spring_types.values;
+        source = source.sort((a, b) => a.canonical.localeCompare(b.canonical));
+        for (const e of source) {
+            if (e.dep) {
+                let li = document.createElement("li");
+                li.id = e.canonical;
+                li.textContent = shortName(e);
+                details.appendChild(li);
+
+                let depOl = document.createElement("ol");
+                for (const d of e.dep) {
+                    let li = document.createElement("li");
+                    li.textContent = d;
+                    depOl.appendChild(li);
+                }
+                details.appendChild(depOl);
+            }
+        }
+
+        parent.appendChild(details);
     }
 
     prepareStarter() {
