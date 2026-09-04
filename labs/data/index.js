@@ -612,6 +612,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "YT03G4",
+            "path": "java/spring/_simple/springmvc_xslt",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring MVC - XSLT"
+        },
+        {
+            "type": "simple",
             "id": "PL531K",
             "path": "java/spring/_simple/spring_context",
             "lang": [
