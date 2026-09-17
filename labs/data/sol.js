@@ -1374,6 +1374,16 @@ let global_sol = {
             ]
         },
         {
+            "path": "nodejs/mermaiddemo",
+            "data": {
+                "completed": "2026-09-17",
+                "labId": "GNF6ZX"
+            },
+            "tags": [
+                "nodejs"
+            ]
+        },
+        {
             "path": "nodejs/tsfiles",
             "data": {
                 "completed": "2026-07-23",

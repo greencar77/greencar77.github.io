@@ -831,6 +831,19 @@
         },
         {
             "type": "simple",
+            "id": "GNF6ZX",
+            "path": "nodejs/_simple/mermaid",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "nodejs"
+            ],
+            "title": "Mermaid diagrams"
+        },
+        {
+            "type": "simple",
             "id": "LL94UB",
             "path": "nodejs/_simple/nodejs_files",
             "lang": [
