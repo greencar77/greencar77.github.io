@@ -140,6 +140,10 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.test.context.junit.jupiter.SpringExtension",
             "type": "class"
+        },
+        {
+            "canonical": "org.springframework.scheduling.annotation.Scheduled",
+            "type": "@interface"
         }
     ]
 };

@@ -1055,6 +1055,7 @@ let global_sol = {
                 "import_org.springframework.boot.autoconfigure.SpringBootApplication",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Configuration",
+                "import_org.springframework.scheduling.annotation.Scheduled",
                 "java",
                 "maven",
                 "mvndep_org.springframework.boot:spring-boot-starter",
