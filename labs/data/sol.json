@@ -1055,6 +1055,7 @@
                 "import_org.springframework.boot.autoconfigure.SpringBootApplication",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Configuration",
+                "import_org.springframework.kafka.core.KafkaTemplate",
                 "import_org.springframework.scheduling.annotation.Scheduled",
                 "java",
                 "maven",
@@ -1067,6 +1068,33 @@
                 "springboot",
                 "springboot_3",
                 "springboot_3.3.0"
+            ]
+        },
+        {
+            "path": "java/spring/kafka-test",
+            "data": {
+                "completed": "2026-09-18",
+                "labId": "8IUDBG"
+            },
+            "tags": [
+                "import_org.springframework.beans.factory.annotation.Autowired",
+                "import_org.springframework.boot.autoconfigure.SpringBootApplication",
+                "import_org.springframework.boot.test.context.SpringBootTest",
+                "import_org.springframework.context.annotation.Bean",
+                "import_org.springframework.kafka.core.KafkaTemplate",
+                "import_org.springframework.scheduling.annotation.Scheduled",
+                "java",
+                "maven",
+                "mvndep_org.springframework.boot:spring-boot-starter",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.kafka:spring-kafka",
+                "mvndep_org.springframework.kafka:spring-kafka-test",
+                "mvnparent_org.springframework.boot:spring-boot-starter-parent",
+                "spring",
+                "springboot",
+                "springboot_3",
+                "springboot_3.3.4",
+                "unit_test"
             ]
         },
         {

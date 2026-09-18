@@ -525,6 +525,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "8IUDBG",
+            "path": "java/spring/_simple/kafka_test",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "SpringBoot Kafka testing"
+        },
+        {
+            "type": "simple",
             "id": "85HECW",
             "path": "java/spring/_simple/parallel_http",
             "lang": [
