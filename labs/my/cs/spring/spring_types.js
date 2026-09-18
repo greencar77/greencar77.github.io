@@ -144,6 +144,10 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.scheduling.annotation.Scheduled",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.kafka.core.KafkaTemplate",
+            "type": "class"
         }
     ]
 };
