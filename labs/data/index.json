@@ -112,6 +112,20 @@
         },
         {
             "type": "simple",
+            "id": "1LHPXE",
+            "path": "java/javaapi/_simple/micrometer",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "javaapi",
+                "lang_en"
+            ],
+            "title": "Micrometer"
+        },
+        {
+            "type": "simple",
             "id": "M55OE6",
             "path": "java/javaapi/_simple/restassured",
             "lang": [

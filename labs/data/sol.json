@@ -124,6 +124,23 @@
             ]
         },
         {
+            "path": "java/javaapi/micrometer",
+            "data": {
+                "completed": "2026-09-22",
+                "labId": "1LHPXE",
+                "tags": [
+                    "javaapi_micrometer"
+                ]
+            },
+            "tags": [
+                "gradle",
+                "java",
+                "javaapi",
+                "javaapi_micrometer",
+                "unit_test"
+            ]
+        },
+        {
             "path": "java/javaapi/restassureddemo",
             "data": {
                 "completed": "2025-10-22",
