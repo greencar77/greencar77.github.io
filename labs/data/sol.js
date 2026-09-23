@@ -129,7 +129,10 @@ let global_sol = {
                 "completed": "2026-09-22",
                 "labId": "1LHPXE",
                 "tags": [
-                    "javaapi_micrometer"
+                    "javaapi_micrometer",
+                    "mvndep_org.springframework:spring-aop",
+                    "mvndep_io.micrometer:micrometer-core",
+                    "mvndep_org.aspectj:aspectjweaver"
                 ]
             },
             "tags": [
@@ -137,6 +140,9 @@ let global_sol = {
                 "java",
                 "javaapi",
                 "javaapi_micrometer",
+                "mvndep_io.micrometer:micrometer-core",
+                "mvndep_org.aspectj:aspectjweaver",
+                "mvndep_org.springframework:spring-aop",
                 "unit_test"
             ]
         },
