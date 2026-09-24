@@ -70,6 +70,16 @@ let global_sol = {
             ]
         },
         {
+            "path": "gradle/somegradle",
+            "data": {
+                "completed": "2026-09-25",
+                "labId": "RW9ZJT"
+            },
+            "tags": [
+                "gradle"
+            ]
+        },
+        {
             "path": "htmlcssjs/popup",
             "data": {
                 "completed": "2026-06-17",
