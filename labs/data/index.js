@@ -71,6 +71,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "A50XJ7",
+            "path": "gradle/_simple/gradle_lil",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "gradle",
+                "lang_en"
+            ],
+            "title": "LinkedinLearning course \"Learning Gradle\""
+        },
+        {
+            "type": "simple",
             "id": "MBLU4L",
             "path": "htmlcssjs/_simple/popup",
             "lang": [

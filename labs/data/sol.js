@@ -70,6 +70,16 @@ let global_sol = {
             ]
         },
         {
+            "path": "gradle/lil_ex_tar",
+            "data": {
+                "completed": "2026-09-27",
+                "labId": "A50XJ7"
+            },
+            "tags": [
+                "gradle"
+            ]
+        },
+        {
             "path": "gradle/somegradle",
             "data": {
                 "completed": "2026-09-25",
