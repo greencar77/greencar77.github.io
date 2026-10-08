@@ -39,8 +39,12 @@ let global_sol = {
                 "completed": "2026-07-20",
                 "labId": "TS396J",
                 "docker": {
+                    "image": [
+                        "nginx"
+                    ],
                     "cmd": [
                         "image",
+                        "image_inspect",
                         "pull",
                         "run",
                         "stop",
@@ -53,10 +57,12 @@ let global_sol = {
                 "docker",
                 "docker_cmd_history",
                 "docker_cmd_image",
+                "docker_cmd_image_inspect",
                 "docker_cmd_ps",
                 "docker_cmd_pull",
                 "docker_cmd_run",
-                "docker_cmd_stop"
+                "docker_cmd_stop",
+                "docker_image_nginx"
             ]
         },
         {
