@@ -19,6 +19,7 @@ class CsApp {
     allowedStarts = [
         'entitymanager_',
         'docker_cmd_',
+        'docker_image_',
         'import_',
         'spring_di_',
         'hibernate_lock_',
