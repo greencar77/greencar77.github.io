@@ -1098,9 +1098,17 @@ let global_sol = {
             "path": "java/spring/kafka",
             "data": {
                 "completed": "2026-06-15",
-                "labId": "AFCAJ1"
+                "labId": "AFCAJ1",
+                "docker": {
+                    "image": [
+                        "confluentinc/cp-zookeeper",
+                        "confluentinc/cp-kafka"
+                    ]
+                }
             },
             "tags": [
+                "docker_image_confluentinc/cp-kafka",
+                "docker_image_confluentinc/cp-zookeeper",
                 "import_org.springframework.boot.autoconfigure.SpringBootApplication",
                 "import_org.springframework.context.annotation.Bean",
                 "import_org.springframework.context.annotation.Configuration",
