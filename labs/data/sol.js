@@ -133,6 +133,22 @@ let global_sol = {
             ]
         },
         {
+            "path": "java/javaapi/jackson",
+            "data": {
+                "completed": "2020-08-28",
+                "labId": "XX1740"
+            },
+            "tags": [
+                "java",
+                "javaapi",
+                "maven",
+                "mvndep_com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+                "mvndep_org.junit.jupiter:junit-jupiter",
+                "mvndep_org.junit.jupiter:junit-jupiter-api",
+                "unit_test"
+            ]
+        },
+        {
             "path": "java/javaapi/log4j",
             "data": {
                 "completed": "2020-11-10",

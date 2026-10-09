@@ -138,6 +138,20 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "XX1740",
+            "path": "java/javaapi/_simple/jackson",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "javaapi",
+                "lang_en"
+            ],
+            "title": "Jackson ObjectMapper"
+        },
+        {
+            "type": "simple",
             "id": "1LHPXE",
             "path": "java/javaapi/_simple/micrometer",
             "lang": [
