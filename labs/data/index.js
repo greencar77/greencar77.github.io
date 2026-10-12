@@ -735,6 +735,20 @@ let global_index = {
             "title": "Spring @RestController"
         },
         {
+            "type": "simple",
+            "id": "E83RGF",
+            "path": "java/spring/_simple/webtestclient",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "java",
+                "lang_en",
+                "spring"
+            ],
+            "title": "Spring WebTestClient"
+        },
+        {
             "type": "standalone",
             "id": "8DRNII",
             "path": "java/swagger/swagger_plugin",

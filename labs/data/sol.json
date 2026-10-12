@@ -1403,6 +1403,37 @@
             ]
         },
         {
+            "path": "java/spring/webtestclient",
+            "data": {
+                "completed": "2026-10-12",
+                "labId": "E83RGF",
+                "tags": [
+                    "mvndep_org.springframework.boot:spring-boot-starter-test",
+                    "mvndep_org.springframework.boot:spring-boot-starter-webflux",
+                    "springboot",
+                    "springboot_3",
+                    "springboot_3.3.5"
+                ]
+            },
+            "tags": [
+                "gradle",
+                "import_org.springframework.boot.autoconfigure.SpringBootApplication",
+                "import_org.springframework.test.web.reactive.server.WebTestClient",
+                "import_org.springframework.web.bind.annotation.GetMapping",
+                "import_org.springframework.web.bind.annotation.RequestBody",
+                "import_org.springframework.web.bind.annotation.RequestMapping",
+                "import_org.springframework.web.bind.annotation.RestController",
+                "java",
+                "mvndep_org.springframework.boot:spring-boot-starter-test",
+                "mvndep_org.springframework.boot:spring-boot-starter-webflux",
+                "spring",
+                "springboot",
+                "springboot_3",
+                "springboot_3.3.5",
+                "unit_test"
+            ]
+        },
+        {
             "path": "js/winjs",
             "data": {
                 "completed": "2026-01-30",
