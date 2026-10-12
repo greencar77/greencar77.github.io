@@ -148,6 +148,10 @@ let global_spring_types = {
         {
             "canonical": "org.springframework.kafka.core.KafkaTemplate",
             "type": "class"
+        },
+        {
+            "canonical": "org.springframework.test.web.reactive.server.WebTestClient",
+            "type": "interface"
         }
     ]
 };
