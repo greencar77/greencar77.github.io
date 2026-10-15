@@ -78,8 +78,32 @@ let global_spring_types = {
             "type": "@interface"
         },
         {
+            "canonical": "org.springframework.data.jpa.domain.Specification",
+            "type": "interface"
+        },
+         {
             "canonical": "org.springframework.data.jpa.repository.config.EnableJpaRepositories",
             "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.data.jpa.repository.Query",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.data.repository.query.Param",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.data.repository.Repository",
+            "type": "interface"
+        },
+        {
+            "canonical": "org.springframework.data.repository.CrudRepository",
+            "type": "interface"
+        },
+        {
+            "canonical": "org.springframework.data.repository.ListCrudRepository",
+            "type": "interface"
         },
         {
             "canonical": "org.springframework.transaction.annotation.EnableTransactionManagement",
@@ -91,6 +115,10 @@ let global_spring_types = {
         },
         {
             "canonical": "org.springframework.context.annotation.PropertySource",
+            "type": "@interface"
+        },
+        {
+            "canonical": "org.springframework.stereotype.Repository",
             "type": "@interface"
         },
         {

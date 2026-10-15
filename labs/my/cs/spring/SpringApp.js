@@ -22,6 +22,12 @@ class SpringApp extends CsApp {
             let root = 'https://docs.spring.io/spring-framework/docs/current/javadoc-api/';
             if (e.canonical.indexOf(".boot.") > -1) {
                 root = 'https://docs.spring.io/spring-boot/api/java/';
+            } else if (e.canonical.indexOf(".data.jpa.") > -1) {
+                root = 'https://docs.spring.io/spring-data/jpa/docs/current/api/';
+            } else if (e.canonical.indexOf(".data.repository.") > -1) {
+                root = 'https://docs.spring.io/spring-data/commons/docs/current/api/';
+            } else if (e.canonical.indexOf(".kafka.") > -1) {
+                root = 'https://docs.spring.io/spring-kafka/api/';
             }
             jdoc.href = root + e.canonical.replaceAll('.', '/') +  '.html';
             jdoc.textContent = "[API]";
