@@ -1557,6 +1557,18 @@ let global_sol = {
             ]
         },
         {
+            "path": "python/agent",
+            "data": {
+                "completed": "2026-10-20",
+                "labId": "TPDYQ8"
+            },
+            "tags": [
+                "pylib_dotenv",
+                "pylib_openai",
+                "python"
+            ]
+        },
+        {
             "path": "python/aoc/2024/day01",
             "data": {
                 "completed": "2025-11-15",

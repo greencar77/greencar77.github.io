@@ -1148,6 +1148,19 @@
             "title": "Python language"
         },
         {
+            "type": "simple",
+            "id": "TPDYQ8",
+            "path": "python/_simple/openai_chat",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "lang_en",
+                "python"
+            ],
+            "title": "OpenAI Chat Bot"
+        },
+        {
             "type": "special",
             "id": "HITYTE",
             "url": "https://adventofcode.com/2024/day/1",
