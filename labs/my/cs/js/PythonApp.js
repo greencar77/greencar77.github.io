@@ -25,14 +25,19 @@ class PythonApp extends CsApp {
 
         for (const e of sorted) {
             let li = document.createElement("li");
+
+            let a = document.createElement("a");
+            a.href = 'https://pypi.org/project/' + (e.pypi || e.id);
+            a.textContent = e.name? e.name : e.id;
+            li.appendChild(a);
+
             if (e.homeUrl) {
+                li.appendChild(document.createTextNode(' '));
                 let a = document.createElement("a");
                 a.href = e.homeUrl;
-                a.textContent = e.name? e.name : e.id;
+                a.textContent = '[home]';
                 li.appendChild(a);
-            } else (
-                li.textContent = e.id
-            )
+            }
 
             if (detailedLibraries.includes(e.id)) {
                 li.appendChild(document.createTextNode(' '));

@@ -2,7 +2,7 @@ let global_python_libraries = {
     "values": [
         {
             "id": "dotenv",
-            "homeUrl": "https://pypi.org/project/python-dotenv/"
+            "pypi": "python-dotenv"
         },
         {
             "id": "os"
