@@ -806,6 +806,84 @@ let global_pylibs = {
                 ]
             }
         ],
+        "dotenv": [
+            {
+                "type": "method",
+                "name": "load_dotenv"
+            }
+        ],
+        "openai": [
+            {
+                "type": "class",
+                "name": "OpenAI",
+                "methods": [
+                    {
+                        "type": "method",
+                        "name": "chat"
+                    }
+                ]
+            },
+            {
+                "type": "class",
+                "name": "Chat",
+                "methods": [
+                    {
+                        "type": "method",
+                        "name": "completions"
+                    }
+                ]
+            },
+            {
+                "type": "class",
+                "name": "Completions",
+                "methods": [
+                    {
+                        "type": "method",
+                        "name": "create"
+                    }
+                ]
+            },
+            {
+                "type": "class",
+                "name": "ChatCompletion",
+                "methods": [
+                    {
+                        "type": "method",
+                        "name": "create"
+                    }
+                ]
+            },
+            {
+                "type": "class",
+                "name": "ChartCompletionMessage",
+                "methods": [
+                    {
+                        "type": "method",
+                        "name": "content:a"
+                    }
+                ]
+            },
+            {
+                "type": "class",
+                "name": "Completion",
+                "methods": [
+                    {
+                        "type": "method",
+                        "name": "create"
+                    }
+                ]
+            },
+            {
+                "type": "class",
+                "name": "Image",
+                "methods": [
+                    {
+                        "type": "method",
+                        "name": "create"
+                    }
+                ]
+            }
+        ],
         "mysql.connector": [
             {
                 "type": "method",
