@@ -32,6 +32,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "J5V1E3",
+            "path": "docker/_simple/hello",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "docker",
+                "lang_en"
+            ],
+            "title": "Docker - hello-world container"
+        },
+        {
+            "type": "simple",
             "id": "15OZUP",
             "path": "docker/_simple/oracle",
             "lang": [

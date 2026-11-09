@@ -34,6 +34,28 @@ let global_sol = {
             ]
         },
         {
+            "path": "docker/hello",
+            "data": {
+                "completed": "2026-11-09",
+                "labId": "J5V1E3",
+                "docker": {
+                    "image": [
+                        "hello-world"
+                    ],
+                    "cmd": [
+                        "container_start",
+                        "container_logs"
+                    ]
+                }
+            },
+            "tags": [
+                "docker",
+                "docker_cmd_container_logs",
+                "docker_cmd_container_start",
+                "docker_image_hello-world"
+            ]
+        },
+        {
             "path": "docker/oracle",
             "data": {
                 "completed": "2026-11-09",
@@ -48,13 +70,15 @@ let global_sol = {
                         "container_start",
                         "container_exec",
                         "container_ps",
-                        "container_stop"
+                        "container_stop",
+                        "container_logs"
                     ]
                 }
             },
             "tags": [
                 "docker",
                 "docker_cmd_container_exec",
+                "docker_cmd_container_logs",
                 "docker_cmd_container_ls",
                 "docker_cmd_container_ps",
                 "docker_cmd_container_run",
