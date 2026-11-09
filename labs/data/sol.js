@@ -34,6 +34,36 @@ let global_sol = {
             ]
         },
         {
+            "path": "docker/oracle",
+            "data": {
+                "completed": "2026-11-09",
+                "labId": "15OZUP",
+                "docker": {
+                    "image": [
+                        "gvenzl/oracle-free"
+                    ],
+                    "cmd": [
+                        "container_run",
+                        "container_ls",
+                        "container_start",
+                        "container_exec",
+                        "container_ps",
+                        "container_stop"
+                    ]
+                }
+            },
+            "tags": [
+                "docker",
+                "docker_cmd_container_exec",
+                "docker_cmd_container_ls",
+                "docker_cmd_container_ps",
+                "docker_cmd_container_run",
+                "docker_cmd_container_start",
+                "docker_cmd_container_stop",
+                "docker_image_gvenzl/oracle-free"
+            ]
+        },
+        {
             "path": "docker/simple_localhost",
             "data": {
                 "completed": "2026-07-20",
@@ -43,25 +73,15 @@ let global_sol = {
                         "nginx"
                     ],
                     "cmd": [
-                        "image",
                         "image_inspect",
-                        "pull",
-                        "run",
-                        "stop",
-                        "ps",
-                        "history"
+                        "container_stop"
                     ]
                 }
             },
             "tags": [
                 "docker",
-                "docker_cmd_history",
-                "docker_cmd_image",
+                "docker_cmd_container_stop",
                 "docker_cmd_image_inspect",
-                "docker_cmd_ps",
-                "docker_cmd_pull",
-                "docker_cmd_run",
-                "docker_cmd_stop",
                 "docker_image_nginx"
             ]
         },

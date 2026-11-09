@@ -32,6 +32,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "15OZUP",
+            "path": "docker/_simple/oracle",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "docker",
+                "lang_en"
+            ],
+            "title": "Docker - Oracle container"
+        },
+        {
+            "type": "simple",
             "id": "TS396J",
             "path": "docker/_simple/simple_pull",
             "lang": [
