@@ -87,6 +87,10 @@ class MyApp {
                     "title": "Task language",
                     "byPrefix": "lang_",
                 },
+                {
+                    "title": "Docker image",
+                    "byPrefix": "docker_image_",
+                },
             ],
             "containerFn": () => this.createContainerTable,
         };
