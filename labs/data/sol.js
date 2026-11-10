@@ -56,6 +56,32 @@ let global_sol = {
             ]
         },
         {
+            "path": "docker/kali",
+            "data": {
+                "completed": "2026-11-10",
+                "labId": "J5V1E3",
+                "tags": [
+                    "nix_com_apt"
+                ],
+                "docker": {
+                    "image": [
+                        "kalilinux/kali-rolling"
+                    ],
+                    "cmd": [
+                        "container_run",
+                        "container_start"
+                    ]
+                }
+            },
+            "tags": [
+                "docker",
+                "docker_cmd_container_run",
+                "docker_cmd_container_start",
+                "docker_image_kalilinux/kali-rolling",
+                "nix_com_apt"
+            ]
+        },
+        {
             "path": "docker/oracle",
             "data": {
                 "completed": "2026-11-09",

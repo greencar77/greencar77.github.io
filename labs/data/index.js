@@ -45,6 +45,19 @@ let global_index = {
         },
         {
             "type": "simple",
+            "id": "LRD50Y",
+            "path": "docker/_simple/kali",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "docker",
+                "lang_en"
+            ],
+            "title": "Docker - Kali Linux container"
+        },
+        {
+            "type": "simple",
             "id": "15OZUP",
             "path": "docker/_simple/oracle",
             "lang": [
