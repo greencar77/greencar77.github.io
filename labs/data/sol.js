@@ -34,6 +34,32 @@ let global_sol = {
             ]
         },
         {
+            "path": "docker/alpine",
+            "data": {
+                "completed": "2026-11-11",
+                "labId": "RWDSPU",
+                "docker": {
+                    "image": [
+                        "alpine"
+                    ],
+                    "cmd": [
+                        "container_run",
+                        "container_start",
+                        "image_history",
+                        "image_inspect"
+                    ]
+                }
+            },
+            "tags": [
+                "docker",
+                "docker_cmd_container_run",
+                "docker_cmd_container_start",
+                "docker_cmd_image_history",
+                "docker_cmd_image_inspect",
+                "docker_image_alpine"
+            ]
+        },
+        {
             "path": "docker/hello",
             "data": {
                 "completed": "2026-11-09",

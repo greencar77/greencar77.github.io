@@ -32,6 +32,19 @@
         },
         {
             "type": "simple",
+            "id": "RWDSPU",
+            "path": "docker/_simple/alpine",
+            "lang": [
+                "en"
+            ],
+            "tags": [
+                "docker",
+                "lang_en"
+            ],
+            "title": "Docker - alpine container"
+        },
+        {
+            "type": "simple",
             "id": "J5V1E3",
             "path": "docker/_simple/hello",
             "lang": [
