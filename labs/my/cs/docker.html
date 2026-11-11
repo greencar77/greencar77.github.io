@@ -28,6 +28,7 @@
 
     <h2>Some Images</h2>
     <ol>
+        <li><a href="https://hub.docker.com/_/alpine">alpine</a> <kb value="docker_image_alpine"/> (:latest)</li>
         <li><a href="https://hub.docker.com/r/confluentinc/cp-zookeeper">confluentinc/cp-zookeeper</a> <kb value="docker_image_confluentinc/cp-zookeeper"/></li>
         <li><a href="https://hub.docker.com/r/confluentinc/cp-kafka">confluentinc/cp-kafka</a> <kb value="docker_image_confluentinc/cp-kafka"/></li>
         <li><a href="https://hub.docker.com/r/gvenzl/oracle-free">gvenzl/oracle-free</a> <kb value="docker_image_gvenzl/oracle-free"/> (:23-slim-faststart)</li>
@@ -71,6 +72,8 @@
                         <li>exec <a href="https://docs.docker.com/reference/cli/docker/container/exec/">REF</a> <kb value="docker_cmd_container_exec"/></li>
                         <li>stop <a href="https://docs.docker.com/reference/cli/docker/container/stop/">REF</a> <kb value="docker_cmd_container_stop"/></li>
                         <li>logs <a href="https://docs.docker.com/reference/cli/docker/container/logs/">REF</a> <kb value="docker_cmd_container_logs"/></li>
+                        <li>rm <a href="https://docs.docker.com/reference/cli/docker/container/rm/">REF</a> <kb value="docker_cmd_container_rm"/></li>
+                        <li>commit <a href="https://docs.docker.com/reference/cli/docker/container/commit/">REF</a> <kb value="docker_cmd_container_commit"/></li>
                     </ol>
                 </ol>
             </td>
@@ -117,6 +120,16 @@
     <h2>Recipes</h2>
 
     <div class="code-snippet">docker create container hello-world:linux</div>
+
+    To start existing container and attach your terminal:
+    <div class="code-snippet">docker start -ai &lt;container_name_or_id&gt;</div>
+
+    Enter an already running container without stopping it:
+    <div class="code-snippet">docker start &lt;container_name_or_id&gt;
+docker exec -it &lt;container_name_or_id&gt; bash</div>
+
+    <div class="code-snippet">docker commit strange_agnesi &lt;new_image_name&gt;
+docker run -it --entrypoint /bin/bash &lt;new_image_name&gt;</div>
 </div>
 </body>
 </html>
