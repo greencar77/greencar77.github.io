@@ -4,6 +4,9 @@ let global_linux_commands = {
             "com": "apt"
         },
         {
+            "com": "compgen"
+        },
+        {
             "com": "cp"
         },
         {

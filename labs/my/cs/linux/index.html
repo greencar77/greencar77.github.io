@@ -37,6 +37,15 @@
 
     <br>
     <div class="code-snippet">grep -r "HttpClient" --include=*.java</div>
+
+    <h3>Get the list of commands</h3>
+       <div class="code-snippet">compgen -c | sort -u | less</div>
+       <div class="code-snippet">compgen -c | sort -u | wc -l</div>
+       <div class="code-snippet">compgen -c | sort -u | shuf -n 1</div>
+       <div class="code-snippet">compgen -c | sort -u | while read -r cmd; do
+    printf "%-25s %s\n" "$cmd" "$(type -t "$cmd")"
+done</div>
+
 </div>
 </body>
 </html>
