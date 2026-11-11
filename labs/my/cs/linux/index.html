@@ -45,6 +45,10 @@
        <div class="code-snippet">compgen -c | sort -u | while read -r cmd; do
     printf "%-25s %s\n" "$cmd" "$(type -t "$cmd")"
 done</div>
+     Counts by type:
+       <div class="code-snippet">compgen -c | sort -u | while read -r cmd; do
+    type -t "$cmd"
+done | sort | uniq -c</div>
 
 </div>
 </body>
