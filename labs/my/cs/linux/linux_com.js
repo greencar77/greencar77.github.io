@@ -1,16 +1,34 @@
 let global_linux_commands = {
     "values": [
         {
-            "com": "curl"
+            "com": "apt"
         },
         {
-            "com": "grep"
+            "com": "cp"
+        },
+        {
+            "com": "curl"
         },
         {
             "com": "find"
         },
         {
+            "com": "grep"
+        },
+        {
+            "com": "mkdir"
+        },
+        {
             "com": "mv"
+        },
+        {
+            "com": "pwd"
+        },
+        {
+            "com": "vim"
+        },
+        {
+            "com": "whoami"
         },
     ]
 };
